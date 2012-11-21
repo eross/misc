@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:23:13 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:23:13 Pacific Daylight Time
+
+====== ServiceWareDocGeneration ======
+Created Wednesday 29 July 2009
+
+++ Service Ware Doc Generation
+
+Scripts in $BASE_DIR/product/src/build_tools/doxygen
+ 
+ 
+1)  Define the section
+
+/**
+@begin_svcware
+@defgroup groupname description
+@end_svcware
+*/
+
+Once, somewhere that gets parsed by doxygen.
+
+2) Registration entry
+
+/**
+@begin_svcware
+@ingroup groupname
+@device devname
+@command command used_for
+@end_svcware
+*/
+
+function registration...
+
+3) Define the command
+
+/**
+@begin_svcware
+@sv_cmd command used_for arg1 arg2....
+@par
+    A description of what the command does and why it should be used.
+    As many lines as you need.
+    
+@param arg1 description.\n
+@param arg2 description.\n
+
+@retval "VALUE1"
+@retval "VALUE2"
+
+@author your_name
+@end_svcware
+*/
+
+function implementation...

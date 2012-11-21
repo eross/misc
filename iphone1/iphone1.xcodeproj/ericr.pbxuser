@@ -1,0 +1,111 @@
+// !$*UTF8*$!
+{
+	16F6DBD310031F08004EBC56 /* iphone1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iphone1;
+		sourceDirectories = (
+		);
+	};
+	16F6DBEA10031F0F004EBC56 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = geekgrotto;
+		};
+	};
+	16F6DBEB10031F0F004EBC56 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	16F6DBEE10032175004EBC56 /* TouchResponder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 727}}";
+			sepNavSelRange = "{228, 0}";
+			sepNavVisRange = "{0, 228}";
+			sepNavWindowFrame = "{{780, 199}, {881, 855}}";
+		};
+	};
+	16F6DBEF10032175004EBC56 /* TouchResponder.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 727}}";
+			sepNavSelRange = "{435, 0}";
+			sepNavVisRange = "{0, 485}";
+			sepNavWindowFrame = "{{38, 297}, {881, 855}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iphone1AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 727}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 469}";
+			sepNavWindowFrame = "{{61, 276}, {881, 855}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iphone1 */ = {
+		activeExec = 0;
+		executables = (
+			16F6DBD310031F08004EBC56 /* iphone1 */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 16F6DBD310031F08004EBC56 /* iphone1 */;
+		activeSDKPreference = iphoneos3.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iphone1 */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iphone1 */,
+		);
+		codeSenseManager = 16F6DBEB10031F0F004EBC56 /* Code sense */;
+		executables = (
+			16F6DBD310031F08004EBC56 /* iphone1 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 268643460;
+			PBXWorkspaceStateSaveDate = 268643460;
+		};
+		sourceControlManager = 16F6DBEA10031F0F004EBC56 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

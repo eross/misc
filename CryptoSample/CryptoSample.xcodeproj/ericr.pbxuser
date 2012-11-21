@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	165798DF0929A92A004CFE07 /* CryptTool */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CryptTool;
+		sourceDirectories = (
+		);
+	};
+	165798E00929A92A004CFE07 /* StagedCrypt */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = StagedCrypt;
+		sourceDirectories = (
+		);
+	};
+	165798E10929A92A004CFE07 /* DigestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DigestTool;
+		sourceDirectories = (
+		);
+	};
+	165798E20929A92A004CFE07 /* RsaTool */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RsaTool;
+		sourceDirectories = (
+		);
+	};
+	165798E30929A92A004CFE07 /* DiffieHellman */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DiffieHellman;
+		sourceDirectories = (
+		);
+	};
+	1657990A0929A949004CFE07 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	1657990B0929A949004CFE07 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	9D1B6A9102897CC000003D05 /* RsaTool */ = {
+		activeExec = 0;
+		executables = (
+			165798E20929A92A004CFE07 /* RsaTool */,
+		);
+	};
+	9D1B6A9502897D1D00003D05 /* RsaTool.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 11928}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 545}, {1257, 774}}";
+			sepNavWindowFrame = "{{107, 78}, {1296, 903}}";
+		};
+	};
+	9D4F36F7028700C800003D05 /* StagedCrypt */ = {
+		activeExec = 0;
+		executables = (
+			165798E00929A92A004CFE07 /* StagedCrypt */,
+		);
+	};
+	9D4F370502870E2500003D05 /* DigestTool */ = {
+		activeExec = 0;
+		executables = (
+			165798E10929A92A004CFE07 /* DigestTool */,
+		);
+	};
+	9DAD99FB02808B8500003D05 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 9DAD99F902808B8500003D05 /* Development */;
+		activeExecutable = 165798DF0929A92A004CFE07 /* CryptTool */;
+		activeTarget = 9DAD9B180280B05200003D05 /* world */;
+		codeSenseManager = 1657990B0929A949004CFE07 /* Code sense */;
+		executables = (
+			165798DF0929A92A004CFE07 /* CryptTool */,
+			165798E00929A92A004CFE07 /* StagedCrypt */,
+			165798E10929A92A004CFE07 /* DigestTool */,
+			165798E20929A92A004CFE07 /* RsaTool */,
+			165798E30929A92A004CFE07 /* DiffieHellman */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					133,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 153725227;
+			PBXWorkspaceStateSaveDate = 153725227;
+		};
+		sourceControlManager = 1657990A0929A949004CFE07 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9DAD9A0002808BA700003D05 /* libCdsaCrypt */ = {
+		activeExec = 0;
+	};
+	9DAD9A0702808BBB00003D05 /* CryptTool */ = {
+		activeExec = 0;
+		executables = (
+			165798DF0929A92A004CFE07 /* CryptTool */,
+		);
+	};
+	9DAD9A0C02808C5900003D05 /* libCdsaCrypt.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 14994}}";
+			sepNavSelRange = "{18133, 20}";
+			sepNavVisRect = "{{0, 9140}, {1257, 774}}";
+			sepNavWindowFrame = "{{130, 57}, {1296, 903}}";
+		};
+	};
+	9DAD9A1002808C7D00003D05 /* CryptTool.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 3094}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 2151}, {1257, 774}}";
+			sepNavWindowFrame = "{{153, 36}, {1296, 903}}";
+		};
+	};
+	9DAD9B180280B05200003D05 /* world */ = {
+		activeExec = 0;
+	};
+	9DC09E56028AE93C00003D05 /* DiffieHellman */ = {
+		activeExec = 0;
+		executables = (
+			165798E30929A92A004CFE07 /* DiffieHellman */,
+		);
+	};
+	9DC09E59028AE96700003D05 /* DiffieHellman.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 4298}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 3151}, {1257, 774}}";
+			sepNavWindowFrame = "{{176, 15}, {1296, 903}}";
+		};
+	};
+}

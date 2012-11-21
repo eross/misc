@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:08:45 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:08:45 Pacific Daylight Time
+
+====== VoltaAmpStatus20090720 ======
+Created Wednesday 29 July 2009
+
+++ Volta Amp Status20090720
+
+Attendance:
+Tim Kutscha
+Mark Westland
+Dan Magnussen
+Toby Cowger
+Liz Ezetta
+Marc Yousey
+Eric Ross
+Christine Smith
+
+
+7/22 release
+
+Notes:
+    tray 2 is functional.
+    Dry time -- print mode only--check with WS(Dawn).
+    Burp/prime:  need fixed script on collective.  Talk to Dan Brower(Dan Mag).  Christine verified that current script doesn't work due to parameter changes.  Need to clear Flextool cache-->release notes.
+    DVC disable
+    ILG display(Volta)
+      Noise testing features(7/22)
+
+7/30+ release
+    ILG functionality?
+    Noise testing special release(Ampere)
+    (note ILG will still be disable).  Enabling is dependent on burp/prime functional.(Christine/Dan Mag.).  Maybe release for 7/22, otherwise 7/30.
+    ZIM enabled (7/30). Sook Shin development.
+    Line feed adjust(w/ Doug Harriman) (8/12???).
+    Automatic startup (waiting on CV).
+    Pull Hamming code out and do straight ID bit parity check(7/30)
+    OTOE (do we need it? M.Y.). Mark Baldwin(CV) is maybe contact.  Toby/Eric will coordinate on this. (Monday afternoon).
+    Blue Angel--full speed.  Clarify requirement with Scott Smith(Eric).
+    Counters/tuning: Liz (7/30)
+    More accurate svc station positioning(mid-Aug): Dan Mag.
+    BB2 differences investigation(Tim w/ Scott Smith).
+    Liz last day 9/25-->Bruce.
+    
+    
+    
+    
+    
+    
+    

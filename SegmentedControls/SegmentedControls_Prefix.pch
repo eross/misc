@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////
+//                                                           //
+//  SegmentedControls_Prefix.pch                             //
+//  SegmentedControls                                        //
+//                                                           //
+//  Created by Jacob on Tue Nov 11 2003.                     //
+//  Copyright © 2003 - Nance Software. All rights reserved.  //  
+//                                                           //
+//  This program is distributed in the hope that it will be  //
+//  useful, but WITHOUT ANY WARRANTY; without even the       //
+//  implied warranty of but WITHOUT ANY WARRANTY; without    //
+//  even the implied warranty of MERCHANTABILITY or FITNESS  //
+//  FOR A PARTICULAR PURPOSE.				     //
+//                                                           //
+///////////////////////////////////////////////////////////////
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

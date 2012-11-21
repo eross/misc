@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Tue, 28 Jul 2009 09:42:35 -0700
+Modification-Date: Tue, 28 Jul 2009 09:43:51 -0700
+
+====== MEArchitectureTeam20090728 ======
+Created Tuesday 28 July 2009
+
+BB2 distribution calendar.  Starts August 16.  FIrst unit to FW on Aug 20.
+
+BB2_test_plan_schedule_build_mix.xls
+

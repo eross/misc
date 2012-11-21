@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:03:54 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:03:54 Pacific Daylight Time
+
+====== VoltaStatus20090413 ======
+Created Wednesday 29 July 2009
+
+++ Volta Status20090413
+Attendance
+==========
+Tim Kutscha
+Marc Yousey
+Dan Magnusson
+Toby Cowger
+Erik Ness
+Christine Smith
+
+Issues
+======
+No significant issues at this time.
+
+Tier 0 task review
+==================
+
+Electronics have been received and validated by Tim.  No issues to report.  Dan Magnusson is ready to begin mech development as soon as he can get a Volta mech.  It appears that he will be able to get the stereo-litho mech at the end of the week as long as we treat it with loving care (thanks Tim and Mark Proia).  It was concluded that Dan Magnusson cannot make much more progress without a Volta mech.
+
+No automatic IDS features are needed for Tier 0.  The pump and primer appear to be simple on/off functions which can be invoked by scripts.
+
+Tasks 30,39.  These are marked "Pen Thermals" category.  Erik and Toby were not sure what was needed here and will pursue clarification.
+
+NEDD/Kai:  Erik/Toby need to identify the interface that will be used between the pen functionality and the Kai functionality being developed by Andy Koh at BPD.
+
+The carriage electronics should be available by the end of the month.  Once PI1 dry pens arrive Toby should be able to do initial validation of his code in preparation for Volta build.  PI1 pens(dry) should be available the 3rd week in May.
+
+Ethernet
+========
+As part of the board validation Tim has enabled the ethernet.  It was decided that since Ampere will support ethernet we should leave this running on Volta.  Potentially, some of the validation testing may be able to use the ethernet instead of banks of USB (TBD)
+
+Marco Control Panel (one line--Blaze style)
+===========================================
+It is being assumed that the Blaze functionality(minus Blaze specific features) will be the base line for this panel.  This is a development only interface(not used by the product) so it should not impact any BPD efforts. 
+
+The proposed functionality is:
+
+- The current machine state (off, idle, pen change, stall, etc...)
+
+- A hexadecimal text string showing any assert codes when they occurr
+
+In addition, we'll have buttons to control power, and enter any "tap" codes as well as cancel print jobs
+
+Tim is checking this out with our Corvallis partners and Eric will bring this up at the Volta weekly meeting.
+
+Important Links
+===============
+This is the "important link" list:  http://teams1.sharepoint.hp.com/teams/imf_fw/program/Lists/Ampere%20Links/AllItems.aspx
+
+The IMF firmware team sharepoint is a good launch point for all firmware related info on Ampere/Volta:
+http://teams1.sharepoint.hp.com/teams/imf_fw/default.aspx
+
+There was a bit of confusion as to which list we should use as our master planning document(join the club).  We will be using the WSPH task list to drive engineer activities.  The phase objectives are generally higher level requirements that although may guide groups of tasks will not be used for day to day planning of deliverables.  Behind the scenes your fearless leader(s) will keep the two in sync. 
+

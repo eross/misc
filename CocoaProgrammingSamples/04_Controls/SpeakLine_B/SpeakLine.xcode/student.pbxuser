@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA = {
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA;
+		activeExecutable = 3F3BFB3F051188F80018411F;
+		activeTarget = 8D1107260486CEB800E47090;
+		codeSenseManager = 3F3BFB4D051188FE0018411F;
+		executables = (
+			3F3BFB3F051188F80018411F,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+			};
+			PBXPerProjectTemplateStateSaveDate = 85035256;
+			PBXWorkspaceStateSaveDate = 85035256;
+		};
+		sourceControlManager = 3F3BFB4C051188FE0018411F;
+		userBuildSettings = {
+		};
+	};
+	3F3BFB3F051188F80018411F = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = SpeakLine;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	3F3BFB4C051188FE0018411F = {
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	3F3BFB4D051188FE0018411F = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	3F3BFB4E05118AA60018411F = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {379, 167}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {379, 154}}";
+		};
+	};
+	3F3BFB4F05118AA60018411F = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {467, 324}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {467, 324}}";
+		};
+	};
+	8D1107260486CEB800E47090 = {
+		activeExec = 0;
+		executables = (
+			3F3BFB3F051188F80018411F,
+		);
+	};
+}

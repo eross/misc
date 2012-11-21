@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeParameter = id; }; 
+            CLASS = GlissView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {sliderMatrix = NSMatrix; }; 
+            SUPERCLASS = NSOpenGLView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

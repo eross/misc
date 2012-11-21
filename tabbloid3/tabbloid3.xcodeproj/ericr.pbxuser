@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	16487E371043A60C00A8DF18 /* tabbloid3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = tabbloid3;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	16487E4D1043A61600A8DF18 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	16487E4E1043A61600A8DF18 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	16487E851043B40E00A8DF18 /* RootViewController.m:74 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-tableView:numberOfRowsInSection:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 74;
+		location = tabbloid3;
+		modificationTime = 272872474.139523;
+		state = 1;
+	};
+	1D3623240D0F684500981E51 /* tabbloid3AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {766, 805}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 557}";
+			sepNavWindowFrame = "{{798, 123}, {825, 956}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* tabbloid3AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {766, 828}}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{0, 928}";
+			sepNavWindowFrame = "{{358, 84}, {825, 956}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* tabbloid3 */ = {
+		activeExec = 0;
+		executables = (
+			16487E371043A60C00A8DF18 /* tabbloid3 */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {766, 828}}";
+			sepNavSelRange = "{169, 21}";
+			sepNavVisRange = "{0, 201}";
+			sepNavWindowFrame = "{{176, 70}, {825, 956}}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {987, 2212}}";
+			sepNavSelRange = "{1893, 15}";
+			sepNavVisRange = "{779, 1916}";
+			sepNavWindowFrame = "{{61, 89}, {1046, 1042}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 16487E371043A60C00A8DF18 /* tabbloid3 */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* tabbloid3 */;
+		breakpoints = (
+			16487E851043B40E00A8DF18 /* RootViewController.m:74 */,
+		);
+		codeSenseManager = 16487E4E1043A61600A8DF18 /* Code sense */;
+		executables = (
+			16487E371043A60C00A8DF18 /* tabbloid3 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273080467;
+			PBXWorkspaceStateSaveDate = 273080467;
+		};
+		sourceControlManager = 16487E4D1043A61600A8DF18 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {749, 252}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 311}";
+			sepNavWindowFrame = "{{730, 53}, {1133, 987}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* tabbloid3-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{107, 102}, {1133, 987}}";
+		};
+	};
+}

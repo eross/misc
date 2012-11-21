@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {checkboxAction = id; closeButtonAction = id; speedTextFieldAction = id; }; 
+            CLASS = VRPreferencesWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {checkbox = NSButton; speedTextField = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = VRUndoableForm; LANGUAGE = ObjC; SUPERCLASS = NSForm; }
+    ); 
+    IBVersion = 1; 
+}

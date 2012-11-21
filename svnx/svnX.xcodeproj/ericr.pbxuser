@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	16483A6C0995E570006BED3C /* svnX */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = svnX;
+		sourceDirectories = (
+		);
+	};
+	16483A780995E577006BED3C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	16483A790995E577006BED3C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 4A9504D0FFE6A4CB11CA0CBA /* Development */;
+		activeExecutable = 16483A6C0995E570006BED3C /* svnX */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* svnX */;
+		codeSenseManager = 16483A790995E577006BED3C /* Code sense */;
+		executables = (
+			16483A6C0995E570006BED3C /* svnX */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 160818544;
+			PBXWorkspaceStateSaveDate = 160818544;
+		};
+		sourceControlManager = 16483A780995E577006BED3C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D15AC270486D014006FF6A4 /* svnX */ = {
+		activeExec = 0;
+		executables = (
+			16483A6C0995E570006BED3C /* svnX */,
+		);
+	};
+	F27AA50F06AED870001A1B05 /* ArrayCountTransformer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 742}}";
+			sepNavSelRange = "{472, 0}";
+			sepNavVisRect = "{{0, 0}, {755, 742}}";
+			sepNavWindowFrame = "{{61, 110}, {794, 871}}";
+		};
+	};
+}

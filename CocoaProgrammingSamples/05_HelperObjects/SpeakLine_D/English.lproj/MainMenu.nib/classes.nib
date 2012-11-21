@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {changeTextColor = id; sayIt = id; stopIt = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                colorWell = NSColorWell; 
+                stopButton = NSButton; 
+                tableView = NSTableView; 
+                textField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

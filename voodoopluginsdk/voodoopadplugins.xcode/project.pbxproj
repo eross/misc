@@ -1,0 +1,1481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA420018CDE011CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "-DDEBUG";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA430018CDE011CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA420018CDE011CA2923,
+				014CEA430018CDE011CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				CC79C555072C45B400E54A1B,
+				CCAFC3AD06388F3C00ED7925,
+				CC26DA150638BBFD00F756C3,
+				CC26DA350638C09100F756C3,
+				CC27DB690659B0BE00A28907,
+				CC93E18B066ECBC400D09EFE,
+				CCE33A88070A47B000753B86,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				32C88E010371C26100C91783,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB8FE9D52D311CA2CBB,
+				CC27658C06850F2B00F5030F,
+				CC27658E06850F3400F5030F,
+				CC27659206850F5000F5030F,
+				CC27659806850F8000F5030F,
+				CC27659406850F5B00F5030F,
+				CC37477406A62CB60033C62B,
+				CCE33A95070A47B000753B86,
+				CC79C56F072C482200E54A1B,
+			);
+			isa = PBXGroup;
+			name = voodoopadplugins;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				1058C7ACFEA557BF11CA2CBB,
+				1058C7AEFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1672FE841209C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				CC93E21B06702DFC00D09EFE,
+				CC27658A06850F0200F5030F,
+				089C167DFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167DFE841241C02AAC07 = {
+			children = (
+				089C167EFE841241C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167EFE841241C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167FFE841241C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				CC27DB6F0659B18100A28907,
+				CC27DB700659B18100A28907,
+				CCB38727067CEA6E002FA09D,
+				CCB38728067CEA6E002FA09D,
+				CC26D9EB0638AF7600F756C3,
+				CC26D9EC0638AF7600F756C3,
+				CC26D9ED0638AF7600F756C3,
+				CC26D9EE0638AF7600F756C3,
+				CC26DA1C0638BC5900F756C3,
+				CC26DA1D0638BC5900F756C3,
+				CC26DA380638C0D100F756C3,
+				CC26DA390638C0D100F756C3,
+				CC37477006A62CAA0033C62B,
+				CC37477106A62CAA0033C62B,
+				CCE33A97070A480A00753B86,
+				CCE33A99070A481000753B86,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7ACFEA557BF11CA2CBB = {
+			children = (
+				CC27DB790659B42000A28907,
+				1058C7ADFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7ADFEA557BF11CA2CBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7AEFEA557BF11CA2CBB = {
+			children = (
+				089C1672FE841209C02AAC07,
+				089C167FFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FB8FE9D52D311CA2CBB = {
+			children = (
+				CC79C556072C45B400E54A1B,
+				CCAFC3AE06388F3C00ED7925,
+				CC26DA160638BBFD00F756C3,
+				CC26DA360638C09100F756C3,
+				CC27DB6A0659B0BE00A28907,
+				CC93E19A066ECBC400D09EFE,
+				CCE33A94070A47B000753B86,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//320
+//321
+//322
+//323
+//324
+		32C88E010371C26100C91783 = {
+			children = (
+				CC27DB540659B02700A28907,
+				CC27DB550659B02700A28907,
+				CCAFC3B106388F8700ED7925,
+				CCAFC3B206388F8700ED7925,
+			);
+			isa = PBXGroup;
+			name = FrameworkSources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//320
+//321
+//322
+//323
+//324
+//CC0
+//CC1
+//CC2
+//CC3
+//CC4
+		CC26D9EB0638AF7600F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPHTMLExport.h;
+			path = src/VPHTMLExport.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26D9EC0638AF7600F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPHTMLExport.m;
+			path = src/VPHTMLExport.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26D9ED0638AF7600F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPRFTD2HTMLExport.h;
+			path = src/VPRFTD2HTMLExport.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26D9EE0638AF7600F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPRFTD2HTMLExport.m;
+			path = src/VPRFTD2HTMLExport.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26D9EF0638AF7600F756C3 = {
+			fileRef = CC26D9EB0638AF7600F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC26D9F00638AF7600F756C3 = {
+			fileRef = CC26D9EC0638AF7600F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC26DA110638BBFD00F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC26DA1F0638BC5900F756C3,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA120638BBFD00F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC27658F06850F3400F5030F,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA130638BBFD00F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC26DA1E0638BC5900F756C3,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA140638BBFD00F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2CC9072C936E00CDE7A9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA150638BBFD00F756C3 = {
+			buildPhases = (
+				CC26DA110638BBFD00F756C3,
+				CC26DA120638BBFD00F756C3,
+				CC26DA130638BBFD00F756C3,
+				CC26DA140638BBFD00F756C3,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Volumes/srv/Users/gus/Projects/svn_voodoopad/plugin/build;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/RTFDExport-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RTFDExport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = RTFDExport;
+			productName = RTFDExport;
+			productReference = CC26DA160638BBFD00F756C3;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>RTFDExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.RTFDExport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CC26DA160638BBFD00F756C3 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = RTFDExport.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC26DA1C0638BC5900F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPRTFDExport.m;
+			path = src/VPRTFDExport.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26DA1D0638BC5900F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPRTFDExport.h;
+			path = src/VPRTFDExport.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26DA1E0638BC5900F756C3 = {
+			fileRef = CC26DA1C0638BC5900F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC26DA1F0638BC5900F756C3 = {
+			fileRef = CC26DA1D0638BC5900F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC26DA310638C09100F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC26DA3A0638C0D100F756C3,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA320638C09100F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC27659306850F5000F5030F,
+				CC27659906850F8000F5030F,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA330638C09100F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC26DA3B0638C0D100F756C3,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA340638C09100F756C3 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2CC8072C933800CDE7A9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC26DA350638C09100F756C3 = {
+			buildPhases = (
+				CC26DA310638C09100F756C3,
+				CC26DA320638C09100F756C3,
+				CC26DA330638C09100F756C3,
+				CC26DA340638C09100F756C3,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/TextExport-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TextExport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = TextExport;
+			productName = TextExport;
+			productReference = CC26DA360638C09100F756C3;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>TextExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.TextExport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CC26DA360638C09100F756C3 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = TextExport.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC26DA380638C0D100F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPTextExport.h;
+			path = src/VPTextExport.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26DA390638C0D100F756C3 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPTextExport.m;
+			path = src/VPTextExport.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC26DA3A0638C0D100F756C3 = {
+			fileRef = CC26DA380638C0D100F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC26DA3B0638C0D100F756C3 = {
+			fileRef = CC26DA390638C0D100F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27658A06850F0200F5030F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.html;
+			name = vphtmltemplate.html;
+			path = resources/vphtmltemplate.html;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27658B06850F0200F5030F = {
+			fileRef = CC27658A06850F0200F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27658C06850F2B00F5030F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "HTMLExport-Info.plist";
+			path = "resources/HTMLExport-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27658D06850F2B00F5030F = {
+			fileRef = CC27658C06850F2B00F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27658E06850F3400F5030F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "RTFDExport-Info.plist";
+			path = "resources/RTFDExport-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27658F06850F3400F5030F = {
+			fileRef = CC27658E06850F3400F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27659206850F5000F5030F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "VPTextExport-Info.plist";
+			path = "resources/VPTextExport-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27659306850F5000F5030F = {
+			fileRef = CC27659206850F5000F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27659406850F5B00F5030F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "ABLinkables-Info.plist";
+			path = "resources/ABLinkables-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27659506850F5B00F5030F = {
+			fileRef = CC27659406850F5B00F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27659806850F8000F5030F = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "TextExport-Info.plist";
+			path = "resources/TextExport-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27659906850F8000F5030F = {
+			fileRef = CC27659806850F8000F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC2765D50685126200F5030F = {
+			fileRef = CC26D9ED0638AF7600F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC2765D60685126200F5030F = {
+			fileRef = CC26D9EE0638AF7600F756C3;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27DB540659B02700A28907 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPExporter.h;
+			path = src/VPExporter.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27DB550659B02700A28907 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPExporter.m;
+			path = src/VPExporter.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27DB650659B0BE00A28907 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC27DB710659B18100A28907,
+				CCB38729067CEA6E002FA09D,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC27DB660659B0BE00A28907 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC93E21D06702DFC00D09EFE,
+				CC27659506850F5B00F5030F,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC27DB670659B0BE00A28907 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC27DB720659B18100A28907,
+				CCB3872A067CEA6E002FA09D,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC27DB680659B0BE00A28907 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC27DB7A0659B42000A28907,
+				CC9F2CCA072C937700CDE7A9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC27DB690659B0BE00A28907 = {
+			buildPhases = (
+				CC27DB650659B0BE00A28907,
+				CC27DB660659B0BE00A28907,
+				CC27DB670659B0BE00A28907,
+				CC27DB680659B0BE00A28907,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/ABLinkables-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ABLinkables;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = ABLinkables;
+			productName = ABLinkables;
+			productReference = CC27DB6A0659B0BE00A28907;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ABLinkables</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.ABLinkables</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CC27DB6A0659B0BE00A28907 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = ABLinkables.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC27DB6F0659B18100A28907 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPABLinkables.h;
+			path = src/VPABLinkables.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27DB700659B18100A28907 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPABLinkables.m;
+			path = src/VPABLinkables.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC27DB710659B18100A28907 = {
+			fileRef = CC27DB6F0659B18100A28907;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27DB720659B18100A28907 = {
+			fileRef = CC27DB700659B18100A28907;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC27DB790659B42000A28907 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AddressBook.framework;
+			path = /System/Library/Frameworks/AddressBook.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CC27DB7A0659B42000A28907 = {
+			fileRef = CC27DB790659B42000A28907;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC37477006A62CAA0033C62B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPSuperPlugin.h;
+			path = src/VPSuperPlugin.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC37477106A62CAA0033C62B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPSuperPlugin.m;
+			path = src/VPSuperPlugin.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC37477206A62CAA0033C62B = {
+			fileRef = CC37477006A62CAA0033C62B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC37477306A62CAA0033C62B = {
+			fileRef = CC37477106A62CAA0033C62B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC37477406A62CB60033C62B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "SuperPlugin-Info.plist";
+			path = "resources/SuperPlugin-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC37477506A62CB60033C62B = {
+			fileRef = CC37477406A62CB60033C62B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC79C551072C45B400E54A1B = {
+			buildActionMask = 2147483647;
+			files = (
+				CC79C558072C45CD00E54A1B,
+				CC9F2D30072C95DE00CDE7A9,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC79C552072C45B400E54A1B = {
+			buildActionMask = 2147483647;
+			files = (
+				CC79C570072C482200E54A1B,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC79C553072C45B400E54A1B = {
+			buildActionMask = 2147483647;
+			files = (
+				CC79C55A072C45DB00E54A1B,
+				CC9F2D31072C95DE00CDE7A9,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC79C554072C45B400E54A1B = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC79C555072C45B400E54A1B = {
+			buildPhases = (
+				CC79C551072C45B400E54A1B,
+				CC79C552072C45B400E54A1B,
+				CC79C553072C45B400E54A1B,
+				CC79C554072C45B400E54A1B,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "resources/VPPlugin-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-seg1addr 0xb0000000 -framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = VPPlugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = VPPlugin;
+			productName = VPPluginFramework;
+			productReference = CC79C556072C45B400E54A1B;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>VPPluginFramework</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.VPPluginFramework</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.framework";
+		};
+		CC79C556072C45B400E54A1B = {
+			explicitFileType = wrapper.framework;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = VPPlugin.framework;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC79C558072C45CD00E54A1B = {
+			fileRef = CCAFC3B106388F8700ED7925;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		CC79C55A072C45DB00E54A1B = {
+			fileRef = CCAFC3B206388F8700ED7925;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC79C56F072C482200E54A1B = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "VPPlugin-Info.plist";
+			path = "resources/VPPlugin-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC79C570072C482200E54A1B = {
+			fileRef = CC79C56F072C482200E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC79C574072C484300E54A1B = {
+			fileRef = CC79C556072C45B400E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC93E18B066ECBC400D09EFE = {
+			buildPhases = (
+				CC93E18C066ECBC400D09EFE,
+				CC93E191066ECBC400D09EFE,
+				CC93E194066ECBC400D09EFE,
+				CC93E199066ECBC400D09EFE,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/SuperPlugin-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SuperPlugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = SuperPlugin;
+			productName = HTMLExport;
+			productReference = CC93E19A066ECBC400D09EFE;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HTMLExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.HTMLExport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CC93E18C066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC37477206A62CAA0033C62B,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E191066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC37477506A62CB60033C62B,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E194066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC37477306A62CAA0033C62B,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E199066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2CCB072C937B00CDE7A9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E19A066ECBC400D09EFE = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = SuperPlugin.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC93E21B06702DFC00D09EFE = {
+			children = (
+				CC93E21C06702DFC00D09EFE,
+			);
+			isa = PBXVariantGroup;
+			name = ABChoiceWindow.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC93E21C06702DFC00D09EFE = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/ABChoiceWindow.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC93E21D06702DFC00D09EFE = {
+			fileRef = CC93E21B06702DFC00D09EFE;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2CC8072C933800CDE7A9 = {
+			fileRef = CC79C556072C45B400E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2CC9072C936E00CDE7A9 = {
+			fileRef = CC79C556072C45B400E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2CCA072C937700CDE7A9 = {
+			fileRef = CC79C556072C45B400E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2CCB072C937B00CDE7A9 = {
+			fileRef = CC79C556072C45B400E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2CCC072C937D00CDE7A9 = {
+			fileRef = CC79C556072C45B400E54A1B;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2D30072C95DE00CDE7A9 = {
+			fileRef = CC27DB540659B02700A28907;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					Public,
+				);
+			};
+		};
+		CC9F2D31072C95DE00CDE7A9 = {
+			fileRef = CC27DB550659B02700A28907;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CCAFC3A906388F3C00ED7925 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC26D9EF0638AF7600F756C3,
+				CC2765D50685126200F5030F,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAFC3AA06388F3C00ED7925 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC27658B06850F0200F5030F,
+				CC27658D06850F2B00F5030F,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAFC3AB06388F3C00ED7925 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC26D9F00638AF7600F756C3,
+				CC2765D60685126200F5030F,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAFC3AC06388F3C00ED7925 = {
+			buildActionMask = 2147483647;
+			files = (
+				CC79C574072C484300E54A1B,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAFC3AD06388F3C00ED7925 = {
+			buildPhases = (
+				CCAFC3A906388F3C00ED7925,
+				CCAFC3AA06388F3C00ED7925,
+				CCAFC3AB06388F3C00ED7925,
+				CCAFC3AC06388F3C00ED7925,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/HTMLExport-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HTMLExport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = HTMLExport;
+			productName = HTMLExport;
+			productReference = CCAFC3AE06388F3C00ED7925;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HTMLExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.HTMLExport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CCAFC3AE06388F3C00ED7925 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = HTMLExport.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCAFC3B106388F8700ED7925 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPPlugin.h;
+			path = src/VPPlugin.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CCAFC3B206388F8700ED7925 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPPlugin.m;
+			path = src/VPPlugin.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CCB38727067CEA6E002FA09D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPABWindow.h;
+			path = src/VPABWindow.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CCB38728067CEA6E002FA09D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPABWindow.m;
+			path = src/VPABWindow.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CCB38729067CEA6E002FA09D = {
+			fileRef = CCB38727067CEA6E002FA09D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CCB3872A067CEA6E002FA09D = {
+			fileRef = CCB38728067CEA6E002FA09D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CCE33A88070A47B000753B86 = {
+			buildPhases = (
+				CCE33A89070A47B000753B86,
+				CCE33A8D070A47B000753B86,
+				CCE33A8F070A47B000753B86,
+				CCE33A93070A47B000753B86,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/WordExport-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WordExport;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = WordExport;
+			productName = RTFDExport;
+			productReference = CCE33A94070A47B000753B86;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>RTFDExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.RTFDExport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CCE33A89070A47B000753B86 = {
+			buildActionMask = 2147483647;
+			files = (
+				CCE33A9A070A481000753B86,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE33A8D070A47B000753B86 = {
+			buildActionMask = 2147483647;
+			files = (
+				CCE33A8E070A47B000753B86,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE33A8E070A47B000753B86 = {
+			fileRef = CC27658E06850F3400F5030F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CCE33A8F070A47B000753B86 = {
+			buildActionMask = 2147483647;
+			files = (
+				CCE33A98070A480A00753B86,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE33A93070A47B000753B86 = {
+			buildActionMask = 2147483647;
+			files = (
+				CCE33AA0070A483400753B86,
+				CC9F2CCC072C937D00CDE7A9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE33A94070A47B000753B86 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = WordExport.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CCE33A95070A47B000753B86 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "WordExport-Info.plist";
+			path = "/Volumes/srv/Users/gus/Projects/svn_voodoopad/plugin/resources/WordExport-Info.plist";
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		CCE33A97070A480A00753B86 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPWordExport.m;
+			path = src/VPWordExport.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CCE33A98070A480A00753B86 = {
+			fileRef = CCE33A97070A480A00753B86;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CCE33A99070A481000753B86 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPWordExport.h;
+			path = src/VPWordExport.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CCE33A9A070A481000753B86 = {
+			fileRef = CCE33A99070A481000753B86;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CCE33AA0070A483400753B86 = {
+			fileRef = 1058C7ADFEA557BF11CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

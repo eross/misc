@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	16A8A22D0ECF60D7000F2AC5 /* SeismicXML */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SeismicXML;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	16A8A23F0ECF60E7000F2AC5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = geekgrotto;
+		};
+	};
+	16A8A2400ECF60E7000F2AC5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	16D44D1C0EFF25580055D567 /* rawweather.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4686, 4396}}";
+			sepNavSelRange = "{183, 0}";
+			sepNavVisRange = "{0, 18587}";
+			sepNavWindowFrame = "{{446, 437}, {1316, 741}}";
+		};
+	};
+	16D44D260F0175030055D567 /* metar_sample.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 826}}";
+			sepNavSelRange = "{2501, 0}";
+			sepNavVisRange = "{747, 1754}";
+			sepNavWindowFrame = "{{132, 405}, {1316, 741}}";
+		};
+	};
+	16D44D300F01756F0055D567 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16D44D1C0EFF25580055D567 /* rawweather.xml */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	16D44D320F0175750055D567 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16D44D1C0EFF25580055D567 /* rawweather.xml */;
+		name = "rawweather.xml: 3";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 18587;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* SeismicXMLAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 1120}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1853}";
+			sepNavWindowFrame = "{{405, 195}, {851, 610}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* SeismicXMLAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {876, 2436}}";
+			sepNavSelRange = "{3679, 35}";
+			sepNavVisRange = "{3066, 1253}";
+			sepNavWindowFrame = "{{-99, 1435}, {851, 610}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* SeismicXML */ = {
+		activeExec = 0;
+		executables = (
+			16A8A22D0ECF60D7000F2AC5 /* SeismicXML */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 756}}";
+			sepNavSelRange = "{2479, 21}";
+			sepNavVisRange = "{1035, 1476}";
+			sepNavWindowFrame = "{{266, 86}, {851, 610}}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 1862}}";
+			sepNavSelRange = "{2686, 17}";
+			sepNavVisRange = "{2580, 1473}";
+			sepNavWindowFrame = "{{266, 86}, {851, 610}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 16A8A22D0ECF60D7000F2AC5 /* SeismicXML */;
+		activeSDKPreference = iphonesimulator2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SeismicXML */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SeismicXML */,
+		);
+		codeSenseManager = 16A8A2400ECF60E7000F2AC5 /* Code sense */;
+		executables = (
+			16A8A22D0ECF60D7000F2AC5 /* SeismicXML */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					364,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					324,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 251583819;
+			PBXWorkspaceStateSaveDate = 251583819;
+		};
+		perUserProjectItems = {
+			16D44D300F01756F0055D567 /* PBXTextBookmark */ = 16D44D300F01756F0055D567 /* PBXTextBookmark */;
+			16D44D320F0175750055D567 /* PBXTextBookmark */ = 16D44D320F0175750055D567 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 16A8A23F0ECF60E7000F2AC5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {492, 822}}";
+			sepNavSelRange = "{2551, 17}";
+			sepNavVisRange = "{0, 2627}";
+		};
+	};
+	8480A9000DB93F2800CD87F1 /* TableViewCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 1008}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1907, 1155}";
+			sepNavWindowFrame = "{{-99, 1435}, {851, 610}}";
+		};
+	};
+	8480A9010DB93F2800CD87F1 /* TableViewCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 3360}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1832}";
+		};
+	};
+	84EF889C0DB9369300448949 /* Earthquake.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 994}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1525, 1823}";
+		};
+	};
+	84EF88A00DB9369C00448949 /* XMLReader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 2268}}";
+			sepNavSelRange = "{4557, 27}";
+			sepNavVisRange = "{3629, 2108}";
+			sepNavWindowFrame = "{{227, 357}, {1316, 741}}";
+		};
+	};
+	84EF88A10DB9369C00448949 /* XMLReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1722, 1526}}";
+			sepNavSelRange = "{5641, 67}";
+			sepNavVisRange = "{3939, 1777}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 202}, {546, 950}}";
+		};
+	};
+}

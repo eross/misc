@@ -1,0 +1,112 @@
+/*
+ Vermont Recipes
+ VRUndoableTextControl.include
+ Copyright © 2001-2002 Bill Cheeseman. All rights reserved.
+
+ Comments like "r1s5.1" refer to a Recipe and Step in Vermont Recipes, on the Web at www.stepwise.com/Articles/VermontRecipes, and available in expanded form as Cocoa Recipes for Mac OS X - The Vermont Recipes (Peachpit Press 2002, www.peachpit.com).
+*/
+
+/*
+ This file is included in the implementation parts of several classes that bring "live" undo and redo to text-based user controls, namely, VRUndoableTextField, VRUndoableForm, and VRUndoableTableView. These subclasses also adopt the VRUndoableTextControl formal protocol declared in VRUndoableTextControl.h. Use Interface Builder to designate your window controller as the table view's delegate. You must also override NSWindowController's windowWillReturnFieldEditor:toObject: method to use a separate field editor with its allowsUndo setting turned on for every control that is to emplement text cell undo.
+
+ To include this file as is, the including class cannot implement a dealloc method nor the textDidBeginEditing: or textDidEndEditing: notification methods, but subclasses of the including class can.
+*/
+
+static int undoCount; // r7s3, r9s5
+static BOOL isEditing; // r7s5, r9s5
+static BOOL isUndoing; // r11s12
+
+#pragma mark INITIALIZATION
+
+- (void)dealloc { // r7s3, r9s5
+	// Override method. This is needed because the removeObserver:name:object: messages in textDidEndEditing: are not sent if the window is closed without committing a pending edit in an undoable text control.
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	[super dealloc];
+}
+
+#pragma mark ACCESSORS
+
+- (BOOL)isEditing { // r7s5, r9s5
+	// Protocol method declared in the VRUndoableTextControl formal protocol. It is tested in the action methods of undoable text controls to make sure they are executed even if the value entered in the field is identical to the value stored in the model object. This is necesssary in order to clear the "live" redo stack when a pending edit in an undoable text control is committed. The isEditing variable is declared as a static variable here in the implementation rather than as an instance variable in the interface part of an undoable text control subclass to keep it hidden from prying eyes.
+	return isEditing;
+}
+
+- (BOOL)isUndoing { // r11s12
+	// Protocol method declared in the VRUndoableTextControl formal protocol. It is tested in the control:textShouldEndEditing: method to determine whether values are being set by undoing live editing.
+	return isUndoing;
+}
+
+#pragma mark EDITING
+
+- (void)textDidBeginEditing:(NSNotification *)notification { // r7s3, r9s5
+	// Delegate method called after began editing a text cell in any control with text-based cells.
+	if ([(NSTextView *)[self currentEditor] allowsUndo]) {
+		// Initialize variables and register self as observer of undo and redo notifications.
+		undoCount = 0;
+		isEditing = YES; // r7s5
+		isUndoing = NO; // r11s12
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleWillCloseUndoGroup:) name:NSUndoManagerWillCloseUndoGroupNotification object: nil];
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleDidUndo:) name:NSUndoManagerDidUndoChangeNotification object: nil];
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleDidRedo:) name:NSUndoManagerDidRedoChangeNotification object: nil];
+		if ([self isKindOfClass:[NSTableView class]]) { // r11s12
+			[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleWillSendAction:) name: NSMenuWillSendActionNotification object: nil];
+		}
+	}
+	[super textDidBeginEditing:notification]; // Allow non-undoable text fields to receive notification.
+}
+
+- (void)textDidEndEditing:(NSNotification *)notification { // r7s3, r9s5
+	// Delegate method called after ended editing a text field.
+	if (isEditing && [(NSTextView *)[self currentEditor] allowsUndo]) {
+		// Wind down the "live" undo stack and remove self as observer of undo and redo notifcations.
+		int index; // Loop counter.
+		NSObject *savedObjectValue = [self objectValue]; // Save cell value before unwinding undo stack.
+		for (index = undoCount; index > 0; index--) [[self undoManager] undo]; // Unwind undo stack.
+		[self setObjectValue:savedObjectValue]; // restore cell value after unwinding undo stack.
+		// Redo stack will be cleared when action method registers new undo action for this field.
+		[[NSNotificationCenter defaultCenter] removeObserver:self name:NSUndoManagerWillCloseUndoGroupNotification object: nil];
+		[[NSNotificationCenter defaultCenter] removeObserver:self name:NSUndoManagerDidUndoChangeNotification object: nil];
+		[[NSNotificationCenter defaultCenter] removeObserver:self name:NSUndoManagerDidRedoChangeNotification object: nil];
+		if ([self isKindOfClass:[NSTableView class]]) { // r11s12
+			[[NSNotificationCenter defaultCenter] removeObserver:self name: NSMenuWillSendActionNotification object: nil];
+		}
+	}
+	[super textDidEndEditing:notification]; // Causes the field's action method to be called.
+	isEditing = NO; // r7s5; must come after calling super because value is tested in action method.
+	isUndoing = NO; // r11s12
+}
+
+#pragma mark NOTIFICATION METHODS
+
+- (void)handleWillCloseUndoGroup:(NSNotification *)notification { // r7s3, r9s5
+	// Notification method called per NSUndoManagerWillCloseUndoGroupNotification.
+	undoCount++; // Maintain count for unwinding "live" undo stack.
+	[[[self delegate] document] updateChangeCount:NSChangeUndone]; // Prevent dirtying document.
+}
+
+- (void)handleDidUndo:(NSNotification *)notification { // r7s3, r9s5
+	// Notification method per NSUndoManagerDidUndoChangeNotification.
+	undoCount--; // Maintain count for unwinding "live" undo stack.
+	isUndoing = YES; // r11s12
+	[[[self delegate] document] updateChangeCount:NSChangeDone]; // Prevent dirtying document.
+}
+
+- (void)handleDidRedo:(NSNotification *)notification { // r7s3, r9s5
+	// Notification method per NSUndoManagerDidRedoChangeNotification.
+	undoCount++; // Maintain count for unwinding "live" undo stack.
+	[[[self delegate] document] updateChangeCount:NSChangeUndone]; // Prevent dirtying document.
+}
+
+- (void)handleWillSendAction:(NSNotification *)notification { // r11s12
+	// Notification method per NSMenuWillSendActionNotification. Called when the user chooses Edit -> Undo Add while an undoable table view is being edited. It emulates what happens if the user commits a pending edit manually before choosing Edit -> Undo Add. It first commits the pending edit, which registers an undo action that clears the redo stack. It then executes the new undo action in order to move it to the redo stack, which is harmless because the data value is unchanged. Finally, it permits the original undo: action message to be sent, which actually deletes the record. All this is necessary only to force the undo manager to clear the redo stack of leftover undoable text field commands before the record is deleted, which normally happens when the user manually commits the pending edit.
+	if (undoCount == 0 && [self isKindOfClass:[NSTableView class]]) {
+		NSString *menuItemTitle = [[[notification userInfo] valueForKey:@"MenuItem"] title];
+		NSString *undoActionName = [[self undoManager] undoActionName];
+		if ([menuItemTitle hasPrefix:NSLocalizedString(@"Undo", @"Undo menu item prefix")] && ([undoActionName hasPrefix:NSLocalizedString(@"Add", @"Add antique record menu item prefix")] || [undoActionName hasPrefix:NSLocalizedString(@"Set", @"Set antique record cell menu item prefix")])) {
+			if ([[self window] makeFirstResponder:[self window]]) { // commits edit
+				[[self undoManager] undo]; // moves resulting undo action to redo stack
+			}
+			isUndoing = NO; // Must come after calling makeFirstResponder: because the value is tested in the control:textShouldEndEditing: delegate method.
+		}
+	}
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>iTerm</TITLE>
+<META NAME="AppleTitle" CONTENT="iTerm Help">
+<META NAME="AppleIcon" CONTENT="iTerm%20Help/iTerm_icon.gif">
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" LINK="#696969" ALINK="#696969" VLINK="#696969">
+<LINK REL=stylesheet HREF="styles.css" TYPE="text/css">
+<CENTER>
+<!--#include virtual="/header.html" -->
+<TABLE BGCOLOR="#000000" CELLPADDING="10" CELLSPACING="1" BORDER="0" WIDTH="100%">
+<TR>
+<TD VALIGN="TOP" WIDTH="300" BGCOLOR="#FFFFFF">
+<!--#include virtual="/sidebar.html" -->
+</TD>
+
+
+<TD VALIGN="TOP" BGCOLOR="#FFFFFF">
+<FONT SIZE="5"><STRONG>Introduction:</STRONG></FONT><BR>
+<UL>iTerm is a full featured terminal emulation program written for OS X using 
+	Cocoa. We are aiming at providing users with best command line experience
+	under OS X. The letter <STRONG>i</STRONG> represents a native Apple look 
+	and feel of the program interface, and an emphasis on complete international 
+	support. iTerm was merged from two projects, CTerminal and TerminalX, both 
+	of which were based on JTerminal project. The current version is still in 
+	beta stage. It is however very much functional and usable.</UL>
+
+<FONT SIZE="5"><STRONG>Features:</STRONG></FONT><BR>
+<UL>
+<LI>Native Cocoa application that runs both on Tiger and earlier Panther.</LI>
+  <UL>
+    <LI>Native OS X user interface</LI>
+    <LI>Support for both PowerPC and  new Intel Macs</LI>
+	<LI>Support of Applescript</LI>
+	<LI>Transparent windows and custm background pictures</LI>
+    <LI>Bonjour support</LI>
+  </UL>
+<LI>Complete VT100 emulation, with additional support for most common xterm and 
+	ANSI escape sequences.</LI>
+  <UL>
+    <LI>Custom key-mapping</LI>
+	<LI>Supports select-to-copy and mid-button paste</LI>
+	<LI>Supports focus follow mouse</LI>
+	<LI>Supports xterm titling sequence to change tab label</LI>
+	<LI>Supports ANSI 16 colors, which are also fully customizable</LI>
+  </UL>
+<LI>Multi-tab within one window.</LI>
+  <UL>
+	<LI>Tabs can be drag and drop between windows.</LI>
+	<LI>Tab labels can change color to indicate the session activiies</LI>
+	<LI>You can send keyboard input to multiple tabs</LI>
+  </UL>
+<LI>Bookmarks for storing settings of most used sessions</LI>
+<LI>Anti-idle function that avoids disconnection because of no activity</LI>
+<LI>Universal Binary that runs natively on  both PPC and Intel Macs.</LI>
+<LI>Supports all language encodings that are available with OS X</LI>
+  <UL>
+    <LI>User can specify a second font to display non-latin characters
+		to achieve best look</LI>
+	<LI>Supports double-width characters, as used in eastern Asia languages</LI>
+	<LI>Localized user interface for:</LI>
+	  <UL>
+		<LI>Chinese (Simplified and Traditional)</LI>
+		<LI>French</LI>
+		<LI>German</LI>
+		<LI>Japanese</LI>
+		<LI>Korean</LI>
+	  </UL>
+  </UL>
+</UL>
+
+<FONT SIZE="5"><STRONG>News</STRONG></FONT><BR><BR>
+<STRONG>Pre-Release</STRONG> 9/22/06<BR><IMG src="new.gif">
+We are almost ready to put out a new release. The latest CVS build is therefore
+called Pre-Release. Since we do not think a little bump of number after the 2nd 
+decimal point justifies the change in the release, we are moving to the 0.9.x era.
+The latest change include a fix of CMD-click to open a URL. Happy clicking!<BR><br>
+Go to the <A HREF="http://iterm.sourceforge.net/download.shtml">Download page</A> 
+and check it out.<BR><BR>
+
+<STRONG>Localizations</STRONG> 9/22/2006<BR>
+Up to today, we have Chinese, French, German, Japanese and Korean localizations. 
+We do not speak most of these languages, at least not well enough to create a 
+complete translation. Our users offered us their help. However, iTerm is still
+under active developping, and there are lots of changes. It is difficult to keep 
+the translations up to date. Therefore, we would like to adopt a different model 
+for localization. Starting from the coming new release, we will only provide
+a slim version of iTerm that only includes the resource for English. We will provide
+downloads for other languages if we receive localization packages from our users.
+That way, we can focus on creating a bug-free user interface. It will also take some
+burden off our translators. Whoever would like to help can download an existing 
+localization package, update it and send it back to us.<br><br>
+
+Many thanks to those who have made their contributions!<br><br>
+
+<STRONG>Display Responsiveness</STRONG> 9/18/2006<BR>
+Many people have complaints about the refreshing rate and the overall
+responsiveness of iTerm. We have been trying to strike a balance between CPU
+usage and program responsiveness. As this balance very much depends on
+the user hardware as well as software configurations, it should be configurable.
+So I think many of you would be glad to know that we have added a UI to allow
+the adujstion of this setting. It's in the preference menu. Use a small
+number for a faster refreshing rate and better responsiveness, for example,
+when you are editing a file using vi. On the other hand, if you have a lot
+things scrolling by quickly that you don't really care, set it to a larger
+number. This allows CPU to rest a little bit more. The original setting corresponds
+to the middle of the sliding bar. <BR><BR>
+Go to the <A HREF="http://iterm.sourceforge.net/download.shtml">Download page</A> 
+and check out the recent CVS build.<BR><BR>
+
+<STRONG>iTerm Growling</STRONG> 9/15/2006<BR>
+We are happily announcing that iTerm now integrates the support for Growl. You need to have 
+<a href="http://www.growl.info">Growl</a> installed. Besides a few tab status related
+messages (you can choose which one you need from Growl's preference setting), iTerm now also
+supports an escape sequence that sends message via Growl: ESC ]9;string^G. <BR><BR>
+For example, if you would like to get an alert after a long make, do this under bash will help:<BR><BR>
+make;  echo $'\e]9;make done\007'<BR><BR>
+Go to the <A HREF="http://iterm.sourceforge.net/download.shtml">Download page</A> 
+and check out the recent CVS build.<BR><BR>
+
+<STRONG>New Look</STRONG> 9/12/2006<BR>
+We are experimenting with a new tab control (PSMTabBarControl) that can mimic Safari-like tabs. Download the
+<A HREF="http://iterm.sourceforge.net/iTerm-latest-cvs.zip">binary build</A> 
+from the latest CVS and check it out.<BR><BR>
+
+<FONT SIZE="5"><STRONG>Notice:</STRONG></FONT><BR>
+<UL>Due a change of bookmark organizations introduced in 0.8.0, bookmark settings for versions older than 0.8.0 are
+no longer completely recognized. Only names, commands, directories, and shortcuts are migrated. 
+Display and terminal settings are not migrated. You have to re-enter these manually into the new version.</UL>
+<UL>Starting from version 0.8.0, iTerm comes with a few keymapping/display/terminal profiles.
+If you do not see them, please delete your iTerm.plist file in ~/Library/Preferences and
+restart the program.</UL>
+
+</TD>
+<TD VALIGN="TOP" BGCOLOR="#FFFFFF">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5743532873543938";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_color_border = "B0E0E6";
+google_color_bg = "ffffff";
+google_color_link = "000000";
+google_color_url = "336699";
+google_color_text = "333333";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</TD>
+</TR>
+</TABLE>
+
+<!--#include virtual="/footer.html" -->
+
+</CENTER>
+</BODY>
+</HTML>

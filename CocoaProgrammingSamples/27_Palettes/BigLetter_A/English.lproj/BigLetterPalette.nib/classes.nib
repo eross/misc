@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = BigLetter; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = BigLetterPalette; LANGUAGE = ObjC; SUPERCLASS = IBPalette; }, 
+        {
+            ACTIONS = {copy = id; cut = id; paste = id; savePDF = id; }; 
+            CLASS = BigLetterView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

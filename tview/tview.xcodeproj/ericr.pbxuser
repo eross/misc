@@ -1,0 +1,140 @@
+// !$*UTF8*$!
+{
+	1651ED6E0A15A02D00065536 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16A8F1F30A12FA3700D74E40 /* WinDelegate.h */;
+		name = "WinDelegate.h: respondsToSelector:";
+		rLen = 0;
+		rLoc = 124;
+		rType = 0;
+		vrLen = 131;
+		vrLoc = 0;
+	};
+	16A8F1A50A104ADD00D74E40 /* tview */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = tview;
+		sourceDirectories = (
+		);
+	};
+	16A8F1B40A104AE300D74E40 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	16A8F1B50A104AE300D74E40 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	16A8F1B60A1055AD00D74E40 /* MyObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 316}}";
+			sepNavSelRange = "{116, 56}";
+			sepNavVisRect = "{{0, 0}, {752, 316}}";
+			sepNavWindowFrame = "{{396, 80}, {791, 445}}";
+		};
+	};
+	16A8F1B70A1055AD00D74E40 /* MyObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 316}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRect = "{{0, 0}, {752, 316}}";
+			sepNavWindowFrame = "{{164, 503}, {791, 445}}";
+		};
+	};
+	16A8F1F30A12FA3700D74E40 /* WinDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {596, 328}}";
+			sepNavSelRange = "{124, 0}";
+			sepNavVisRect = "{{0, 0}, {596, 328}}";
+			sepNavWindowFrame = "{{107, 456}, {635, 457}}";
+		};
+	};
+	16A8F1F40A12FA3700D74E40 /* WinDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {596, 328}}";
+			sepNavSelRange = "{95, 0}";
+			sepNavVisRect = "{{0, 0}, {596, 328}}";
+			sepNavWindowFrame = "{{330, 219}, {635, 457}}";
+		};
+	};
+	16A8F2070A15A00E00D74E40 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 16A8F1F30A12FA3700D74E40 /* WinDelegate.h */;
+		name = "WinDelegate.h: respondsToSelector:";
+		rLen = 0;
+		rLoc = 124;
+		rType = 0;
+		vrLen = 131;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA /* Debug */;
+		activeExecutable = 16A8F1A50A104ADD00D74E40 /* tview */;
+		activeTarget = 8D1107260486CEB800E47090 /* tview */;
+		codeSenseManager = 16A8F1B50A104AE300D74E40 /* Code sense */;
+		executables = (
+			16A8F1A50A104ADD00D74E40 /* tview */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 169189409;
+			PBXWorkspaceStateSaveDate = 169189409;
+		};
+		perUserProjectItems = {
+			1651ED6E0A15A02D00065536 /* PBXTextBookmark */ = 1651ED6E0A15A02D00065536 /* PBXTextBookmark */;
+			16A8F2070A15A00E00D74E40 /* PBXTextBookmark */ = 16A8F2070A15A00E00D74E40 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 16A8F1B40A104AE300D74E40 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* tview */ = {
+		activeExec = 0;
+		executables = (
+			16A8F1A50A104ADD00D74E40 /* tview */,
+		);
+	};
+}

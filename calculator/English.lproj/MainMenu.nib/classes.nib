@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {clear = id; clearAll = id; enterDigit = id; enterOp = id; fileNew = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {readout = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = Pressdb; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

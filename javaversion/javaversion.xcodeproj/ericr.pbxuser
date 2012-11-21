@@ -1,0 +1,118 @@
+// !$*UTF8*$!
+{
+	00E6828EFEC88D1A11DB9C8B /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeBuildStyle = 130F8B95001BDF0A11CA292A /* Debug */;
+		activeExecutable = 130F8B98001BDF0A11CA292A;
+		activeTarget = 130F8B90001BDF0A11CA292A /* javaversion */;
+		addToTargets = (
+		);
+		codeSenseManager = 16D8F8F00978951C00CF9E85 /* Code sense */;
+		executables = (
+			130F8B98001BDF0A11CA292A,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 158897394;
+			PBXWorkspaceStateSaveDate = 158897394;
+		};
+		perUserProjectItems = {
+			16D8F8EE0978951900CF9E85 /* PBXBookmark */ = 16D8F8EE0978951900CF9E85 /* PBXBookmark */;
+			16D8F8FC097895B100CF9E85 /* PBXTextBookmark */ = 16D8F8FC097895B100CF9E85 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 16D8F8EF0978951C00CF9E85 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	010341B7FEEF030011DB9C8B /* javaversion.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 742}}";
+			sepNavSelRange = "{351, 0}";
+			sepNavVisRect = "{{0, 0}, {755, 742}}";
+			sepNavWindowFrame = "{{828, 95}, {794, 871}}";
+		};
+	};
+	130F8B90001BDF0A11CA292A /* javaversion */ = {
+		activeExec = 0;
+	};
+	130F8B98001BDF0A11CA292A = {
+		isa = PBXExecutable;
+		activeArgIndex = 0;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"-jar \"javaversion.jar\" ",
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = JavaDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 130F8B99001BDF0A11CA292A /* java */;
+		libgmallocEnabled = 0;
+		sourceDirectories = (
+		);
+	};
+	130F8B99001BDF0A11CA292A /* java */ = {
+		isa = PBXFileReference;
+		explicitFileType = "compiled.mach-o.executable";
+		name = java;
+		path = /usr/bin/java;
+		sourceTree = "<absolute>";
+	};
+	16D8F8EE0978951900CF9E85 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 010341B7FEEF030011DB9C8B /* javaversion.java */;
+	};
+	16D8F8EF0978951C00CF9E85 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	16D8F8F00978951C00CF9E85 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	16D8F8FC097895B100CF9E85 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 010341B7FEEF030011DB9C8B /* javaversion.java */;
+		name = "javaversion.java: main";
+		rLen = 0;
+		rLoc = 351;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+}

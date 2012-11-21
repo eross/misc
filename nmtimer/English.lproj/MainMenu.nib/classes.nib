@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = NMView; 
+            LANGUAGE = Java; 
+            OUTLETS = {display = NmTimer; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {testit = id; }; 
+            CLASS = NmTimer; 
+            LANGUAGE = Java; 
+            OUTLETS = {
+                days = NSTextFieldCell; 
+                hours = NSTextFieldCell; 
+                minutes = NSTextFieldCell; 
+                seconds = NSTextFieldCell; 
+                weeks = NSTextFieldCell; 
+                years = NSTextFieldCell; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

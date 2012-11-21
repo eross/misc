@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {textView = NSTextView; }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {ACTIONS = {}; CLASS = XMLEditView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }
+    ); 
+    IBVersion = 1; 
+}

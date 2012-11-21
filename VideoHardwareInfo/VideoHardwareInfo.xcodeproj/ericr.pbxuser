@@ -1,0 +1,166 @@
+// !$*UTF8*$!
+{
+	162C77F0093C1A51000E9E00 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DAF6F05C05DAA12200022AA3 /* VideoHardwareInfo.m */;
+	};
+	162C77F2093C1A63000E9E00 /* VideoHardwareInfo.m:58 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = DAF6F05C05DAA12200022AA3 /* VideoHardwareInfo.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 1;
+		lineNumber = 58;
+		modificationTime = 154933896.043711;
+		state = 1;
+	};
+	162C77FF093C1A87000E9E00 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			162C77F2093C1A63000E9E00 /* VideoHardwareInfo.m:58 */,
+		);
+	};
+	162C7806093C2541000E9E00 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DAF6F05C05DAA12200022AA3 /* VideoHardwareInfo.m */;
+		name = "VideoHardwareInfo.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2751;
+		vrLoc = 367;
+	};
+	16A50497093AC5DA00B99FAE /* VideoHardwareInfo */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = VideoHardwareInfo;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	16A504AD093AC5FC00B99FAE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	16A504AE093AC5FC00B99FAE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA /* Development */;
+		activeExecutable = 16A50497093AC5DA00B99FAE /* VideoHardwareInfo */;
+		activeTarget = 29B97326FDCFA39411CA2CEA /* VideoHardwareInfo */;
+		breakpoints = (
+			162C77F2093C1A63000E9E00 /* VideoHardwareInfo.m:58 */,
+		);
+		breakpointsGroup = 162C77FF093C1A87000E9E00 /* XCBreakpointsBucket */;
+		codeSenseManager = 16A504AE093AC5FC00B99FAE /* Code sense */;
+		executables = (
+			16A50497093AC5DA00B99FAE /* VideoHardwareInfo */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 154933789;
+			PBXWorkspaceStateSaveDate = 154933789;
+		};
+		perUserProjectItems = {
+			162C77F0093C1A51000E9E00 /* PBXBookmark */ = 162C77F0093C1A51000E9E00 /* PBXBookmark */;
+			162C7806093C2541000E9E00 /* PBXTextBookmark */ = 162C7806093C2541000E9E00 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 16A504AD093AC5FC00B99FAE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97326FDCFA39411CA2CEA /* VideoHardwareInfo */ = {
+		activeExec = 0;
+		executables = (
+			16A50497093AC5DA00B99FAE /* VideoHardwareInfo */,
+		);
+	};
+	DAF6F05C05DAA12200022AA3 /* VideoHardwareInfo.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 3374}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 188}, {1257, 774}}";
+			sepNavWindowFrame = "{{404, -263}, {1296, 903}}";
+		};
+	};
+	DAF6F05E05DAA12200022AA3 /* VideoHardwareInfo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 1148}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1257, 774}}";
+			sepNavWindowFrame = "{{15, 120}, {1296, 903}}";
+		};
+	};
+}

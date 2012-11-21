@@ -1,0 +1,33 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                endSpeedWindow = id; 
+                raiseSpeedWindow = id; 
+                stopGo = id; 
+                takeColorFromColorWell = id; 
+                takeColorFromTextField = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                colorWell = NSColorWell; 
+                inLetterView = BigLetterView; 
+                outLetterView = BigLetterView; 
+                progressView = NSProgressIndicator; 
+                speedSlider = NSSlider; 
+                speedWindow = NSWindow; 
+                textField = NSTextField; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {savePDF = id; }; 
+            CLASS = BigLetterView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

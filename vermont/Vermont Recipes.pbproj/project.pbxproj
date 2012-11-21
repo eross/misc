@@ -1,0 +1,1828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		080E96D9FE201CDB7F000001 = {
+			fileRef = 2A37F4B9FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DAFE201CDB7F000001 = {
+			fileRef = 2A37F4B6FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		089C165FFE840EACC02AAC07 = {
+			children = (
+				089C1660FE840EACC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C1660FE840EACC02AAC07 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		089C1661FE840EACC02AAC07 = {
+			fileRef = 089C165FFE840EACC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A6FEA54F5311CA2CBB = {
+			children = (
+				1058C7A7FEA54F5311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		1058C7A7FEA54F5311CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7A8FEA54F5311CA2CBB = {
+			children = (
+				2A37F4C5FDCFA73011CA2CEA,
+				2A37F4C4FDCFA73011CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		1058C7A9FEA54F5311CA2CBB = {
+			fileRef = 1058C7A7FEA54F5311CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		1758732AFF379DA111CA2CBB = {
+			isa = PBXApplicationReference;
+			path = "Vermont Recipes.app";
+			refType = 3;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FB0FE9D524F11CA2CBB = {
+			children = (
+				1758732AFF379DA111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+		2A37F4A9FDCFA73011CA2CEA = {
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA,
+				4A9504D1FFE6A4CB11CA0CBA,
+			);
+			isa = PBXProject;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA;
+			projectDirPath = "";
+			targets = (
+				2A37F4C6FDCFA73011CA2CEA,
+			);
+		};
+		2A37F4AAFDCFA73011CA2CEA = {
+			children = (
+				2A37F4ABFDCFA73011CA2CEA,
+				2A37F4AFFDCFA73011CA2CEA,
+				2A37F4B8FDCFA73011CA2CEA,
+				2A37F4C3FDCFA73011CA2CEA,
+				19C28FB0FE9D524F11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Vermont Recipes";
+			path = "";
+			refType = 4;
+		};
+		2A37F4ABFDCFA73011CA2CEA = {
+			children = (
+				F5ED566F02184EC801000134,
+				F53DD269024BDBBA01000134,
+				F5D53A64022BC22D01000134,
+				F53DD265024B9C8001000134,
+				F585C7CF0221090D01000134,
+				F53DD266024B9F6601000134,
+				F585C7D2022113CF01000134,
+				F5CB133202CB586D01DBDFD8,
+				F5CB133302CB586D01DBDFD8,
+				2A37F4AEFDCFA73011CA2CEA,
+				2A37F4ACFDCFA73011CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			path = "";
+			refType = 4;
+		};
+		2A37F4ACFDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			path = VRDocument.m;
+			refType = 4;
+		};
+		2A37F4AEFDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			path = VRDocument.h;
+			refType = 4;
+		};
+		2A37F4AFFDCFA73011CA2CEA = {
+			children = (
+				2A37F4B0FDCFA73011CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			path = "";
+			refType = 4;
+		};
+		2A37F4B0FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		2A37F4B6FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B7FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		2A37F4B7FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		2A37F4B8FDCFA73011CA2CEA = {
+			children = (
+				F5B388FE02FF223A01000134,
+				F5F03968021DD8D601000134,
+				F5F03969021DD8D601000134,
+				F5D012E503126C0701000134,
+				2A37F4B9FDCFA73011CA2CEA,
+				F5B035F802CA54F90112F547,
+				2A37F4B6FDCFA73011CA2CEA,
+				F5F7DAC9034F0FD201000134,
+				F59529B102F18FD301000134,
+				F5944A2C02F5C95A01000134,
+				089C165FFE840EACC02AAC07,
+				F518A8880208355901000134,
+				F5D24B6B0210033901000134,
+				F5D24B6C0210033901000134,
+				F59A188D02FFEF3101000134,
+				F594C2FC0302BB6E01000134,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		2A37F4B9FDCFA73011CA2CEA = {
+			children = (
+				2A37F4BAFDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = Credits.rtf;
+			path = "";
+			refType = 4;
+		};
+		2A37F4BAFDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Credits.rtf;
+			refType = 4;
+		};
+		2A37F4C3FDCFA73011CA2CEA = {
+			children = (
+				1058C7A6FEA54F5311CA2CBB,
+				1058C7A8FEA54F5311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+		};
+		2A37F4C4FDCFA73011CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		2A37F4C5FDCFA73011CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		2A37F4C6FDCFA73011CA2CEA = {
+			buildPhases = (
+				2A37F4C7FDCFA73011CA2CEA,
+				2A37F4C9FDCFA73011CA2CEA,
+				2A37F4CEFDCFA73011CA2CEA,
+				2A37F4D1FDCFA73011CA2CEA,
+				F5B5BEF002FD57F401000134,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Vermont Recipes";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = "Vermont Recipes";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Vermont Recipes";
+			productReference = 1758732AFF379DA111CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>VRd1</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>VRMainDocumentIcon</string>
+			<key>CFBundleTypeName</key>
+			<string>Vermont Recipes document</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>VRd1</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>VRDocument</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Vermont Recipes</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Vermont Recipes 1.0, Copyright © 2000–2002 Bill Cheeseman</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Vermont Recipes Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Vermont Recipes Help</string>
+	<key>CFBundleIconFile</key>
+	<string>VRApplicationIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.stepwise.VermontRecipes</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Vermont Recipes</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>VRa1</string>
+	<key>CFBundleVersion</key>
+	<string>21</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 1;
+		};
+		2A37F4C7FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4C8FDCFA73011CA2CEA,
+				F518A886020826AB01000134,
+				F5BFE26B0209D34301000134,
+				F5ED567E0218506201000134,
+				F585C7CD0221081301000134,
+				F524A8EE0226A23201000134,
+				F5D53A67022BC22D01000134,
+				F5D53A6B022D0F4301000134,
+				F5DDB140022FE3B101000134,
+				F56B9B740233828001000134,
+				F50E8FED023D128001000134,
+				F5568565024A81E501000134,
+				F53DD268024B9F9301000134,
+				F5D0FA0A0260C57001000134,
+				F52F8E690262F83D01000134,
+				F5CD0A4A027826DF01000134,
+				F5CB133402CB586D01DBDFD8,
+				F5B32A9702CF4AF101B0AE31,
+				F59529B602F1934301000134,
+				F5944A3102F5CBFB01000134,
+				F5F4AB3B0344770E01000134,
+				F5F4AB4B03449B6D01000134,
+				F5F4AB520344A85D01000134,
+				F5F4AB540344A85F01000134,
+				F5DAAD170345DEEB01000134,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4C8FDCFA73011CA2CEA = {
+			fileRef = 2A37F4AEFDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2A37F4C9FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96D9FE201CDB7F000001,
+				080E96DAFE201CDB7F000001,
+				089C1661FE840EACC02AAC07,
+				F518A88A0208355901000134,
+				F5D24B6D0210033901000134,
+				F5D24B6E0210033901000134,
+				F5F0396B021DD8D601000134,
+				F5B035FA02CA54FA0112F547,
+				F59529B302F18FD301000134,
+				F5944A2E02F5C95A01000134,
+				F59A188F02FFEF3101000134,
+				F594C3160302BB6E01000134,
+				F5D012E703126C0701000134,
+				F5F7DACB034F0FD201000134,
+				F5F7DAF7034F8A5601000134,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4CEFDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4CFFDCFA73011CA2CEA,
+				2A37F4D0FDCFA73011CA2CEA,
+				F518A887020826AB01000134,
+				F5BFE26C0209D34301000134,
+				F5ED567F0218506201000134,
+				F5F03966021A86DF01000134,
+				F585C7CE0221081301000134,
+				F585C7D1022112C501000134,
+				F524A8EF0226A23201000134,
+				F524A8F10226A8BD01000134,
+				F5D53A68022BC22D01000134,
+				F5D53A6C022D0F4301000134,
+				F5DDB141022FE3B101000134,
+				F56B9B750233828001000134,
+				F50E8FEE023D128001000134,
+				F5568566024A81E501000134,
+				F5D0FA0B0260C57001000134,
+				F52F8E6A0262F83D01000134,
+				F5CD0A4B027826DF01000134,
+				F5CB133502CB586D01DBDFD8,
+				F5B32A9402CF447601B0AE31,
+				F5B32A9802CF4AF101B0AE31,
+				F59529B702F1934301000134,
+				F5944A3202F5CBFB01000134,
+				F5F4AB3C0344770F01000134,
+				F5F4AB4C03449B6F01000134,
+				F5F4AB510344A85D01000134,
+				F5F4AB530344A85E01000134,
+				F5DAAD180345DEEB01000134,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4CFFDCFA73011CA2CEA = {
+			fileRef = 2A37F4ACFDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		2A37F4D0FDCFA73011CA2CEA = {
+			fileRef = 2A37F4B0FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		2A37F4D1FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A9FEA54F5311CA2CBB,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504D0FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "\U0001-DDEBUG";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				OTHER_CFLAGS = "\U0001-DNS_BLOCK_ASSERTIONS -DVR_BLOCK_LOGS";
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F503028D0246907001000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableForm.h;
+			refType = 4;
+		};
+		F503028E0246907001000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableForm.m;
+			refType = 4;
+		};
+		F50E8FEB023D128001000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableTextField.h;
+			refType = 4;
+		};
+		F50E8FEC023D128001000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableTextField.m;
+			refType = 4;
+		};
+		F50E8FED023D128001000134 = {
+			fileRef = F50E8FEB023D128001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F50E8FEE023D128001000134 = {
+			fileRef = F50E8FEC023D128001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F518A884020826AB01000134 = {
+			isa = PBXFileReference;
+			path = VRMainWindowController.h;
+			refType = 4;
+		};
+		F518A885020826AB01000134 = {
+			isa = PBXFileReference;
+			path = VRMainWindowController.m;
+			refType = 4;
+		};
+		F518A886020826AB01000134 = {
+			fileRef = F518A884020826AB01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F518A887020826AB01000134 = {
+			fileRef = F518A885020826AB01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F518A8880208355901000134 = {
+			children = (
+				F518A8890208355901000134,
+			);
+			isa = PBXVariantGroup;
+			name = Localizable.strings;
+			path = "";
+			refType = 4;
+		};
+		F518A8890208355901000134 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Localizable.strings;
+			refType = 4;
+		};
+		F518A88A0208355901000134 = {
+			fileRef = F518A8880208355901000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F524A8EC0226A23201000134 = {
+			isa = PBXFileReference;
+			path = VRTextFieldModel.h;
+			refType = 4;
+		};
+		F524A8ED0226A23201000134 = {
+			isa = PBXFileReference;
+			path = VRTextFieldModel.m;
+			refType = 4;
+		};
+		F524A8EE0226A23201000134 = {
+			fileRef = F524A8EC0226A23201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F524A8EF0226A23201000134 = {
+			fileRef = F524A8ED0226A23201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F524A8F00226A8BD01000134 = {
+			isa = PBXFileReference;
+			path = VRTextFieldController.m;
+			refType = 4;
+		};
+		F524A8F10226A8BD01000134 = {
+			fileRef = F524A8F00226A8BD01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52F8E670262F83D01000134 = {
+			isa = PBXFileReference;
+			path = VRAntiquesTableView.h;
+			refType = 4;
+		};
+		F52F8E680262F83D01000134 = {
+			isa = PBXFileReference;
+			path = VRAntiquesTableView.m;
+			refType = 4;
+		};
+		F52F8E690262F83D01000134 = {
+			fileRef = F52F8E670262F83D01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F52F8E6A0262F83D01000134 = {
+			fileRef = F52F8E680262F83D01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F53DD263024B974201000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableTextControl.include;
+			refType = 4;
+		};
+		F53DD265024B9C8001000134 = {
+			children = (
+				F53DD263024B974201000134,
+			);
+			isa = PBXGroup;
+			name = Includes;
+			path = "";
+			refType = 4;
+		};
+		F53DD266024B9F6601000134 = {
+			children = (
+				F53DD267024B9F9301000134,
+			);
+			isa = PBXGroup;
+			name = Protocols;
+			refType = 4;
+		};
+		F53DD267024B9F9301000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableTextControl.h;
+			refType = 4;
+		};
+		F53DD268024B9F9301000134 = {
+			fileRef = F53DD267024B9F9301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F53DD269024BDBBA01000134 = {
+			children = (
+				F52F8E670262F83D01000134,
+				F52F8E680262F83D01000134,
+				F50E8FEB023D128001000134,
+				F50E8FEC023D128001000134,
+				F503028D0246907001000134,
+				F503028E0246907001000134,
+				F5CD0A48027826DF01000134,
+				F5CD0A49027826DF01000134,
+			);
+			isa = PBXGroup;
+			name = Controls;
+			refType = 4;
+		};
+		F53DD26A024DE66101000134 = {
+			isa = PBXFileReference;
+			path = "NSForm+VRDragTarget.h";
+			refType = 4;
+		};
+		F53DD26B024DE66101000134 = {
+			isa = PBXFileReference;
+			path = "NSForm+VRDragTarget.m";
+			refType = 4;
+		};
+		F5568565024A81E501000134 = {
+			fileRef = F503028D0246907001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5568566024A81E501000134 = {
+			fileRef = F503028E0246907001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F56B9B720233828001000134 = {
+			isa = PBXFileReference;
+			path = "NSFormatter+VRFormatterBugfixes.h";
+			refType = 4;
+		};
+		F56B9B730233828001000134 = {
+			isa = PBXFileReference;
+			path = "NSFormatter+VRFormatterBugfixes.m";
+			refType = 4;
+		};
+		F56B9B740233828001000134 = {
+			fileRef = F56B9B720233828001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F56B9B750233828001000134 = {
+			fileRef = F56B9B730233828001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F585C7CB0221081301000134 = {
+			isa = PBXFileReference;
+			path = VRSliderModel.h;
+			refType = 4;
+		};
+		F585C7CC0221081301000134 = {
+			isa = PBXFileReference;
+			path = VRSliderModel.m;
+			refType = 4;
+		};
+		F585C7CD0221081301000134 = {
+			fileRef = F585C7CB0221081301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F585C7CE0221081301000134 = {
+			fileRef = F585C7CC0221081301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F585C7CF0221090D01000134 = {
+			children = (
+				F5D0FA080260C57001000134,
+				F5D0FA090260C57001000134,
+				F5BFE2690209D34301000134,
+				F5BFE26A0209D34301000134,
+				F585C7CB0221081301000134,
+				F585C7CC0221081301000134,
+				F524A8EC0226A23201000134,
+				F524A8ED0226A23201000134,
+				F5B32A9502CF4AF101B0AE31,
+				F5B32A9602CF4AF101B0AE31,
+			);
+			isa = PBXGroup;
+			name = Models;
+			refType = 4;
+		};
+		F585C7D0022112C501000134 = {
+			isa = PBXFileReference;
+			path = VRSliderController.m;
+			refType = 4;
+		};
+		F585C7D1022112C501000134 = {
+			fileRef = F585C7D0022112C501000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F585C7D2022113CF01000134 = {
+			children = (
+				F518A884020826AB01000134,
+				F518A885020826AB01000134,
+				F5F03965021A86DF01000134,
+				F585C7D0022112C501000134,
+				F524A8F00226A8BD01000134,
+				F5B32A9302CF447601B0AE31,
+				F59529B402F1934301000134,
+				F59529B502F1934301000134,
+				F5944A2F02F5CBFB01000134,
+				F5944A3002F5CBFB01000134,
+			);
+			isa = PBXGroup;
+			name = "Window Controllers";
+			refType = 4;
+		};
+		F5944A2C02F5C95A01000134 = {
+			children = (
+				F5944A2D02F5C95A01000134,
+			);
+			isa = PBXVariantGroup;
+			name = VRPreferences.nib;
+			path = "";
+			refType = 4;
+		};
+		F5944A2D02F5C95A01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/VRPreferences.nib;
+			refType = 4;
+		};
+		F5944A2E02F5C95A01000134 = {
+			fileRef = F5944A2C02F5C95A01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5944A2F02F5CBFB01000134 = {
+			isa = PBXFileReference;
+			path = VRPreferencesWindowController.h;
+			refType = 4;
+		};
+		F5944A3002F5CBFB01000134 = {
+			isa = PBXFileReference;
+			path = VRPreferencesWindowController.m;
+			refType = 4;
+		};
+		F5944A3102F5CBFB01000134 = {
+			fileRef = F5944A2F02F5CBFB01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5944A3202F5CBFB01000134 = {
+			fileRef = F5944A3002F5CBFB01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F594C2FC0302BB6E01000134 = {
+			children = (
+				F594C2FD0302BB6E01000134,
+			);
+			isa = PBXVariantGroup;
+			name = "Vermont Recipes Help";
+			path = "";
+			refType = 4;
+		};
+		F594C2FD0302BB6E01000134 = {
+			includeInIndex = 1;
+			isa = PBXFolderReference;
+			name = English;
+			path = "English.lproj/Vermont Recipes Help";
+			refType = 4;
+		};
+		F594C3160302BB6E01000134 = {
+			fileRef = F594C2FC0302BB6E01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F59529B102F18FD301000134 = {
+			children = (
+				F59529B202F18FD301000134,
+			);
+			isa = PBXVariantGroup;
+			name = VRTextWindow.nib;
+			path = "";
+			refType = 4;
+		};
+		F59529B202F18FD301000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/VRTextWindow.nib;
+			refType = 4;
+		};
+		F59529B302F18FD301000134 = {
+			fileRef = F59529B102F18FD301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F59529B402F1934301000134 = {
+			isa = PBXFileReference;
+			path = VRTextWindowController.h;
+			refType = 4;
+		};
+		F59529B502F1934301000134 = {
+			isa = PBXFileReference;
+			path = VRTextWindowController.m;
+			refType = 4;
+		};
+		F59529B602F1934301000134 = {
+			fileRef = F59529B402F1934301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F59529B702F1934301000134 = {
+			fileRef = F59529B502F1934301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F59A188D02FFEF3101000134 = {
+			children = (
+				F59A188E02FFEF3101000134,
+			);
+			isa = PBXVariantGroup;
+			name = ReadMe.rtf;
+			path = "";
+			refType = 4;
+		};
+		F59A188E02FFEF3101000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/ReadMe.rtf;
+			refType = 4;
+		};
+		F59A188F02FFEF3101000134 = {
+			fileRef = F59A188D02FFEF3101000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5A977DC026CA86201000134 = {
+			isa = PBXFileReference;
+			path = "NSComboBox+VRDragTarget.h";
+			refType = 4;
+		};
+		F5A977DD026CA86201000134 = {
+			isa = PBXFileReference;
+			path = "NSComboBox+VRDragTarget.m";
+			refType = 4;
+		};
+		F5A977E0026CB28501000134 = {
+			children = (
+				F5A977DC026CA86201000134,
+				F5A977DD026CA86201000134,
+				F53DD26A024DE66101000134,
+				F53DD26B024DE66101000134,
+				F5A977E1026CB28501000134,
+				F5A977E2026CB28501000134,
+				F5D9235402420AE301000134,
+				F5D9235502420AE301000134,
+			);
+			isa = PBXGroup;
+			name = "Drag Targets";
+			refType = 4;
+		};
+		F5A977E1026CB28501000134 = {
+			isa = PBXFileReference;
+			path = "NSTableView+VRDragTarget.h";
+			refType = 4;
+		};
+		F5A977E2026CB28501000134 = {
+			isa = PBXFileReference;
+			path = "NSTableView+VRDragTarget.m";
+			refType = 4;
+		};
+		F5B035F802CA54F90112F547 = {
+			children = (
+				F5B035F902CA54F90112F547,
+			);
+			isa = PBXVariantGroup;
+			name = DockMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		F5B035F902CA54F90112F547 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/DockMenu.nib;
+			refType = 4;
+		};
+		F5B035FA02CA54FA0112F547 = {
+			fileRef = F5B035F802CA54F90112F547;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B32A9302CF447601B0AE31 = {
+			isa = PBXFileReference;
+			path = VRDrawerController.m;
+			refType = 4;
+		};
+		F5B32A9402CF447601B0AE31 = {
+			fileRef = F5B32A9302CF447601B0AE31;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B32A9502CF4AF101B0AE31 = {
+			isa = PBXFileReference;
+			path = VRDrawerModel.h;
+			refType = 4;
+		};
+		F5B32A9602CF4AF101B0AE31 = {
+			isa = PBXFileReference;
+			path = VRDrawerModel.m;
+			refType = 4;
+		};
+		F5B32A9702CF4AF101B0AE31 = {
+			fileRef = F5B32A9502CF4AF101B0AE31;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B32A9802CF4AF101B0AE31 = {
+			fileRef = F5B32A9602CF4AF101B0AE31;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5B388FE02FF223A01000134 = {
+			children = (
+				F5F7DB0303507C2F01000134,
+				F5F7DB0503507C2F01000134,
+				F5F7DAFE034F8F2101000134,
+				F5B5BEE802FD562F01000134,
+				F5F7DB0703507C2F01000134,
+				F5F7DB0903507C2F01000134,
+				F5F7DB0B03507C2F01000134,
+				F5F7DB0D03507C2F01000134,
+				F5F7DB0F03507C2F01000134,
+				F5F7DB1103507C2F01000134,
+				F5F7DB1303507C2F01000134,
+				F5F7DAF4034F8A4801000134,
+				F5F7DAF8034F8CB901000134,
+				F5F7DAF1034F887801000134,
+				F5F7DB1503507C2F01000134,
+				F5F7DB1703507C2F01000134,
+				F5F7DB1903507C2F01000134,
+				F5F7DB1B03507C2F01000134,
+				F5F7DB1D03507C2F01000134,
+				F5F7DB1F03507C2F01000134,
+				F5F7DB2103507C2F01000134,
+				F5F7DB2303507C2F01000134,
+				F5F7DAFB034F8DDA01000134,
+				F5F7DB2503507C2F01000134,
+			);
+			isa = PBXGroup;
+			name = "Context Help";
+			refType = 4;
+		};
+		F5B5BEE802FD562F01000134 = {
+			children = (
+				F5B5BEE902FD562F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = checkboxContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5B5BEE902FD562F01000134 = {
+			isa = PBXFileReference;
+			name = checkboxContextHelp.rtf;
+			path = English.lproj/checkboxContextHelp.rtf;
+			refType = 4;
+		};
+		F5B5BEF002FD57F401000134 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			generatedFileNames = (
+			);
+			isa = PBXShellScriptBuildPhase;
+			neededFileNames = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/English.lproj\"\nls *ContextHelp.rtf 2>/dev/null *ContextHelp.rtfd 2>/dev/null | xargs compileHelp -o \"$TARGET_BUILD_DIR/$TARGET_NAME.$WRAPPER_EXTENSION/Contents/Resources/English.lproj/Help.plist\"";
+		};
+		F5BFE2690209D34301000134 = {
+			isa = PBXFileReference;
+			path = VRButtonModel.h;
+			refType = 4;
+		};
+		F5BFE26A0209D34301000134 = {
+			isa = PBXFileReference;
+			path = VRButtonModel.m;
+			refType = 4;
+		};
+		F5BFE26B0209D34301000134 = {
+			fileRef = F5BFE2690209D34301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5BFE26C0209D34301000134 = {
+			fileRef = F5BFE26A0209D34301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5CB133202CB586D01DBDFD8 = {
+			isa = PBXFileReference;
+			path = VRAppDelegate.h;
+			refType = 4;
+		};
+		F5CB133302CB586D01DBDFD8 = {
+			isa = PBXFileReference;
+			path = VRAppDelegate.m;
+			refType = 4;
+		};
+		F5CB133402CB586D01DBDFD8 = {
+			fileRef = F5CB133202CB586D01DBDFD8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5CB133502CB586D01DBDFD8 = {
+			fileRef = F5CB133302CB586D01DBDFD8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5CD0A48027826DF01000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableTableView.h;
+			refType = 4;
+		};
+		F5CD0A49027826DF01000134 = {
+			isa = PBXFileReference;
+			path = VRUndoableTableView.m;
+			refType = 4;
+		};
+		F5CD0A4A027826DF01000134 = {
+			fileRef = F5CD0A48027826DF01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5CD0A4B027826DF01000134 = {
+			fileRef = F5CD0A49027826DF01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D012E503126C0701000134 = {
+			children = (
+				F5D012E603126C0701000134,
+			);
+			isa = PBXVariantGroup;
+			name = Credits.html;
+			path = "";
+			refType = 4;
+		};
+		F5D012E603126C0701000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Credits.html;
+			refType = 4;
+		};
+		F5D012E703126C0701000134 = {
+			fileRef = F5D012E503126C0701000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0FA080260C57001000134 = {
+			isa = PBXFileReference;
+			path = VRAntiqueRecord.h;
+			refType = 4;
+		};
+		F5D0FA090260C57001000134 = {
+			isa = PBXFileReference;
+			path = VRAntiqueRecord.m;
+			refType = 4;
+		};
+		F5D0FA0A0260C57001000134 = {
+			fileRef = F5D0FA080260C57001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D0FA0B0260C57001000134 = {
+			fileRef = F5D0FA090260C57001000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D24B6B0210033901000134 = {
+			isa = PBXFileReference;
+			path = VRApplicationIcon.icns;
+			refType = 4;
+		};
+		F5D24B6C0210033901000134 = {
+			isa = PBXFileReference;
+			path = VRMainDocumentIcon.icns;
+			refType = 4;
+		};
+		F5D24B6D0210033901000134 = {
+			fileRef = F5D24B6B0210033901000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D24B6E0210033901000134 = {
+			fileRef = F5D24B6C0210033901000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D53A64022BC22D01000134 = {
+			children = (
+				F5D53A69022D0F4201000134,
+				F5D53A6A022D0F4201000134,
+				F5D53A65022BC22D01000134,
+				F5D53A66022BC22D01000134,
+				F5DDB13E022FE3B101000134,
+				F5DDB13F022FE3B101000134,
+			);
+			isa = PBXGroup;
+			name = Formatters;
+			refType = 4;
+		};
+		F5D53A65022BC22D01000134 = {
+			isa = PBXFileReference;
+			path = VRIntegerNumberFilter.h;
+			refType = 4;
+		};
+		F5D53A66022BC22D01000134 = {
+			isa = PBXFileReference;
+			path = VRIntegerNumberFilter.m;
+			refType = 4;
+		};
+		F5D53A67022BC22D01000134 = {
+			fileRef = F5D53A65022BC22D01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D53A68022BC22D01000134 = {
+			fileRef = F5D53A66022BC22D01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D53A69022D0F4201000134 = {
+			isa = PBXFileReference;
+			path = VRDecimalNumberFilter.h;
+			refType = 4;
+		};
+		F5D53A6A022D0F4201000134 = {
+			isa = PBXFileReference;
+			path = VRDecimalNumberFilter.m;
+			refType = 4;
+		};
+		F5D53A6B022D0F4301000134 = {
+			fileRef = F5D53A69022D0F4201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D53A6C022D0F4301000134 = {
+			fileRef = F5D53A6A022D0F4201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5D9235402420AE301000134 = {
+			isa = PBXFileReference;
+			path = "NSTextField+VRDragTarget.h";
+			refType = 4;
+		};
+		F5D9235502420AE301000134 = {
+			isa = PBXFileReference;
+			path = "NSTextField+VRDragTarget.m";
+			refType = 4;
+		};
+		F5DAAD150345DEEB01000134 = {
+			isa = PBXFileReference;
+			path = "NSTableView+VRTableViewBugfixes.h";
+			refType = 4;
+		};
+		F5DAAD160345DEEB01000134 = {
+			isa = PBXFileReference;
+			path = "NSTableView+VRTableViewBugfixes.m";
+			refType = 4;
+		};
+		F5DAAD170345DEEB01000134 = {
+			fileRef = F5DAAD150345DEEB01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5DAAD180345DEEB01000134 = {
+			fileRef = F5DAAD160345DEEB01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5DAAD190345E49E01000134 = {
+			children = (
+				F56B9B720233828001000134,
+				F56B9B730233828001000134,
+				F5DAAD150345DEEB01000134,
+				F5DAAD160345DEEB01000134,
+			);
+			isa = PBXGroup;
+			name = "Bug Fixes";
+			refType = 4;
+		};
+		F5DAAD1A0345E4B101000134 = {
+			children = (
+				F5ED567C0218506201000134,
+				F5ED567D0218506201000134,
+			);
+			isa = PBXGroup;
+			name = Utilities;
+			path = "";
+			refType = 4;
+		};
+		F5DDB13E022FE3B101000134 = {
+			isa = PBXFileReference;
+			path = VRTelephoneFormatter.h;
+			refType = 4;
+		};
+		F5DDB13F022FE3B101000134 = {
+			isa = PBXFileReference;
+			path = VRTelephoneFormatter.m;
+			refType = 4;
+		};
+		F5DDB140022FE3B101000134 = {
+			fileRef = F5DDB13E022FE3B101000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5DDB141022FE3B101000134 = {
+			fileRef = F5DDB13F022FE3B101000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5ED566F02184EC801000134 = {
+			children = (
+				F5DAAD190345E49E01000134,
+				F5A977E0026CB28501000134,
+				F5DAAD1A0345E4B101000134,
+			);
+			isa = PBXGroup;
+			name = Categories;
+			refType = 4;
+		};
+		F5ED567C0218506201000134 = {
+			isa = PBXFileReference;
+			path = "NSString+VRStringUtilities.h";
+			refType = 4;
+		};
+		F5ED567D0218506201000134 = {
+			isa = PBXFileReference;
+			path = "NSString+VRStringUtilities.m";
+			refType = 4;
+		};
+		F5ED567E0218506201000134 = {
+			fileRef = F5ED567C0218506201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5ED567F0218506201000134 = {
+			fileRef = F5ED567D0218506201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F03965021A86DF01000134 = {
+			isa = PBXFileReference;
+			path = VRButtonController.m;
+			refType = 4;
+		};
+		F5F03966021A86DF01000134 = {
+			fileRef = F5F03965021A86DF01000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F03968021DD8D601000134 = {
+			isa = PBXFileReference;
+			path = ArrowLeft.tiff;
+			refType = 4;
+		};
+		F5F03969021DD8D601000134 = {
+			isa = PBXFileReference;
+			path = ArrowRight.tiff;
+			refType = 4;
+		};
+		F5F0396B021DD8D601000134 = {
+			fileRef = F5F03969021DD8D601000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB3B0344770E01000134 = {
+			fileRef = F5D9235402420AE301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB3C0344770F01000134 = {
+			fileRef = F5D9235502420AE301000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB4B03449B6D01000134 = {
+			fileRef = F53DD26A024DE66101000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB4C03449B6F01000134 = {
+			fileRef = F53DD26B024DE66101000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB510344A85D01000134 = {
+			fileRef = F5A977E2026CB28501000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB520344A85D01000134 = {
+			fileRef = F5A977E1026CB28501000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB530344A85E01000134 = {
+			fileRef = F5A977DD026CA86201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F4AB540344A85F01000134 = {
+			fileRef = F5A977DC026CA86201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F7DAC9034F0FD201000134 = {
+			children = (
+				F5F7DACA034F0FD201000134,
+			);
+			isa = PBXVariantGroup;
+			name = VRDocument.nib;
+			path = "";
+			refType = 4;
+		};
+		F5F7DACA034F0FD201000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/VRDocument.nib;
+			refType = 4;
+		};
+		F5F7DACB034F0FD201000134 = {
+			fileRef = F5F7DAC9034F0FD201000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F7DAF1034F887801000134 = {
+			children = (
+				F5F7DAF2034F887801000134,
+			);
+			isa = PBXVariantGroup;
+			name = pegsContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DAF2034F887801000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/pegsContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DAF4034F8A4801000134 = {
+			children = (
+				F5F7DAF5034F8A4801000134,
+			);
+			isa = PBXVariantGroup;
+			name = musicContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DAF5034F8A4801000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/musicContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DAF7034F8A5601000134 = {
+			fileRef = F5F03968021DD8D601000134;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F5F7DAF8034F8CB901000134 = {
+			children = (
+				F5F7DAF9034F8CB901000134,
+			);
+			isa = PBXVariantGroup;
+			name = partyContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DAF9034F8CB901000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/partyContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DAFB034F8DDA01000134 = {
+			children = (
+				F5F7DAFC034F8DDA01000134,
+			);
+			isa = PBXVariantGroup;
+			name = stateContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DAFC034F8DDA01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/stateContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DAFE034F8F2101000134 = {
+			children = (
+				F5F7DAFF034F8F2101000134,
+			);
+			isa = PBXVariantGroup;
+			name = beeperContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DAFF034F8F2101000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/beeperContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0303507C2F01000134 = {
+			children = (
+				F5F7DB0403507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = addKindContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB0403507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/addKindContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0503507C2F01000134 = {
+			children = (
+				F5F7DB0603507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = antiquesContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB0603507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/antiquesContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0703507C2F01000134 = {
+			children = (
+				F5F7DB0803507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = decimalContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB0803507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/decimalContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0903507C2F01000134 = {
+			children = (
+				F5F7DB0A03507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = formDateContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB0A03507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/formDateContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0B03507C2F01000134 = {
+			children = (
+				F5F7DB0C03507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = formFaxContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB0C03507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/formFaxContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0D03507C2F01000134 = {
+			children = (
+				F5F7DB0E03507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = formIDContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB0E03507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/formIDContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB0F03507C2F01000134 = {
+			children = (
+				F5F7DB1003507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = formNameContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1003507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/formNameContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1103507C2F01000134 = {
+			children = (
+				F5F7DB1203507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = integerContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1203507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/integerContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1303507C2F01000134 = {
+			children = (
+				F5F7DB1403507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = kindContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1403507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/kindContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1503507C2F01000134 = {
+			children = (
+				F5F7DB1603507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = personalityContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1603507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/personalityContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1703507C2F01000134 = {
+			children = (
+				F5F7DB1803507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = plusMinusContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1803507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/plusMinusContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1903507C2F01000134 = {
+			children = (
+				F5F7DB1A03507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = quantumButtonHiContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1A03507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/quantumButtonHiContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1B03507C2F01000134 = {
+			children = (
+				F5F7DB1C03507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = quantumButtonLoContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1C03507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/quantumButtonLoContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1D03507C2F01000134 = {
+			children = (
+				F5F7DB1E03507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = quantumSliderContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB1E03507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/quantumSliderContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB1F03507C2F01000134 = {
+			children = (
+				F5F7DB2003507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = quantumTextContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB2003507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/quantumTextContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB2103507C2F01000134 = {
+			children = (
+				F5F7DB2203507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = speedSliderContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB2203507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/speedSliderContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB2303507C2F01000134 = {
+			children = (
+				F5F7DB2403507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = speedTextContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB2403507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/speedTextContextHelp.rtf;
+			refType = 4;
+		};
+		F5F7DB2503507C2F01000134 = {
+			children = (
+				F5F7DB2603507C2F01000134,
+			);
+			isa = PBXVariantGroup;
+			name = telephoneContextHelp.rtf;
+			path = "";
+			refType = 4;
+		};
+		F5F7DB2603507C2F01000134 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/telephoneContextHelp.rtf;
+			refType = 4;
+		};
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA;
+}

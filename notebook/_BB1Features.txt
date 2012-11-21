@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:07:05 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:07:05 Pacific Daylight Time
+
+====== BB1Features ======
+Created Wednesday 29 July 2009
+
+++ BB1Features
+
+Key dates:
+    PI1 dry pens:  5/11
+    PI1 wet pens:  5/20
+    Litho Volta plumbed for ink by 5/15
+    Production Volta: 5/26
+    Ampere BB1 6/9
+    Ampere BB1 paper/carriage motion 6/16
+    Ampere BB1 Tier 0:  6/23
+    BB2 parts release: 8/1 +/-
+Key constraints:
+    4 weeks of test on BB1 before BB2 parts release.
+    1 week from delivery of BB1 unit to basic media path features (see below)
+    2 weeks from delivery to tier 0 functionality.
+    
+Assumptions:
+    Litho Volta print/service station capable by 5/20.
+    Litho Ampere (no service station) print capable by 6/2
+
+Issues:
+    Jam recovery is not defined.  (contacting Alex Nameroff for more info)
+    
+Tier 0 features:
+    Basic Media path:  load, deskew, eject, power cycle jam recovery, duplexing, DPU, carriage motion
+    Service station: all motion primitives
+    Service algorithms:  primitives:  wipes, spits, scrapes, etc.
+                         No auto priming -- this will be done via scripts.
+                         DPU, uncap, cap, midjob servicing--miniumum needed to keep pens healthy.                         
+    Benz front panel(led, buttons).  Benz functionality (no wifi)
+    Pen control(no auto calibration).   Thermal control,spit,print
+    Datapath -- ME test suite.  Minimum on 6/23 "bars" and "new territories".  Others to follow ASAP. 
+    Connectivity:  USB only/flextool compatible. 
+    
+Issue:  Jam recovery is not defined.  For now assuming power cycle jam recovery

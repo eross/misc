@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:03:15 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:08:39 Pacific Daylight Time
+
+====== AmpereStatusMeetings ======
+Created Wednesday 29 July 2009
+
+   * [[VoltaStatus20090330]]
+   * [[VoltaStatus20090413]]
+   * [[VoltaStatus20090504]]
+   * [[VoltaStatus20090511]]
+   * [[VoltaStatus20090518]]
+   * [[VoltaStatus20090601]]
+   * [[VoltAmpStatus20090622]]
+   * [[VoltaAmpStatus20090713]]
+   * [[VoltaAmpStatus20090720]]
+

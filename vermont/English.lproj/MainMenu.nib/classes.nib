@@ -1,0 +1,95 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addAntiqueKindAction = id; 
+                deleteAntiqueRecordAction = id; 
+                newAntiqueRecordAction = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {openPreferencesWindowAction = id; showReadMeAction = id; }; 
+            CLASS = VRAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dynamicDockMenu = NSMenu; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addAntiqueKindAction = id; 
+                allPegsAction = id; 
+                backAction = id; 
+                beep1Action = id; 
+                beep2Action = id; 
+                checkboxAction = id; 
+                classicalAction = id; 
+                decimalTextFieldAction = id; 
+                deleteAntiqueRecordAction = id; 
+                filterAntiqueRecordsAction = id; 
+                formDateEntryAction = id; 
+                formFaxEntryAction = id; 
+                formIdEntryAction = id; 
+                formNameEntryAction = id; 
+                integerTextFieldAction = id; 
+                newAntiqueRecordAction = id; 
+                nextAction = id; 
+                oldiesRockAction = id; 
+                partyAction = id; 
+                personalityAction = id; 
+                playMusicAction = id; 
+                quantumButtonHiAction = id; 
+                quantumButtonLoAction = id; 
+                quantumSliderAction = id; 
+                recentRockAction = id; 
+                rockAction = id; 
+                roundPegsAction = id; 
+                speedSliderAction = id; 
+                speedTextFieldAction = id; 
+                squarePegsAction = id; 
+                stateAction = id; 
+                telephoneTextFieldAction = id; 
+                trianglePegsAction = id; 
+            }; 
+            CLASS = VRMainWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addAntiqueKindButton = NSButton; 
+                addressForm = VRUndoableForm; 
+                allPegsCheckbox = NSButton; 
+                antiqueKindComboBox = NSComboBox; 
+                antiquesTable = VRAntiquesTableView; 
+                backButton = NSButton; 
+                checkbox = NSButton; 
+                classicalCheckbox = NSButton; 
+                decimalTextField = NSTextField; 
+                deleteAntiqueButton = NSButton; 
+                integerTextField = VRUndoableTextField; 
+                newAntiqueButton = NSButton; 
+                nextButton = NSButton; 
+                oldiesRockCheckbox = NSButton; 
+                partyRadioCluster = NSMatrix; 
+                personalitySlider = NSSlider; 
+                playMusicCheckbox = NSButton; 
+                quantumButtonHi = NSButton; 
+                quantumButtonLo = NSButton; 
+                quantumSlider = NSSlider; 
+                quantumTextField = NSTextField; 
+                recentRockCheckbox = NSButton; 
+                rockCheckbox = NSButton; 
+                roundPegsCheckbox = NSButton; 
+                speedSlider = NSSlider; 
+                speedTextField = NSTextField; 
+                squarePegsCheckbox = NSButton; 
+                statePopUpButton = NSPopUpButton; 
+                tabView = NSTabView; 
+                telephoneTextField = NSTextField; 
+                trianglePegsCheckbox = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

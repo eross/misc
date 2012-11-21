@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	0259C573FE90428111CA0C5A = {
+		activeBuildStyle = 2E58F360FFB2326E11CA0CBA;
+		activeTarget = 8D1AC9600486D14A00FE50C9;
+		addToTargets = (
+			8D1AC9600486D14A00FE50C9,
+		);
+		codeSenseManager = 3FFF7035051968F1004E8EDC;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+			};
+			PBXPerProjectTemplateStateSaveDate = 85551270;
+		};
+		sourceControlManager = 3FFF7034051968F1004E8EDC;
+		userBuildSettings = {
+		};
+	};
+	0259C577FE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 461}}";
+			sepNavSelRange = "{186, 0}";
+			sepNavVisRect = "{{0, 0}, {803, 424}}";
+		};
+	};
+	0259C578FE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {458, 447}}";
+			sepNavSelRange = "{524, 0}";
+			sepNavVisRect = "{{0, 0}, {383, 116}}";
+		};
+	};
+	0259C57BFE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {392, 209}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {383, 116}}";
+		};
+	};
+	0259C57CFE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 424}}";
+			sepNavSelRange = "{367, 0}";
+			sepNavVisRect = "{{0, 0}, {803, 424}}";
+		};
+	};
+	0259C583FE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 424}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRect = "{{0, 0}, {803, 424}}";
+		};
+	};
+	3FFF7034051968F1004E8EDC = {
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	3FFF7035051968F1004E8EDC = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	8D1AC9600486D14A00FE50C9 = {
+		activeExec = 0;
+	};
+}

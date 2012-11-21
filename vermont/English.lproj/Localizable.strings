@@ -1,0 +1,233 @@
+/* English strings for Vermont Recipes r1s3.1.4 */
+
+/* UNDO/REDO MENU ITEM NAMES */
+
+/* Checkbox r1s6.2 */
+/* Name of undo/redo menu item after checkbox control was set */
+"Set Checkbox" = "Set Checkbox";
+/* Name of undo/redo menu item after checkbox control was cleared */
+"Clear Checkbox" = "Clear Checkbox";
+
+/* Pegs r2s2 */
+/* Name of undo/redo menu item after Triangle checkbox was set */
+"Set Triangle Pegs" = "Set Triangle Pegs";
+/* Name of undo/redo menu item after Triangle checkbox was cleared */
+"Clear Triangle Pegs" = "Clear Triangle Pegs";
+/* Name of undo/redo menu item after Square checkbox was set */
+"Set Square Pegs" = "Set Square Pegs";
+/* Name of undo/redo menu item after Square checkbox was cleared */
+"Clear Square Pegs" = "Clear Square Pegs";
+/* Name of undo/redo menu item after Round checkbox was set */
+"Set Round Pegs" = "Set Round Pegs";
+/* Name of undo/redo menu item after Round checkbox was cleared */
+"Clear Round Pegs" = "Clear Round Pegs";
+/* Name of undo/redo menu item after Select All checkbox was set */
+"Set All Pegs" = "Set All Pegs";
+/* Name of undo/redo menu item after Select All checkbox was cleared */
+"Clear All Pegs" = "Clear All Pegs";
+
+/* Music r2s3 */
+/* Name of undo/redo menu item after Play Music checkbox was set */
+"Set Play Music" = "Set Play Music";
+/* Name of undo/redo menu item after Play Music checkbox was cleared */
+"Clear Play Music" = "Clear Play Music";
+/* Name of undo/redo menu item after Allow Rock checkbox was set */
+"Set Allow Rock" = "Set Allow Rock";
+/* Name of undo/redo menu item after Allow Rock checkbox was cleared */
+"Clear Allow Rock" = "Clear Allow Rock";
+/* Name of undo/redo menu item after Recent Hits checkbox was set */
+"Set Recent Hits" = "Set Recent Hits";
+/* Name of undo/redo menu item after Recent Hits checkbox was cleared */
+"Clear Recent Hits" = "Clear Recent Hits";
+/* Name of undo/redo menu item after Oldies checkbox was set */
+"Set Oldies" = "Set Oldies";
+/* Name of undo/redo menu item after Oldies checkbox was cleared */
+"Clear Oldies" = "Clear Oldies";
+/* Name of undo/redo menu item after Classical checkbox was set */
+"Set Classical" = "Set Classical";
+/* Name of undo/redo menu item after Classical checkbox was cleared */
+"Clear Classical" = "Clear Classical";
+
+/* Party r2s4 */
+/* Name of undo/redo menu item after Democratic radio button was selected */
+"Select Democratic Party" = "Select Democratic Party";
+/* Name of undo/redo menu item after Republican radio button was selected */
+"Select Republican Party" = "Select Republican Party";
+/* Name of undo/redo menu item after Socialist radio button was selected */
+"Select Socialist Party" = "Select Socialist Party";
+
+/* State r2s5 */
+/* Name of undo/redo menu item after Maine pop-up menu button was selected */
+"Select ME" = "Select ME";
+/* Name of undo/redo menu item after Massachusetts pop-up menu button was selected */
+"Select MA" = "Select MA";
+/* Name of undo/redo menu item after New Hampshire pop-up menu button was selected */
+"Select NH" = "Select NH";
+/* Name of undo/redo menu item after Rhode Island pop-up menu button was selected */
+"Select RI" = "Select RI";
+/* Name of undo/redo menu item after Vermont pop-up menu button was selected */
+"Select VT" = "Select VT";
+
+/* Personality r3s1 */
+/* Name of undo/redo menu item after Personality slider was set */
+"Set Personality" = "Set Personality";
+
+/* Speed r3s2 */
+/* Name of undo/redo menu item after Speed slider was set */
+"Set Speed Limiter" = "Set Speed Limiter";
+/* Name of undo/redo menu item after Speed text field was set */
+"Set Speed Limiter" = "Set Speed Limiter";
+
+/* Quantum r3s3 */
+/* Name of undo/redo menu item after Quantum slider was set */
+"Set Quantum Electron State Slider" = "Set Quantum Electron State Slider";
+/* Name of undo/redo menu item after Quantum button Low was set */
+"Set Lowest Quantum Electron State" = "Set Lowest Quantum Electron State";
+/* Name of undo/redo menu item after Quantum button High was set */
+"Set Highest Quantum Electron State" = "Set Highest Quantum Electron State";
+
+/* Formatted text fields r5s1 */
+/* Name of undo/redo menu item after Integer text field was set */
+"Set Integer Value" = "Set Integer Value";
+/* Name of undo/redo menu item after Decimal text field was set */
+"Set Decimal Value" = "Set Decimal Value";
+/* Name of undo/redo menu item after Telephone text field was set */
+"Set Telephone Value" = "Set Telephone Value";
+
+/* Form text fields r9s2 */
+/* Name of undo/redo menu item after Form Name text field was set */
+"Set Form Name Value" = "Set Form Name Value";
+/* Name of undo/redo menu item after Form ID text field was set */
+"Set Form ID Value" = "Set Form ID Value";
+/* Name of undo/redo menu item after Form Date text field was set */
+"Set Form Date Value" = "Set Form Date Value";
+/* Name of undo/redo menu item after Form Fax text field was set */
+"Set Form Fax Value" = "Set Form Fax Value";
+
+/* Antiques table and Kind combo box r11 */
+/* Name of undo/redo menu item after antique record was added */
+/* note trailing space */
+"Add Antique ID " = "Add Antique ID ";
+/* Name of undo/redo menu item after antique record was deleted */
+ /* note trailing space */
+"Delete Antique ID " = "Delete Antique ID ";
+/* Name of undo/redo menu item after antique record was edited */
+"Set %@ of Antique ID %@" = "Set %@ of Antique ID %@";
+
+/* OTHER MENUS */
+
+/* Dock menu r15s2 */
+/* Name of Close All dock menu item */
+"Close All" = "Close All";
+
+/* ANTIQUES COMBO BOX AND TABLE VIEW */
+
+/* Kind of all antique records */
+"All" = "All";
+/* Kind of new antique record */
+"New" = "New";
+/* Undo menu item prefix */
+"Undo" = "Undo";
+/* Add antique record menu item prefix */
+"Add" = "Add";
+/* Add antique record cell menu item prefix */
+"Set" = "Set";
+/* Kind menu item to add Kind */
+"Add Selection" = "Add Selection";
+
+/* FORMATTERS*/
+
+/* Presented when user value not a numeric digit r6s1 */
+"Input is not an integer." = "Input is not an integer.";
+/* Presented when typed or pasted value contains a character other than a numeric digit or localized thousands or decimal separator r6s2 */
+"“%c” is not allowed in a decimal number." = "“%c” is not allowed in a decimal number.";
+/* Presented when typed or pasted value contains a second decimal separator r6s2 */
+"“%c” can't be entered more than once." = "“%c” can't be entered more than once.";
+/* Presented when telephone number is too short r6s3 */
+"Telephone number is too short." = "Telephone number is too short.";
+/* Presented when typed or pasted value contains a character other than a numeric digit or telephone delimiter r6s3 */
+"“%@” is not allowed in a telephone number." = "“%@” is not allowed in a telephone number.";
+/* Presented when telephone number is too long r6s3 */
+"Telephone number is too long." = "Telephone number is too long.";
+
+/* Alert strings */
+
+/* Common buttons r4s1 */
+/* Name of Edit button */
+"Edit" = "Edit";
+
+/* Field names */
+/* Name of Speed Limiter text field r4s2 */
+"Speed Limiter" = "Speed Limiter";
+/* Name of Integer text field r6s1 */
+"Integer" = "Integer";
+/* Name of Decimal text field r6s2 */
+"Decimal" = "Decimal";
+
+/* Blank text field alert r4s2 */
+/* Message text for alert posed by any unnamed field if blank when attempting to resign first responder status */
+"The field is blank." = "The field is blank.";
+/* Message text for alert posed by any named text field if blank when attempting to resign first responder status */
+"The %@ field is blank." = "The %@ field is blank.";
+/* Informative text for alert posed by any text field if blank when attempting to resign first responder status */
+"A value must be entered in this field." = "A value must be entered in this field.";
+
+/* Personality slider alert r3s1 */
+/* Message text of alert posed by Personality slider to report value set by user */
+"The personality type %f is not compatible with a computer programming career." = "The personality type %f is not compatible with a computer programming career.";
+/* Informative text of alert posed by Personality slider to report value set by user */
+"0 is Type A, 100 is Type B." = "0 is Type A, 100 is Type B.";
+
+/* Speed Limiter text field alert r4s1 */
+/* Message text for alert posed by Speed Limiter text field when value smaller than minimum is entered */
+"%@ mph is too slow for the Speed Limiter." = "%@ mph is too slow for the Speed Limiter.";
+/* Message text for alert posed by Speed Limiter text field when value larger than maximum is entered */
+"%@ mph is too fast for the Speed Limiter." = "%@ mph is too fast for the Speed Limiter.";
+/* Message text for alert posed by Speed Limiter text field when invalid value is entered */
+"“%@” is not a valid entry for the Speed Limiter." = "“%@” is not a valid entry for the Speed Limiter.";
+/* Informative text for alert posed by Speed Limiter text field when invalid value is entered */
+"The Speed Limiter must be set to a speed between %1.1f mph and %1.1f mph." = "The Speed Limiter must be set to a speed between %1.1f mph and %1.1f mph.";
+/* Name of alternate button for alert posed by Speed Limiter text field when value smaller than minimum is entered */
+"Set %1.1f mph" = "Set %1.1f mph";
+/* Name of alternate button for alert posed by Speed Limiter text field when value larger than maximum is entered */
+"Set %1.1f mph" = "Set %1.1f mph";
+
+/* Decimal text field alert r6s2 */
+/* Informative text for alert posed by Decimal text field when invalid character is typed */
+"Type any of the digits “0”–“9” and a single decimal point for a decimal number, such as “1,472.34”." = "Type any of the digits “0”–“9” and a single decimal point for a decimal number, such as “1,472.34”.";
+
+/* Telephone text field alert r6s3 */
+/* Informative text for alert posed by Telephone text field when invalid character is typed */
+"Type ten digits “0”–“9” for a telephone number, such as “(800) 555-1212”." = "Type ten digits “0”–“9” for a telephone number, such as “(800) 555-1212”.";
+/* Informative text for alert posed by Telephone text field when incomplete phone number is entered */
+"Type ten digits “0”–“9” for a telephone number, such as “(800) 555-1212”." = "Type ten digits “0”–“9” for a telephone number, such as “(800) 555-1212”.";
+
+/* WINDOW TITLES */
+
+/* Notes window r17s3 */
+/* String appended to Notes window title */
+" - Notes" = " - Notes";
+
+/* OTHER ALERT MESSAGES r19, r21 */
+/* Message text for new document alert if preferences for new document settings not found*/
+"Default document settings will be used" = "Default document settings will be used";
+/* Informative text for new document alert if preferences for new document settings not found */
+"Your user preferences aren't currently available. Choose Preferences in the Application Menu to customize settings for your new documents." = "Your user preferences aren't currently available. Choose Preferences in the Application Menu to customize settings for your new documents.";
+/* Title for 10.0 launch alert */
+"Newer version of Mac OS X required" = "Newer version of Mac OS X required";
+/* Informative text for 10.0 launch alert */
+"Vermont Recipes will not run in Mac OS X 10.0. Mac OS X 10.2 or newer is recommended. Go to www.apple.com/macosx for information about upgrading." = "Vermont Recipes will not run in Mac OS X 10.0. Mac OS X 10.2 or newer is recommended. Go to www.apple.com/macosx for information about upgrading.";
+/* Title for 10.1 launch alert */
+"Newer version of Mac OS X recommended" = "Newer version of Mac OS X recommended";
+/* Informative text for 10.1 launch alert */
+"Vermont Recipes will not save or read documents in Mac OS X 10.1. Mac OS X 10.2 or newer is recommended. Go to www.apple.com/macosx for information about upgrading." = "Vermont Recipes will not save or read documents in Mac OS X 10.1. Mac OS X 10.2 or newer is recommended. Go to www.apple.com/macosx for information about upgrading.";
+/* Title for 10.2 launch alert */
+"Mac OS X %@" = "Mac OS X %@";
+/* Informative text for 10.2 or newer launch alert */
+"This computer is running Mac OS X %@. Go to www.apple.com/macosx to find out whether a newer version is available." = "This computer is running Mac OS X %@. Go to www.apple.com/macosx to find out whether a newer version is available.";
+
+/* TOOL TIPS r20 */
+/* Tool tip for checkbox on state */
+"The checkbox is checked" = "The checkbox is checked";
+/* Tool tip for checkbox off state */
+"The checkbox is not checked" = "The checkbox is not checked";

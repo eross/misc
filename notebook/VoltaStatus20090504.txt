@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:05:19 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:05:19 Pacific Daylight Time
+
+====== VoltaStatus20090504 ======
+Created Wednesday 29 July 2009
+
+++ Volta Status20090504
+
+    Attendance:
+    Tim Kutscha
+    Eric Ross
+    Toby Cowger
+    Erik Ness
+    Marc Yousey
+
+    Status
+    
+        Tim: Unit from Mark Proia
+            Motors, sensors, ui-lite port, Marco without text, hand off to Dan Mag.
+            IDS is not hooked up. (stereo lith mockup).
+            Use for mech algorithms.
+        Basic mech flows/servo have been validated.  They are still having problems with the service station.  Bruce will validate that before Wednesday.
+        
+        Toby:  code in and compiled by end of the week.  Work on Pen id stuff.  Still on track for mid-May integration start.
+        Can hook up board to dry die or unplug motors to protect stereo mech.  Erik and Toby can work with motorless unit to a point to establish pen communication.  Can make paper warmer.
+        
+        Christine:    She has been doing development on Taipan and does not need a unit.  Manual sequences are needed by Melissa.  Scheduling/autopriming very similar on Taipan.  UI need -- very simple ink level gauge.  We want to indicate empty cartridge when we stop printing.  Set IDS status values.  Tim is working with ui-lite team, he can bring this up with them. Look for 'OUT_OF_INK' status object.  Tim will coordinate with Christine.
+        Need a test run on one of the first functioning units.  Melissa will be our onsite guide for initial validation. Christine will assist remotely.  This is also true for Acumen.  Ravi Suppia (hw shaid code).
+        
+        Follow up:  I had a brief chat with Melissa and she indicated that Chris Arnold and Ricardo Diaz will be front line(and most knowledgeable) for validating the SHAID/ink system.  Melissa wil be available, if necessary.
+        
+        

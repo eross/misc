@@ -1,0 +1,106 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MySound; LANGUAGE = ObjC; SUPERCLASS = Sound; }, 
+        {CLASS = NSForm; LANGUAGE = ObjC; SUPERCLASS = NSMatrix; }, 
+        {CLASS = NSFormatter; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSTextField; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = VRAntiqueRecord; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = VRAntiquesTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = VRButtonModel; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = VRDecimalNumberFilter; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSNumberFormatter; 
+        }, 
+        {CLASS = VRDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }, 
+        {
+            CLASS = VRIntegerNumberFilter; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSNumberFormatter; 
+        }, 
+        {
+            ACTIONS = {
+                addAntiqueKindAction = id; 
+                allPegsAction = id; 
+                backAction = id; 
+                beep1Action = id; 
+                beep2Action = id; 
+                checkboxAction = id; 
+                classicalAction = id; 
+                decimalTextFieldAction = id; 
+                deleteAntiqueRecordAction = id; 
+                filterAntiqueRecordsAction = id; 
+                formDateEntryAction = id; 
+                formFaxEntryAction = id; 
+                formIdEntryAction = id; 
+                formNameEntryAction = id; 
+                integerTextFieldAction = id; 
+                newAntiqueRecordAction = id; 
+                nextAction = id; 
+                oldiesRockAction = id; 
+                openInWindowAction = id; 
+                partyAction = id; 
+                personalityAction = id; 
+                playMusicAction = id; 
+                quantumButtonHiAction = id; 
+                quantumButtonLoAction = id; 
+                quantumSliderAction = id; 
+                recentRockAction = id; 
+                rockAction = id; 
+                roundPegsAction = id; 
+                speedSliderAction = id; 
+                speedTextFieldAction = id; 
+                squarePegsAction = id; 
+                stateAction = id; 
+                telephoneTextFieldAction = id; 
+                trianglePegsAction = id; 
+            }; 
+            CLASS = VRMainWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addAntiqueKindButton = NSButton; 
+                addressForm = VRUndoableForm; 
+                allPegsCheckbox = NSButton; 
+                antiqueKindComboBox = NSComboBox; 
+                antiquesTable = VRAntiquesTableView; 
+                backButton = NSButton; 
+                beeperPopUpButton = NSPopUpButton; 
+                checkbox = NSButton; 
+                classicalCheckbox = NSButton; 
+                decimalTextField = NSTextField; 
+                deleteAntiqueButton = NSButton; 
+                integerTextField = VRUndoableTextField; 
+                newAntiqueButton = NSButton; 
+                nextButton = NSButton; 
+                notesView = NSTextView; 
+                oldiesRockCheckbox = NSButton; 
+                openInWindowButton = NSButton; 
+                partyRadioCluster = NSMatrix; 
+                personalitySlider = NSSlider; 
+                playMusicCheckbox = NSButton; 
+                quantumButtonHi = NSButton; 
+                quantumButtonLo = NSButton; 
+                quantumSlider = NSSlider; 
+                quantumTextField = NSTextField; 
+                recentRockCheckbox = NSButton; 
+                rockCheckbox = NSButton; 
+                roundPegsCheckbox = NSButton; 
+                speedSlider = NSSlider; 
+                speedTextField = NSTextField; 
+                squarePegsCheckbox = NSButton; 
+                statePopUpButton = NSPopUpButton; 
+                tabView = NSTabView; 
+                telephoneTextField = NSTextField; 
+                trianglePegsCheckbox = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = VRSliderModel; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = VRTelephoneFormatter; LANGUAGE = ObjC; SUPERCLASS = NSFormatter; }, 
+        {CLASS = VRTextFieldModel; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = VRUndoableForm; LANGUAGE = ObjC; SUPERCLASS = NSForm; }, 
+        {CLASS = VRUndoableTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }
+    ); 
+    IBVersion = 1; 
+}

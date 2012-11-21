@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                cancel = id; 
+                openInAddressBook = id; 
+                sendEmail = id; 
+                sendInstantMessage = id; 
+            }; 
+            CLASS = VPABLinkables; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                choiceWindow = NSPanel; 
+                emailButton = NSButton; 
+                openAddressButton = NSButton; 
+            }; 
+            SUPERCLASS = VPPlugin; 
+        }, 
+        {CLASS = VPABWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            CLASS = VPPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {manager = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

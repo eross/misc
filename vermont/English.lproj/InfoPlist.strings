@@ -1,0 +1,11 @@
+/* Localized versions of Info.plist entries */
+
+CFBundleName = "Vermont Recipes";
+CFBundleShortVersionString = "1.0";
+CFBundleGetInfoString = "Vermont Recipes 1.0, Copyright © 2000–2002 Bill Cheeseman";
+
+NSHumanReadableCopyright = "Copyright © 2000–2002 Bill Cheeseman.\nAll rights reserved.";
+
+CFBundleHelpBookName = "Vermont Recipes Help";
+
+"Vermont Recipes document" = "Vermont Recipes document";

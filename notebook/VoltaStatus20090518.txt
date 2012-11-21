@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:06:35 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:07:03 Pacific Daylight Time
+
+====== VoltaStatus20090518 ======
+Created Wednesday 29 July 2009
+
+++ Volta Status20090518
+
+Key dates:
+
+[[[BB1Features]]]
+
+Key dates:
+    PI1 dry pens:  5/11
+    PI1 wet pens:  5/20
+    Litho Volta plumbed for ink by 5/15
+    Production Volta: 5/26
+    Ampere BB1 6/9
+    Ampere BB1 paper/carriage motion 6/16
+    Ampere BB1 Tier 0:  6/23
+    BB2 parts release: 8/1 +/-
+    
+
+Issues:
+    Debug of pen communication (NVM component failure).
+  
+    

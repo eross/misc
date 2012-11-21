@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:08:05 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:08:05 Pacific Daylight Time
+
+====== VoltAmpStatus20090622 ======
+Created Wednesday 29 July 2009
+
+++ Volt Amp Status20090622
+
+Attendance:
+Tim Kutscha
+Christine Smith
+Toby Cowger
+Marc Yousey
+Liz Cole
+Dan Magnusson
+Eric Ross
+
+Issues?
+1) Waiting for for test files--still!
+2) i2c assert?  Not seen on RAM build.  Need a working/printing unit to duplicate this.  Will wait until we get print heads.
+3) Width limitations on Volta.  Need to put a note up on Wiki to tell people we will force printing on ramps.(Dan Mag)
+4) Assert on glossy printing(this should be working).
+5) Pen failures:  need DS object for interrogating last failure to send to Toby.  Toby will check: a) serial output for failure b) turn failures into asserts? c) DS object for post-failure analysis.
+6) OK button does not seem to "continue".(Volta)  Dan Mag will try to duplicate on his unit. (suspect there might be a bad panel).
+
+
+Current tasks?
+Christine:  Taipan P0 mech to work on Shaid.  Should work on Volta/Ampere.  1-2 weeks.  ILG based on shaid.  Defaulted to off. Look in hw-- shaid for commands.
+
+Tim: helping out/issue killing.  Off on Pentane/PDL anal.
+
+Marc: figuring out how to use max clock freq and minimum firing freq.  39Mhz clock(overclocking).  Might need to go down to 38-39.  Still discovering all the variables.  Not sure on visible error if pushed to high.
+
+Liz: Ampere functionality.  Speed mech(head/tail) docs.  Getting synched up with latest ME needs.  Waiting for test files.
+
+Toby: Eliminated unique ID bits.  Using startup prime bit.  Same as Python infrastructure.
+ 
+Dan Magnusson: Priming in place for Ampere(script).  Trying to use same script for V and A. (Brouwer-based). Page-width assert.  Can comment out the asserts.    
+
+
+This weeks releases?
+Print zone.
+Priming via scripts (Ampere.  Already in Volta).
+
+
+Who is here next week?
+Liz (Tue-Wed),  Dan Mag(Mon,Tue), Marc, Bruce(on call). Tim, Eric GONE!
+
+Demo.
+Demoing BB1.  Who is doing it?  What are we demoing? Speed mech file?  Eric will check with Dan McD on what we need to do.
+
+
+Notes:
+  Won't need to reprime with supply change--heard by Dan Mag from Ian.
+  IMF FW sharepoint:
+http://teams1.sharepoint.hp.com/teams/imf_fw/default.aspx
+   Printmodes?  All should be in there.

@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {setDir = id; setIcns = id; }; 
+            CLASS = converter; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dirButt = id; icnsButt = id; prefWin = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

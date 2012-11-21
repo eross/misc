@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {selectDirectoryToExport = id; }; 
+            CLASS = VPExporter; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {document = id; }; 
+            SUPERCLASS = VPPlugin; 
+        }, 
+        {
+            ACTIONS = {updateHTMLPreview = id; }; 
+            CLASS = VPHTMLExport; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                brButton = NSButton; 
+                previewDoc = id; 
+                previewWindow = NSWindow; 
+                webView = WebView; 
+            }; 
+            SUPERCLASS = VPExporter; 
+        }, 
+        {
+            CLASS = VPPlugin; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {manager = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

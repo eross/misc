@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>SpeakLine</string>
+	<key>AppleEventCode</key>
+	<string>Spkl</string>
+	
+	<key>Classes</key>
+	<dict>
+		<key>MyApplication</key>
+		<dict>
+			<key>AppleEventCode</key>
+			<string>capp</string>
+			<key>Attributes</key>
+			<dict>
+				<key>utterance</key>
+				<dict>
+					<key>AppleEventCode</key>
+					<string>Utte</string>
+					<key>Type</key>
+					<string>NSString</string>
+				</dict>
+			</dict>
+			<key>Superclass</key>
+			<string>NSCoreSuite.NSApplication</string>
+			<key>SupportedCommands</key>
+			<dict>
+				<key>Utter</key>
+				<string>handleUtterScriptCommand:</string>
+			</dict>
+		</dict>
+	</dict>
+	
+	<key>Commands</key>
+	<dict>
+		<key>Utter</key>
+		<dict>
+			<key>AppleEventClassCode</key>
+			<string>Spkl</string>
+			<key>AppleEventCode</key>
+			<string>Uttr</string>
+			<key>CommandClass</key>
+			<string>NSScriptCommand</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

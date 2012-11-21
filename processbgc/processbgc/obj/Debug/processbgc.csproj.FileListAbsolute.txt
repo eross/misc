@@ -1,0 +1,8 @@
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\bin\Debug\processbgc.exe
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\bin\Debug\processbgc.pdb
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\obj\Debug\processbgc.Form1.resources
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\obj\Debug\processbgc.Properties.Resources.resources
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\obj\Debug\processbgc.csproj.GenerateResource.Cache
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\obj\Debug\processbgc.exe
+C:\Documents and Settings\ericr\My Documents\Visual Studio 2008\Projects\processbgc\processbgc\obj\Debug\processbgc.pdb

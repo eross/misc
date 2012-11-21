@@ -1,0 +1,92 @@
+// !$*UTF8*$!
+{
+	01262276FED0B8967F000001 /* SimonController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1257, 2128}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 308}, {1257, 774}}";
+			sepNavWindowFrame = "{{61, 120}, {1296, 903}}";
+		};
+	};
+	1657991D0929AB8C004CFE07 /* Simon */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Simon;
+		sourceDirectories = (
+		);
+	};
+	165799350929ABB7004CFE07 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	165799360929ABB7004CFE07 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 1657991B0929AB8C004CFE07 /* Development */;
+		activeExecutable = 1657991D0929AB8C004CFE07 /* Simon */;
+		activeTarget = 29B97326FDCFA39411CA2CEA /* Simon */;
+		codeSenseManager = 165799360929ABB7004CFE07 /* Code sense */;
+		executables = (
+			1657991D0929AB8C004CFE07 /* Simon */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 153725836;
+			PBXWorkspaceStateSaveDate = 153725836;
+		};
+		sourceControlManager = 165799350929ABB7004CFE07 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97326FDCFA39411CA2CEA /* Simon */ = {
+		activeExec = 0;
+		executables = (
+			1657991D0929AB8C004CFE07 /* Simon */,
+		);
+	};
+}

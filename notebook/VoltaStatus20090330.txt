@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:03:35 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:03:35 Pacific Daylight Time
+
+====== VoltaStatus20090330 ======
+Created Wednesday 29 July 2009
+
+++ Volta Status20090330
+
+Agenda updated….
+
+This week's agenda:
+
+Schedule overview
+Review Task List
+Makefile/build strategy.
+Drop detect sensor.
+Issues
+Round table.
+
+
+Key links:
+
+Task list: http://teams1.sharepoint.hp.com/teams/PERs1/testbed/Lists/WSPH%20Testbed%20Schedule/AllItems.aspx
+Build geneology:  http://teams1.sharepoint.hp.com/teams/imf_fw/program/Shared%20Documents/Ampere/Integration/builds.vsd
+
+
+------------------
+
+1) When does automatic priming need to be implemented?
+   Christine will contact Melissa Gedraitis
+   
+2) put build diagram on timeline with dates--Eric
+
+3) Mike Conca:  who needs Kai for Volta?--Eric
+   

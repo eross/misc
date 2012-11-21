@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XML-Schema-instance" version="1.2" xsi:noNamespaceSchemaLocation="http://weather.aero/schema/metar1_2.xsd">
+  <request_index>321306</request_index>
+  <data_source name="metars" />
+  <request type="retrieve" />
+  <errors />
+  <warnings />
+  <time_taken_ms>2</time_taken_ms>
+  <data num_results="2">
+    <METAR>
+      <raw_text>KPDX 220053Z 12013KT 1/2SM R10R/4500V5500FT SN OVC010 M06/M07 A2968 RMK AO2 TWR VIS 3/4 SLP051 P0002 T10561067 $</raw_text>
+      <station_id>KPDX</station_id>
+      <observation_time>2008-12-22T00:53:00Z</observation_time>
+      <latitude>45.58</latitude>
+      <longitude>-122.6</longitude>
+      <temp_c>-5.6</temp_c>
+      <dewpoint_c>-6.7</dewpoint_c>
+      <wind_dir_degrees>120</wind_dir_degrees>
+      <wind_speed_kt>13</wind_speed_kt>
+      <visibility_statute_mi>0.5</visibility_statute_mi>
+      <altim_in_hg>29.681103</altim_in_hg>
+      <sea_level_pressure_mb>1005.1</sea_level_pressure_mb>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+        <maintenance_indicator_on>TRUE</maintenance_indicator_on>
+      </quality_control_flags>
+      <wx_string>SN</wx_string>
+      <sky_condition sky_cover="OVC" cloud_base_ft_agl="1000" />
+      <flight_category>LIFR</flight_category>
+      <precip_in>0.02</precip_in>
+      <metar_type>METAR</metar_type>
+      <elevation_m>7.0</elevation_m>
+    </METAR>
+    <METAR>
+      <raw_text>KPDX 220020Z 12014KT 1/2SM R10R/3500V5000FT SN OVC010 M05/M06 A2968 RMK AO2 TWR VIS 3/4 P0001 $</raw_text>
+      <station_id>KPDX</station_id>
+      <observation_time>2008-12-22T00:20:00Z</observation_time>
+      <latitude>45.58</latitude>
+      <longitude>-122.6</longitude>
+      <temp_c>-5.0</temp_c>
+      <dewpoint_c>-6.0</dewpoint_c>
+      <wind_dir_degrees>120</wind_dir_degrees>
+      <wind_speed_kt>14</wind_speed_kt>
+      <visibility_statute_mi>0.5</visibility_statute_mi>
+      <altim_in_hg>29.681103</altim_in_hg>
+      <quality_control_flags>
+        <auto_station>TRUE</auto_station>
+        <maintenance_indicator_on>TRUE</maintenance_indicator_on>
+      </quality_control_flags>
+      <wx_string>SN</wx_string>
+      <sky_condition sky_cover="OVC" cloud_base_ft_agl="1000" />
+      <flight_category>LIFR</flight_category>
+      <precip_in>0.01</precip_in>
+      <metar_type>METAR</metar_type>
+      <elevation_m>7.0</elevation_m>
+    </METAR>
+  </data>
+</response>

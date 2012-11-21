@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {stopGo = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                inLetterView = BigLetterView; 
+                outLetterView = BigLetterView; 
+                progressView = NSProgressIndicator; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {savePDF = id; }; 
+            CLASS = BigLetterView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

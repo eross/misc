@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA420018CDE011CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "-DDEBUG";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA430018CDE011CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA420018CDE011CA2923,
+				014CEA430018CDE011CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				CC93E18B066ECBC400D09EFE,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB8FE9D52D311CA2CBB,
+			);
+			isa = PBXGroup;
+			name = voodoopadplugins;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				1058C7ACFEA557BF11CA2CBB,
+				1058C7AEFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1672FE841209C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				CC9F2EAF072C9D3C00CDE7A9,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167FFE841241C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				CC9F2E41072C9AB100CDE7A9,
+				CC9F2E42072C9AB100CDE7A9,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7ACFEA557BF11CA2CBB = {
+			children = (
+				CC9F2E4D072C9B5300CDE7A9,
+				1058C7ADFEA557BF11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7ADFEA557BF11CA2CBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7AEFEA557BF11CA2CBB = {
+			children = (
+				089C1672FE841209C02AAC07,
+				089C167FFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FB8FE9D52D311CA2CBB = {
+			children = (
+				CC9F2E3C072C9A3800CDE7A9,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//CC0
+//CC1
+//CC2
+//CC3
+//CC4
+		CC93E18B066ECBC400D09EFE = {
+			buildPhases = (
+				CC93E18C066ECBC400D09EFE,
+				CC93E191066ECBC400D09EFE,
+				CC93E194066ECBC400D09EFE,
+				CC93E199066ECBC400D09EFE,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Volumes/srv/Users/gus/Projects/svn_voodoopad/plugin/build;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				INFOPLIST_FILE = "resources/WordCount-Info.plist";
+				INSTALL_PATH = "@executable_path/../PlugIns";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-framework Foundation -framework AppKit";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = WordCount;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost";
+				WRAPPER_EXTENSION = vpplugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = WordCountPlugin;
+			productName = HTMLExport;
+			productReference = CC9F2E3C072C9A3800CDE7A9;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HTMLExport</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MySoftwareCompany.HTMLExport</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0d1</string>
+</dict>
+</plist>
+";
+			productType = "com.apple.product-type.bundle";
+		};
+		CC93E18C066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2E43072C9AB100CDE7A9,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E191066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2EB0072C9D3C00CDE7A9,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E194066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2E44072C9AB100CDE7A9,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93E199066ECBC400D09EFE = {
+			buildActionMask = 2147483647;
+			files = (
+				CC9F2E4E072C9B5300CDE7A9,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9F2E3C072C9A3800CDE7A9 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = WordCount.vpplugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC9F2E41072C9AB100CDE7A9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = VPWordCountPlugin.h;
+			path = src/VPWordCountPlugin.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC9F2E42072C9AB100CDE7A9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = VPWordCountPlugin.m;
+			path = src/VPWordCountPlugin.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC9F2E43072C9AB100CDE7A9 = {
+			fileRef = CC9F2E41072C9AB100CDE7A9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2E44072C9AB100CDE7A9 = {
+			fileRef = CC9F2E42072C9AB100CDE7A9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2E4D072C9B5300CDE7A9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = VPPlugin.framework;
+			path = build/VPPlugin.framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC9F2E4E072C9B5300CDE7A9 = {
+			fileRef = CC9F2E4D072C9B5300CDE7A9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		CC9F2EAF072C9D3C00CDE7A9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			name = "WordCount-Info.plist";
+			path = "resources/WordCount-Info.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		CC9F2EB0072C9D3C00CDE7A9 = {
+			fileRef = CC9F2EAF072C9D3C00CDE7A9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}

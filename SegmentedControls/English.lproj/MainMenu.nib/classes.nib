@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {controlClicked = id; }; 
+            CLASS = SegmentedView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {display = NSTextField; }; 
+            SUPERCLASS = NSView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

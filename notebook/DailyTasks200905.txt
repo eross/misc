@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:11:05 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:11:05 Pacific Daylight Time
+
+====== DailyTasks200905 ======
+Created Wednesday 29 July 2009
+
+++ Daily Tasks200905
+
+5/1:    Expert role definition
+        Code re-use analysis
+        
+5/4:    LEDM/Lorentz connectivity requirements
+        1:1
+            QC planning
+            Requirements process
+        Installed Flextool and FlexCIO in prep for class.
+        Volta status meeting.
+        
+5/5:    Quality Center configuration.
+        Flextool class.
+        Firmware schedule.
+
+5/6     Updated sharepoint configuration.
+        Requirement entry into QC
+        Reschedule Volta/compress schedule.
+        
+5/7     Experimented with QC excel addin.
+        Added Eric requirements to QC
+        Volta build planning
+5/8     volta_defaults.mf cleanup
+        Ampere requirements analysis (with Wen-Li)
+        
+5/12    Volta/Ampere schedule shuffle.
+
+5/13    Requirements analysis
+        IDS 101 (from Dan Mag.)
+        Added Jon Johnson to csd200a
+        Added/deleted benz_mp3 from INFINITY
+        Investigated door open functionality.
+
+5/14    Team sharepoint reorg.  Single file list/filters
+        Ampere unit allocations
+        Submitted IT ticket for Rick Swimm workstation move.
+        Sam Angelos coffee talk.
+        Volta pre-build status meeting.
+        FW roles/contacts
+        
+5/15    Moving requirements into QC.
+        System reliability goals--FW.
+        
+5/18    Pen debug
+        Dashboard Updates
+        
+5/19-5/20
+        OTA app that gathers Ampere requirements from QC
+        Ampere minus impact investigation
+        
+        
+5/26    Wet pen delay analysis
+        Synch-up meeting for Volta/Ampere
+        More communication with Wen-li, Ann B. and Scott Smith.
+        Response to Carol Zampel re: QC proposal.
+        Section meeting.

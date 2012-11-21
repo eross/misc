@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:11:13 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:11:13 Pacific Daylight Time
+
+====== DailyTasks200906 ======
+Created Wednesday 29 July 2009
+
+++ Daily Tasks200906
+
+06/01   1:1 meeting with Dan.
+            Pen work schedule impacts.
+            Methodology for synching with BPD.
+        Small Architecture meeting.
+            Requirements should be "complete" by the end of BB1.
+    

@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:10:55 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:10:55 Pacific Daylight Time
+
+====== DailyTasks200904 ======
+Created Wednesday 29 July 2009
+
+++ Daily Tasks200904
+
+4/??:
+Unit allocations for firmware team.
+FW reliability requirements.
+
+4/27:  
+
+Updated autoflow to be more accomodating to config file URL specificiations.
+APA/calibration requirements for phases.
+
+4/28:
+
+Investigation/learning reports/tap tests.  Gaining understanding of what is needed to support Volta tiers and Ampere BB1
+
+Updated fw dates on integrated schedule.
+
+4/29:
+
+Reviewed Ampere requirements.  Identified gap for connectivity.
+Reviewed svn usage logs for correlation betweeen usage statistics and mergeinfo failures.
+Investigated root cause of Benz broken build. Communicating with last changer to identify fix.
+SHAID/APA BB1 requirements.  Forwarded to BPD.
+
+4/30:
+
+Sirius LOC measurement.  First pass estimate on code re-use.
+Generated flash build for Robert Niemand
+Architecture meeting:  UDW/PDL interactions.
+
+
+

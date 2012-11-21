@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	167D14C009F228D0001E3FA8 /* calc_bind */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = calc_bind;
+		sourceDirectories = (
+		);
+	};
+	167D14CC09F228D3001E3FA8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	167D14CD09F228D3001E3FA8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	167D14CF09F22B72001E3FA8 /* Converter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {363, 306}}";
+			sepNavSelRange = "{100, 0}";
+			sepNavVisRect = "{{0, 0}, {363, 306}}";
+			sepNavWindowFrame = "{{343, 513}, {402, 435}}";
+		};
+	};
+	167D14D009F22B72001E3FA8 /* Converter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {538, 227}}";
+			sepNavSelRange = "{322, 0}";
+			sepNavVisRect = "{{0, 0}, {538, 227}}";
+			sepNavWindowFrame = "{{210, 669}, {577, 356}}";
+		};
+	};
+	167D14F509F2B1E2001E3FA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 167D14D009F22B72001E3FA8 /* Converter.m */;
+		name = "Converter.m: 13";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	167D14F709F2B1E2001E3FA8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 167D14D009F22B72001E3FA8 /* Converter.m */;
+		name = "Converter.m: 13";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	16D8CA5B09F2F09A001C8639 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 167D14D009F22B72001E3FA8 /* Converter.m */;
+		name = "Converter.m: 13";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	16D8CA6109F2F9D4001C8639 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 167D14D009F22B72001E3FA8 /* Converter.m */;
+		name = "Converter.m: 13";
+		rLen = 0;
+		rLoc = 322;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeBuildStyle = 4A9504D0FFE6A4CB11CA0CBA /* Debug */;
+		activeExecutable = 167D14C009F228D0001E3FA8 /* calc_bind */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* calc_bind */;
+		codeSenseManager = 167D14CD09F228D3001E3FA8 /* Code sense */;
+		executables = (
+			167D14C009F228D0001E3FA8 /* calc_bind */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 166916236;
+			PBXWorkspaceStateSaveDate = 166916236;
+		};
+		perUserProjectItems = {
+			167D14F509F2B1E2001E3FA8 = 167D14F509F2B1E2001E3FA8 /* PBXTextBookmark */;
+			167D14F709F2B1E2001E3FA8 = 167D14F709F2B1E2001E3FA8 /* PBXTextBookmark */;
+			16D8CA5B09F2F09A001C8639 /* PBXTextBookmark */ = 16D8CA5B09F2F09A001C8639 /* PBXTextBookmark */;
+			16D8CA6109F2F9D4001C8639 /* PBXTextBookmark */ = 16D8CA6109F2F9D4001C8639 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 167D14CC09F228D3001E3FA8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D15AC270486D014006FF6A4 /* calc_bind */ = {
+		activeExec = 0;
+		executables = (
+			167D14C009F228D0001E3FA8 /* calc_bind */,
+		);
+	};
+}

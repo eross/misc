@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	0259C573FE90428111CA0C5A = {
+		activeBuildStyle = 2E58F360FFB2326E11CA0CBA;
+		activeTarget = 8D1AC9600486D14A00FE50C9;
+		codeSenseManager = 875C2A50064D7136007C7CB7;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					333.8799,
+					188.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					319,
+					20,
+					61,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 105738768;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+			);
+			PBXWorkspaceContents = (
+				{
+					PBXProjectWorkspaceModule_StateKey_Rev39 = {
+						PBXProjectWorkspaceModule_DEGV_Geometry = {
+							_collapsingFrameDimension = 0;
+							_indexOfCollapsedView = 0;
+							_percentageOfCollapsedView = 0;
+							isCollapsed = yes;
+							sizes = (
+								"{{0, 0}, {569, 120}}",
+								"{{0, 120}, {569, 358}}",
+							);
+						};
+						PBXProjectWorkspaceModule_DataSourceSelectionKey_Rev6 = {
+							BoundsStr = "{{0, 0}, {554, 255}}";
+							Rows = (
+								9,
+							);
+							VisibleRectStr = "{{0, 107}, {554, 103}}";
+						};
+						PBXProjectWorkspaceModule_EditorOpen = true;
+						PBXProjectWorkspaceModule_EmbeddedNavigatorGroup = {
+							PBXSplitModuleInNavigatorKey = {
+								Split0 = {
+									bookmark = 875C2B21064D7268007C7CB7;
+									history = (
+										875C2AE3064D721B007C7CB7,
+										875C2AE8064D7220007C7CB7,
+										875C2AEE064D7222007C7CB7,
+										875C2AF2064D7224007C7CB7,
+										875C2AF8064D7225007C7CB7,
+										875C2B08064D723E007C7CB7,
+										875C2B0C064D7241007C7CB7,
+										875C2B02064D7234007C7CB7,
+									);
+									prevStack = (
+										875C2A67064D715D007C7CB7,
+										875C2A6C064D715E007C7CB7,
+										875C2A71064D7168007C7CB7,
+										875C2A7B064D717E007C7CB7,
+										875C2AB1064D719C007C7CB7,
+										875C2AB5064D71A1007C7CB7,
+										875C2AE0064D721B007C7CB7,
+										875C2AE5064D721B007C7CB7,
+										875C2AE9064D7220007C7CB7,
+										875C2AEF064D7222007C7CB7,
+										875C2AF3064D7224007C7CB7,
+										875C2AF9064D7225007C7CB7,
+										875C2B03064D7234007C7CB7,
+										875C2B09064D723E007C7CB7,
+										875C2B0D064D7241007C7CB7,
+									);
+								};
+								SplitCount = 1;
+							};
+						};
+						PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+							PBXProjectWorkspaceModule_SGTM_Geometry = {
+								_collapsingFrameDimension = 0;
+								_indexOfCollapsedView = 0;
+								_percentageOfCollapsedView = 0;
+								sizes = (
+									"{{0, 0}, {182, 478}}",
+									"{{182, 0}, {569, 478}}",
+								);
+							};
+						};
+						PBXProjectWorkspaceModule_OldDetailFrame = "{{0, 0}, {569, 120}}";
+						PBXProjectWorkspaceModule_OldEditorFrame = "{{0, 120}, {569, 358}}";
+						PBXProjectWorkspaceModule_OldSuperviewFrame = "{{182, 0}, {569, 478}}";
+						PBXProjectWorkspaceModule_SGTM = {
+							PBXBottomSmartGroupGIDs = (
+								1C37FBAC04509CD000000102,
+								1C37FAAC04509CD000000102,
+								1C08E77C0454961000C914BD,
+								1CC0EA4004350EF90044410B,
+								1CC0EA4004350EF90041110B,
+								1C37FABC05509CD000000102,
+								1C37FABC05539CD112110102,
+								E2644B35053B69B200211256,
+								1C37FABC04509CD000100104,
+							);
+							PBXSmartGroupTreeModuleColumnData = {
+								PBXSmartGroupTreeModuleColumnWidthsKey = (
+									165,
+								);
+								PBXSmartGroupTreeModuleColumnsKey_v4 = (
+									MainColumn,
+								);
+							};
+							PBXSmartGroupTreeModuleOutlineStateKey_v7 = {
+								PBXSmartGroupTreeModuleOutlineStateExpansionKey = (
+									1C08E77C0454961000C914BD,
+								);
+								PBXSmartGroupTreeModuleOutlineStateSelectionKey = (
+									(
+										0,
+									),
+								);
+								PBXSmartGroupTreeModuleOutlineStateVisibleRectKey = "{{0, 0}, {165, 460}}";
+							};
+							PBXTopSmartGroupGIDs = (
+							);
+						};
+					};
+				},
+			);
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXBuildResultsModule" = {
+			};
+			"PBXWorkspaceContents:PBXConfiguration.PBXModule.PBXProjectWorkspaceModule" = {
+				PBXProjectWorkspaceModule_StateKey_Rev39 = {
+					PBXProjectWorkspaceModule_DEGV_Geometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {569, 120}}",
+							"{{0, 120}, {569, 358}}",
+						);
+					};
+					PBXProjectWorkspaceModule_DataSourceSelectionKey_Rev6 = {
+						BoundsStr = "{{0, 0}, {554, 255}}";
+						Rows = (
+							9,
+						);
+						VisibleRectStr = "{{0, 107}, {554, 103}}";
+					};
+					PBXProjectWorkspaceModule_EditorOpen = true;
+					PBXProjectWorkspaceModule_EmbeddedNavigatorGroup = {
+						PBXSplitModuleInNavigatorKey = {
+							Split0 = {
+								bookmark = 875C2B20064D7266007C7CB7;
+								history = (
+									875C2AE3064D721B007C7CB7,
+									875C2AE8064D7220007C7CB7,
+									875C2AEE064D7222007C7CB7,
+									875C2AF2064D7224007C7CB7,
+									875C2AF8064D7225007C7CB7,
+									875C2B08064D723E007C7CB7,
+									875C2B0C064D7241007C7CB7,
+									875C2B02064D7234007C7CB7,
+								);
+								prevStack = (
+									875C2A67064D715D007C7CB7,
+									875C2A6C064D715E007C7CB7,
+									875C2A71064D7168007C7CB7,
+									875C2A7B064D717E007C7CB7,
+									875C2AB1064D719C007C7CB7,
+									875C2AB5064D71A1007C7CB7,
+									875C2AE0064D721B007C7CB7,
+									875C2AE5064D721B007C7CB7,
+									875C2AE9064D7220007C7CB7,
+									875C2AEF064D7222007C7CB7,
+									875C2AF3064D7224007C7CB7,
+									875C2AF9064D7225007C7CB7,
+									875C2B03064D7234007C7CB7,
+									875C2B09064D723E007C7CB7,
+									875C2B0D064D7241007C7CB7,
+								);
+							};
+							SplitCount = 1;
+						};
+					};
+					PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+						PBXProjectWorkspaceModule_SGTM_Geometry = {
+							_collapsingFrameDimension = 0;
+							_indexOfCollapsedView = 0;
+							_percentageOfCollapsedView = 0;
+							sizes = (
+								"{{0, 0}, {182, 478}}",
+								"{{182, 0}, {569, 478}}",
+							);
+						};
+					};
+					PBXProjectWorkspaceModule_OldDetailFrame = "{{0, 0}, {569, 120}}";
+					PBXProjectWorkspaceModule_OldEditorFrame = "{{0, 120}, {569, 358}}";
+					PBXProjectWorkspaceModule_OldSuperviewFrame = "{{182, 0}, {569, 478}}";
+					PBXProjectWorkspaceModule_SGTM = {
+						PBXBottomSmartGroupGIDs = (
+							1C37FBAC04509CD000000102,
+							1C37FAAC04509CD000000102,
+							1C08E77C0454961000C914BD,
+							1CC0EA4004350EF90044410B,
+							1CC0EA4004350EF90041110B,
+							1C37FABC05509CD000000102,
+							1C37FABC05539CD112110102,
+							E2644B35053B69B200211256,
+							1C37FABC04509CD000100104,
+						);
+						PBXSmartGroupTreeModuleColumnData = {
+							PBXSmartGroupTreeModuleColumnWidthsKey = (
+								165,
+							);
+							PBXSmartGroupTreeModuleColumnsKey_v4 = (
+								MainColumn,
+							);
+						};
+						PBXSmartGroupTreeModuleOutlineStateKey_v7 = {
+							PBXSmartGroupTreeModuleOutlineStateExpansionKey = (
+								1C08E77C0454961000C914BD,
+							);
+							PBXSmartGroupTreeModuleOutlineStateSelectionKey = (
+								(
+									0,
+								),
+							);
+							PBXSmartGroupTreeModuleOutlineStateVisibleRectKey = "{{0, 0}, {165, 460}}";
+						};
+						PBXTopSmartGroupGIDs = (
+						);
+					};
+				};
+			};
+			PBXWorkspaceGeometries = (
+				{
+					Frame = "{{0, 0}, {751, 478}}";
+					PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+					};
+					RubberWindowFrame = "49 226 751 520 0 0 1024 746 ";
+				},
+			);
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXBuildResultsModule" = {
+				Frame = "{{0, 0}, {480, 217}}";
+				PBXModuleWindowStatusBarHidden = YES;
+				RubberWindowFrame = "272 407 480 238 0 0 1024 746 ";
+			};
+			"PBXWorkspaceGeometries:PBXConfiguration.PBXModule.PBXProjectWorkspaceModule" = {
+				Frame = "{{0, 0}, {751, 478}}";
+				PBXProjectWorkspaceModule_GeometryKey_Rev15 = {
+				};
+				RubberWindowFrame = "49 226 751 520 0 0 1024 746 ";
+			};
+			PBXWorkspaceStateSaveDate = 105738768;
+		};
+		perUserProjectItems = {
+			875C2A67064D715D007C7CB7 = 875C2A67064D715D007C7CB7;
+			875C2A6C064D715E007C7CB7 = 875C2A6C064D715E007C7CB7;
+			875C2A71064D7168007C7CB7 = 875C2A71064D7168007C7CB7;
+			875C2A7B064D717E007C7CB7 = 875C2A7B064D717E007C7CB7;
+			875C2AB1064D719C007C7CB7 = 875C2AB1064D719C007C7CB7;
+			875C2AB5064D71A1007C7CB7 = 875C2AB5064D71A1007C7CB7;
+			875C2AE0064D721B007C7CB7 = 875C2AE0064D721B007C7CB7;
+			875C2AE3064D721B007C7CB7 = 875C2AE3064D721B007C7CB7;
+			875C2AE5064D721B007C7CB7 = 875C2AE5064D721B007C7CB7;
+			875C2AE8064D7220007C7CB7 = 875C2AE8064D7220007C7CB7;
+			875C2AE9064D7220007C7CB7 = 875C2AE9064D7220007C7CB7;
+			875C2AEE064D7222007C7CB7 = 875C2AEE064D7222007C7CB7;
+			875C2AEF064D7222007C7CB7 = 875C2AEF064D7222007C7CB7;
+			875C2AF2064D7224007C7CB7 = 875C2AF2064D7224007C7CB7;
+			875C2AF3064D7224007C7CB7 = 875C2AF3064D7224007C7CB7;
+			875C2AF8064D7225007C7CB7 = 875C2AF8064D7225007C7CB7;
+			875C2AF9064D7225007C7CB7 = 875C2AF9064D7225007C7CB7;
+			875C2B02064D7234007C7CB7 = 875C2B02064D7234007C7CB7;
+			875C2B03064D7234007C7CB7 = 875C2B03064D7234007C7CB7;
+			875C2B08064D723E007C7CB7 = 875C2B08064D723E007C7CB7;
+			875C2B09064D723E007C7CB7 = 875C2B09064D723E007C7CB7;
+			875C2B0C064D7241007C7CB7 = 875C2B0C064D7241007C7CB7;
+			875C2B0D064D7241007C7CB7 = 875C2B0D064D7241007C7CB7;
+			875C2B21064D7268007C7CB7 = 875C2B21064D7268007C7CB7;
+		};
+		sourceControlManager = 875C2A4F064D7136007C7CB7;
+		userBuildSettings = {
+		};
+	};
+	0259C578FE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 326}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {530, 326}}";
+		};
+	};
+	0259C57BFE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 326}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {530, 326}}";
+		};
+	};
+	0259C57CFE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 326}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRect = "{{0, 0}, {530, 326}}";
+		};
+	};
+	0259C583FE90428111CA0C5A = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 326}}";
+			sepNavSelRange = "{0, 352}";
+			sepNavVisRect = "{{0, 0}, {530, 326}}";
+		};
+	};
+	32DBCF980370C29C00C91783 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {560, 326}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {530, 326}}";
+		};
+	};
+	3FFF704405196B45004E8EDC = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {554, 377}}";
+			sepNavSelRange = "{731, 0}";
+			sepNavVisRect = "{{0, 40}, {530, 326}}";
+		};
+	};
+	3FFF704505196B45004E8EDC = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {608, 5305}}";
+			sepNavSelRange = "{0, 9004}";
+			sepNavVisRect = "{{0, 4979}, {530, 326}}";
+		};
+	};
+	875C2A4F064D7136007C7CB7 = {
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	875C2A50064D7136007C7CB7 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	875C2A67064D715D007C7CB7 = {
+		fRef = 0259C57CFE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "//\n//  BigLetterPalette.h\n//  ";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 149;
+	};
+	875C2A6C064D715E007C7CB7 = {
+		fRef = 0259C578FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterPalette.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 216;
+		vrLoc = 0;
+	};
+	875C2A71064D7168007C7CB7 = {
+		fRef = 3FFF704405196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "BigLetterView.h: copyable";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 389;
+		vrLoc = 342;
+	};
+	875C2A7B064D717E007C7CB7 = {
+		fRef = 3FFF704505196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "BigLetterView.m: 379";
+		rLen = 0;
+		rLoc = 9004;
+		rType = 0;
+		vrLen = 164;
+		vrLoc = 1877;
+	};
+	875C2AB1064D719C007C7CB7 = {
+		fRef = 0259C583FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "palette.table: 12";
+		rLen = 0;
+		rLoc = 352;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 0;
+	};
+	875C2AB5064D71A1007C7CB7 = {
+		fRef = 8D1AC97B0486D23100FE50C9;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	875C2AE0064D721B007C7CB7 = {
+		fRef = 0259C578FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterPalette.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 0;
+	};
+	875C2AE3064D721B007C7CB7 = {
+		fRef = 32DBCF980370C29C00C91783;
+		isa = PBXTextBookmark;
+		name = "BigLetter_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	875C2AE5064D721B007C7CB7 = {
+		fRef = 32DBCF980370C29C00C91783;
+		isa = PBXTextBookmark;
+		name = "BigLetter_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 199;
+		vrLoc = 0;
+	};
+	875C2AE8064D7220007C7CB7 = {
+		fRef = 0259C57BFE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterInspector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	875C2AE9064D7220007C7CB7 = {
+		fRef = 0259C57BFE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterInspector.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 100;
+		vrLoc = 0;
+	};
+	875C2AEE064D7222007C7CB7 = {
+		fRef = 0259C57CFE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterPalette.h: view";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	875C2AEF064D7222007C7CB7 = {
+		fRef = 0259C57CFE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterPalette.h: view";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	875C2AF2064D7224007C7CB7 = {
+		fRef = 0259C578FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterPalette.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 0;
+	};
+	875C2AF3064D7224007C7CB7 = {
+		fRef = 0259C578FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "BigLetterPalette.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 0;
+	};
+	875C2AF8064D7225007C7CB7 = {
+		fRef = 3FFF704405196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "BigLetterView.h: 27";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 25;
+	};
+	875C2AF9064D7225007C7CB7 = {
+		fRef = 3FFF704405196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "BigLetterView.h: 27";
+		rLen = 0;
+		rLoc = 731;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 25;
+	};
+	875C2B02064D7234007C7CB7 = {
+		fRef = 3FFF704505196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "BigLetterView.m: 379";
+		rLen = 0;
+		rLoc = 9004;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 1745;
+	};
+	875C2B03064D7234007C7CB7 = {
+		fRef = 3FFF704505196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "BigLetterView.m: 379";
+		rLen = 0;
+		rLoc = 9004;
+		rType = 0;
+		vrLen = 433;
+		vrLoc = 1745;
+	};
+	875C2B08064D723E007C7CB7 = {
+		fRef = 0259C583FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"1.0\">
+  <dict>
+	<key>Class</key> <string>BigLetterPalette</string>
+	<key>NibFile</key> <string>BigLetterPalette</string>
+	<key>ExportClasses</key>
+	<array>
+		<string>BigLetterView</string>
+	</array>
+  </dict>
+</plist>";
+		rLen = 352;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 0;
+	};
+	875C2B09064D723E007C7CB7 = {
+		fRef = 0259C583FE90428111CA0C5A;
+		isa = PBXTextBookmark;
+		name = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"1.0\">
+  <dict>
+	<key>Class</key> <string>BigLetterPalette</string>
+	<key>NibFile</key> <string>BigLetterPalette</string>
+	<key>ExportClasses</key>
+	<array>
+		<string>BigLetterView</string>
+	</array>
+  </dict>
+</plist>";
+		rLen = 352;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 0;
+	};
+	875C2B0C064D7241007C7CB7 = {
+		fRef = 8D1AC97B0486D23100FE50C9;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	875C2B0D064D7241007C7CB7 = {
+		fRef = 8D1AC97B0486D23100FE50C9;
+		isa = PBXTextBookmark;
+		name = "English: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 257;
+		vrLoc = 0;
+	};
+	875C2B21064D7268007C7CB7 = {
+		fRef = 3FFF704505196B45004E8EDC;
+		isa = PBXTextBookmark;
+		name = "#import \"BigLetterView.h\"\n#import \"FirstLetter.h\"\n\n@implementation BigLetterView\n\n- (id)initWithFrame:(NSRect)frameRect\n{\n    if (self = [super initWithFrame:frameRect]) {\n        NSLog(@\"initializing view\");\n        [self prepareAttributes];\n        [self setBgColor:[NSColor yellowColor]];\n        [self setString:@\" \"];\n\t\t[self setCopyable:YES];\n        [self registerForDraggedTypes:[NSArray arrayWithObject:NSStringPboardType]];\n    }\n    return self;\n}\n\n- (id)initWithCoder:(NSCoder *)coder\n{\n    if (self = [super initWithCoder:coder]) {\n        [self registerForDraggedTypes:[NSArray arrayWithObject:NSStringPboardType]];\n        [self prepareAttributes];\n\t\t\n\t\tif ([coder allowsKeyedCoding]) {\n\t\t\t[self setBgColor:[coder decodeObjectForKey:@\"bgColor\"]];\n\t\t\t[self setString:[coder decodeObjectForKey:@\"string\"]];\n\t\t\t[self setCopyable:[coder decodeBoolForKey:@\"copyable\"]];\n\t\t} else {\n\t\t\t[self setBgColor:[coder decodeObject]];\n\t\t\t[self setString:[coder decodeObject]];\n\t\t\t[self setCopyable:[coder decodeValueOfObjCType:@encode(BOOL) \n\t\t\t\t\t\t\t\t\t\t\t\t\t\tat:&copyable]];\n\t\t}\n    }\n    return self;\n}\n\n- (void)encodeWithCoder:(NSCoder *)coder\n{\n\t// Call NSView's encodeWithCoder: method\n    [super encodeWithCoder:coder];\n\tif ([coder allowsKeyedCoding]) {\n\t\t[coder encodeObject:bgColor forKey:@\"bgColor\"];\n\t\t[coder encodeObject:string forKey:@\"string\"];\n\t\t[coder encodeBool:copyable forKey:@\"copyable\"];\n\t} else {\n\t\t[coder encodeObject:bgColor];\n\t\t[coder encodeObject:string];\n\t\t[coder encodeValueOfObjCType:@encode(BOOL) at:&copyable];\n\t}\n}\n\n- (void)setBgColor:(NSColor *)c\n{\n    [c retain];\n    [bgColor release];\n    bgColor = c;\n    [self setNeedsDisplay:YES];\n}\n\n- (NSColor *)bgColor\n{\n    return bgColor;\n}\n\n- (void)setString:(NSString *)s\n{\n    [s retain];\n    [string release];\n    string = s;\n    NSLog(@\"The string is now %@\", string);\n    [self setNeedsDisplay:YES];\n}\n\n- (NSString *)string\n{\n    return string;\n}\n\n- (void)drawRect:(NSRect)rect\n{\n    NSRect bounds = [self bounds];\n    \n    // Draw white background if highlighted\n    if (highlighted) {\n        [[NSColor whiteColor] set];\n    } else {\n        [bgColor set];\n    }\n    [NSBezierPath fillRect:bounds];\n    \n    [self drawStringCenteredIn:bounds];\n\t// Am I the window's first responder?\n    if ([[self window] firstResponder] == self) {\n\t\t[[NSColor keyboardFocusIndicatorColor] set];\n\t\t[NSBezierPath setDefaultLineWidth:4.0];\n        [NSBezierPath strokeRect:bounds];\n    }\n}\n\n- (BOOL)acceptsFirstResponder\n{\n    NSLog(@\"Accepting\");\n    return YES;\n}\n\n- (BOOL)resignFirstResponder\n{\n    NSLog(@\"Resigning\");\n    [self setNeedsDisplay:YES];\n    return YES;\n}\n\n- (BOOL)becomeFirstResponder\n{\n    NSLog(@\"Becoming\");\n    [self setNeedsDisplay:YES];\n    return YES;\n}\n\n- (void)keyDown:(NSEvent *)event\n{\n    [self interpretKeyEvents:[NSArray arrayWithObject:event]];\n}\n\n- (void)insertText:(NSString *)input\n{\n    // Set string to be what the user typed\n    [self setString:input];\n}\n\n- (void)insertTab:(id)sender\n{\n    [[self window] selectKeyViewFollowingView:self];\n}\n\n- (void)insertBacktab:(id)sender\n{\n    [[self window] selectKeyViewPrecedingView:self];\n}\n\n- (void)prepareAttributes\n{\n    attributes = [[NSMutableDictionary alloc] init];\n    \n    [attributes setObject:[NSFont fontWithName:@\"Helvetica\" size:75]\n                   forKey:NSFontAttributeName];\n    \n    [attributes setObject:[NSColor redColor]\n                   forKey:NSForegroundColorAttributeName];\n}\n\n- (void)drawStringCenteredIn:(NSRect)r\n{\n    NSPoint stringOrigin;\n    NSSize stringSize;\n    \n    stringSize = [string sizeWithAttributes:attributes];\n    stringOrigin.x = r.origin.x + (r.size.width - stringSize.width)/2;\n    stringOrigin.y = r.origin.y + (r.size.height - stringSize.height)/2;\n    [string drawAtPoint:stringOrigin withAttributes:attributes];\n}\n\n- (IBAction)savePDF:(id)sender\n{\n    NSSavePanel *panel = [NSSavePanel savePanel];\n    [panel setRequiredFileType:@\"pdf\"];\n    [panel beginSheetForDirectory:nil\n                             file:nil\n                   modalForWindow:[self window]\n                    modalDelegate:self\n                   didEndSelector:@selector(didEnd:returnCode:contextInfo:)\n                      contextInfo:NULL];\n}\n\n- (void)didEnd:(NSSavePanel *)sheet returnCode:(int)code contextInfo:(void *)contextInfo\n{\n    NSRect r;\n    NSData *data;\n    \n    if (code == NSOKButton) {\n        r = [self bounds];\n        data = [self dataWithPDFInsideRect:r];\n        [data writeToFile:[sheet filename] atomically:YES];\n    }\n}\n\n- (void)writeStringToPasteboard:(NSPasteboard *)pb\n{\n    // Declare types\n    [pb declareTypes:[NSArray arrayWithObject:NSStringPboardType] owner:self];\n    // Copy data to the pasteboard\n    [pb setString:string forType:NSStringPboardType];\n}\n\n- (BOOL)readStringFromPasteboard:(NSPasteboard *)pb\n{\n    NSString *value;\n    NSString *type;\n    \n    // Is there a string on the pasteboard?\n    type = [pb availableTypeFromArray:[NSArray arrayWithObject:NSStringPboardType]];\n    if (type) {\n        // Read the string from the pasteboard\n        value = [pb stringForType:NSStringPboardType];\n        [self setString:[value firstLetter]];\n        return YES;\n    }\n    return NO;\n}\n\n- (IBAction)cut:(id)sender\n{\n    [self copy:sender];\n    [self setString:@\"\"];\n}\n\n- (IBAction)copy:(id)sender\n{\n    NSPasteboard *pb = [NSPasteboard generalPasteboard];\n    [self writeStringToPasteboard:pb];\n}\n\n- (IBAction)paste:(id)sender\n{\n    NSPasteboard *pb = [NSPasteboard generalPasteboard];\n    if (![self readStringFromPasteboard:pb]) {\n        NSBeep();\n    }\n}\n\n- (unsigned int)draggingSourceOperationMaskForLocal:(BOOL)flag\n{\n    return NSDragOperationCopy | NSDragOperationDelete;\n}\n\n- (void)mouseDragged:(NSEvent *)event\n{\n    NSRect imageBounds;\n    NSPasteboard *pb;\n    NSImage *anImage;\n    NSSize s;\n    NSPoint p;\n\t\n\tif (!copyable) {\n\t\tNSLog(@\"Drag not permitted\");\n\t\treturn;\n\t}\n    \n    // Create the image that will be dragged\n    anImage = [[NSImage alloc] init];\n    \n    // Get the size of the string\n    s = [string sizeWithAttributes:attributes];\n    \n    // Create a rect in which you will draw the letter in he image\n    imageBounds.origin = NSMakePoint(0,0);\n    imageBounds.size = s;\n    [anImage setSize:s];\n    \n    // Draw the letter on the image\n    [anImage lockFocus];\n    [self drawStringCenteredIn:imageBounds];\n    [anImage unlockFocus];\n    \n    // Get the location of the drag event\n    p = [self convertPoint:[event locationInWindow] fromView:nil];\n    \n    // Drag from the center of the image\n    p.x = p.x - s.width/2;\n    p.y = p.y - s.height/2;\n    \n    // Get the pasteboard\n    pb = [NSPasteboard pasteboardWithName:NSDragPboard];\n    \n    // Put the string on the pasteboard\n    [self writeStringToPasteboard:pb];\n    \n    // Start the drag\n    [self dragImage:anImage\n                 at:p \n             offset:NSMakeSize(0,0) \n              event:event \n         pasteboard:pb \n             source:self \n          slideBack:YES];\n    [anImage release];\n}\n\n- (void)draggedImage:(NSImage *)image\n             endedAt:(NSPoint)screenPoint\n           operation:(NSDragOperation)operation\n{\n    if (operation == NSDragOperationDelete) {\n        [self setString:@\"\"];\n    }\n}\n\n- (unsigned int)draggingEntered:(id <NSDraggingInfo>)sender\n{\n    NSLog(@\"draggingEntered:\");\n    if ([sender draggingSource] != self) {\n        NSPasteboard *pb = [sender draggingPasteboard];\n        NSString *type = [pb availableTypeFromArray:[NSArray arrayWithObject:NSStringPboardType]];\n        if (type != nil) {\n            highlighted = YES;\n            [self setNeedsDisplay:YES];\n            return NSDragOperationCopy;\n        }\n    }\n    return NSDragOperationNone;\n}\n\n- (void)draggingExited:(id <NSDraggingInfo>)sender\n{\n    NSLog(@\"draggingExited:\");\n    highlighted = NO;\n    [self setNeedsDisplay:YES];\n}\n\n- (BOOL)prepareForDragOperation:(id <NSDraggingInfo>)sender\n{\n    return YES;\n}\n\n- (BOOL)performDragOperation:(id <NSDraggingInfo>)sender\n{\n    NSPasteboard *pb = [sender draggingPasteboard];\n    if (![self readStringFromPasteboard:pb]) {\n        NSLog(@\"Error: Could not read from dragging pasteboard\");\n        return NO;\n    }\n    return YES;\n}\n\n- (void)concludeDragOperation:(id <NSDraggingInfo>)sender\n{\n    NSLog(@\"concludeDragOperation:\");\n    highlighted = NO;\n    [self setNeedsDisplay:YES];\n}\n\n- (void)setCopyable:(BOOL)yn\n{\n\tcopyable = yn;\n}\n\n- (BOOL)copyable\n{\n\treturn copyable;\n}\n\n- (BOOL)validateMenuItem:(NSMenuItem *)menuItem\n{\n\tNSString *selectorString;\n\tselectorString = NSStringFromSelector([menuItem action]);\n\tNSLog(@\"validateCalled for %@\", selectorString);\n\t\n\t// By using the action instead of the title, we do not\n\t// have to worry about whether the menu item is localized\n\tif (([menuItem action] == @selector(copy:)) ||\n\t\t([menuItem action] == @selector(cut:))) {\n\t\treturn copyable;\n\t} else {\n\t\treturn YES;\n\t}\n}\n\n- (void)dealloc\n{\n    [string release];\n    [attributes release];\n    [bgColor release];\n    [super dealloc];\n}\n\n@end\n";
+		rLen = 9004;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 512;
+		vrLoc = 8492;
+	};
+	8D1AC9600486D14A00FE50C9 = {
+		activeExec = 0;
+	};
+	8D1AC97B0486D23100FE50C9 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 326}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {530, 326}}";
+		};
+	};
+}

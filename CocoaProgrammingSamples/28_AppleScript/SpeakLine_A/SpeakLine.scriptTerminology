@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>	
+	<key>Description</key>
+	<string>SpeakLine Script Suite</string>
+	<key>Name</key>
+	<string>SpeakLine Suite</string>
+	
+	<key>Classes</key>
+	<dict>
+		<key>MyApplication</key>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>utterance</key>
+				<dict>
+					<key>Description</key>
+					<string>The utterance</string>
+					<key>Name</key>
+					<string>utterance</string>
+				</dict>
+			</dict>
+			<key>Description</key>
+			<string>Speakline App</string>
+			<key>Name</key>
+			<string>my application</string>
+			<key>PluralName</key>
+			<string>my applications</string>
+		</dict>
+	</dict>
+	
+	<key>Commands</key>
+	<dict>
+		<key>Utter</key>
+		<dict>
+			<key>Description</key>
+			<string>Speak the utterance</string>
+			<key>Name</key>
+			<string>utter</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

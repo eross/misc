@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E348640D1AE13900D303B4 /* tinyPortability.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E348590D1AE13900D303B4 /* tinyPortability.cpp */; };
+		16E348650D1AE13900D303B4 /* tinyConn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E3485A0D1AE13900D303B4 /* tinyConn.cpp */; };
+		16E348670D1AE13900D303B4 /* smallExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E3485C0D1AE13900D303B4 /* smallExample.cpp */; };
+		16E348680D1AE13900D303B4 /* tinyDgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E3485D0D1AE13900D303B4 /* tinyDgram.cpp */; };
+		16E348690D1AE13900D303B4 /* tinyTelnet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E3485E0D1AE13900D303B4 /* tinyTelnet.cpp */; };
+		16E3486A0D1AE13900D303B4 /* strtok_r.c in Sources */ = {isa = PBXBuildFile; fileRef = 16E348600D1AE13900D303B4 /* strtok_r.c */; };
+		16E3486C0D1AE13900D303B4 /* tinyServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16E348630D1AE13900D303B4 /* tinyServer.cpp */; };
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8DD76FB00486AB0100D96B5E /* tinyip-mixed.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* tinyip-mixed.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* tinyip-mixed.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		16E348590D1AE13900D303B4 /* tinyPortability.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyPortability.cpp; path = ../tinyIP/src/tinyPortability.cpp; sourceTree = SOURCE_ROOT; };
+		16E3485A0D1AE13900D303B4 /* tinyConn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyConn.cpp; path = ../tinyIP/src/tinyConn.cpp; sourceTree = SOURCE_ROOT; };
+		16E3485C0D1AE13900D303B4 /* smallExample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = smallExample.cpp; path = ../tinyIP/src/smallExample.cpp; sourceTree = SOURCE_ROOT; };
+		16E3485D0D1AE13900D303B4 /* tinyDgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyDgram.cpp; path = ../tinyIP/src/tinyDgram.cpp; sourceTree = SOURCE_ROOT; };
+		16E3485E0D1AE13900D303B4 /* tinyTelnet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyTelnet.cpp; path = ../tinyIP/src/tinyTelnet.cpp; sourceTree = SOURCE_ROOT; };
+		16E3485F0D1AE13900D303B4 /* tinyTelnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyTelnet.h; path = ../tinyIP/src/tinyTelnet.h; sourceTree = SOURCE_ROOT; };
+		16E348600D1AE13900D303B4 /* strtok_r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = strtok_r.c; path = ../tinyIP/src/strtok_r.c; sourceTree = SOURCE_ROOT; };
+		16E348620D1AE13900D303B4 /* tinyCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyCommand.h; path = ../tinyIP/src/tinyCommand.h; sourceTree = SOURCE_ROOT; };
+		16E348630D1AE13900D303B4 /* tinyServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyServer.cpp; path = ../tinyIP/src/tinyServer.cpp; sourceTree = SOURCE_ROOT; };
+		16E348700D1AE15200D303B4 /* tinyTelnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyTelnet.h; path = ../tinyIP/include/tinyTelnet.h; sourceTree = SOURCE_ROOT; };
+		16E348710D1AE15200D303B4 /* tinyServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyServer.h; path = ../tinyIP/include/tinyServer.h; sourceTree = SOURCE_ROOT; };
+		16E348720D1AE15200D303B4 /* tinyConn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyConn.h; path = ../tinyIP/include/tinyConn.h; sourceTree = SOURCE_ROOT; };
+		16E348730D1AE15200D303B4 /* tinyPortability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyPortability.h; path = ../tinyIP/include/tinyPortability.h; sourceTree = SOURCE_ROOT; };
+		8DD76FB20486AB0100D96B5E /* tinyip-mixed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tinyip-mixed"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0FF2C0290799A04C91782 /* tinyip-mixed.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "tinyip-mixed.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* tinyip-mixed */ = {
+			isa = PBXGroup;
+			children = (
+				16E3486E0D1AE14900D303B4 /* Headers */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = "tinyip-mixed";
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				16E348590D1AE13900D303B4 /* tinyPortability.cpp */,
+				16E3485A0D1AE13900D303B4 /* tinyConn.cpp */,
+				16E3485C0D1AE13900D303B4 /* smallExample.cpp */,
+				16E3485D0D1AE13900D303B4 /* tinyDgram.cpp */,
+				16E3485E0D1AE13900D303B4 /* tinyTelnet.cpp */,
+				16E3485F0D1AE13900D303B4 /* tinyTelnet.h */,
+				16E348600D1AE13900D303B4 /* strtok_r.c */,
+				16E348620D1AE13900D303B4 /* tinyCommand.h */,
+				16E348630D1AE13900D303B4 /* tinyServer.cpp */,
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		16E3486E0D1AE14900D303B4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				16E348700D1AE15200D303B4 /* tinyTelnet.h */,
+				16E348710D1AE15200D303B4 /* tinyServer.h */,
+				16E348720D1AE15200D303B4 /* tinyConn.h */,
+				16E348730D1AE15200D303B4 /* tinyPortability.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* tinyip-mixed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* tinyip-mixed.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* tinyip-mixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "tinyip-mixed" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tinyip-mixed";
+			productInstallPath = "$(HOME)/bin";
+			productName = "tinyip-mixed";
+			productReference = 8DD76FB20486AB0100D96B5E /* tinyip-mixed */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tinyip-mixed" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* tinyip-mixed */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* tinyip-mixed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+				16E348640D1AE13900D303B4 /* tinyPortability.cpp in Sources */,
+				16E348650D1AE13900D303B4 /* tinyConn.cpp in Sources */,
+				16E348670D1AE13900D303B4 /* smallExample.cpp in Sources */,
+				16E348680D1AE13900D303B4 /* tinyDgram.cpp in Sources */,
+				16E348690D1AE13900D303B4 /* tinyTelnet.cpp in Sources */,
+				16E3486A0D1AE13900D303B4 /* strtok_r.c in Sources */,
+				16E3486C0D1AE13900D303B4 /* tinyServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "tinyip-mixed";
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "tinyip-mixed";
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = TINYIP_THREADX;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = TINYIP_THREADX;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "tinyip-mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tinyip-mixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,8 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyObject; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = WinDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

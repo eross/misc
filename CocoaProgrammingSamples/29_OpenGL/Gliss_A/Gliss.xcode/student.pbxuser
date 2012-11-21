@@ -1,0 +1,79 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA = {
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA;
+		activeExecutable = 3FFF7064051973DB004E8EDC;
+		activeTarget = 8D1107260486CEB800E47090;
+		addToTargets = (
+			8D1107260486CEB800E47090,
+		);
+		codeSenseManager = 3FFF7074051973F3004E8EDC;
+		executables = (
+			3FFF7064051973DB004E8EDC,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+			};
+			PBXPerProjectTemplateStateSaveDate = 85554139;
+			PBXWorkspaceStateSaveDate = 85554139;
+		};
+		sourceControlManager = 3FFF7073051973F3004E8EDC;
+		userBuildSettings = {
+		};
+	};
+	3FFF7064051973DB004E8EDC = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = Gliss;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	3FFF7073051973F3004E8EDC = {
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	3FFF7074051973F3004E8EDC = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	3FFF70A1051974DF004E8EDC = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 239}}";
+			sepNavSelRange = "{231, 0}";
+			sepNavVisRect = "{{0, 0}, {796, 239}}";
+		};
+	};
+	8D1107260486CEB800E47090 = {
+		activeExec = 0;
+		executables = (
+			3FFF7064051973DB004E8EDC,
+		);
+	};
+}

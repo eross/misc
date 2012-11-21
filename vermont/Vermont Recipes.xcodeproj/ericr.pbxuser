@@ -1,0 +1,123 @@
+// !$*UTF8*$!
+{
+	1688652709415D1A004C228F /* Vermont Recipes */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Vermont Recipes";
+		sourceDirectories = (
+		);
+	};
+	1688654609415D3B004C228F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	1688654709415D3B004C228F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 4A9504D0FFE6A4CB11CA0CBA /* Development */;
+		activeExecutable = 1688652709415D1A004C228F /* Vermont Recipes */;
+		activeTarget = 2A37F4C6FDCFA73011CA2CEA /* Vermont Recipes */;
+		codeSenseManager = 1688654709415D3B004C228F /* Code sense */;
+		executables = (
+			1688652709415D1A004C228F /* Vermont Recipes */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					660,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 155278618;
+			PBXWorkspaceStateSaveDate = 155278618;
+		};
+		sourceControlManager = 1688654609415D3B004C228F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4C6FDCFA73011CA2CEA /* Vermont Recipes */ = {
+		activeExec = 0;
+		executables = (
+			1688652709415D1A004C228F /* Vermont Recipes */,
+		);
+	};
+	F59A188E02FFEF3101000134 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {994, 1453}}";
+			sepNavSelRange = "{1863, 0}";
+			sepNavVisRect = "{{0, 710}, {994, 743}}";
+			sepNavWindowFrame = "{{130, 61}, {1033, 857}}";
+		};
+	};
+	F5ED567C0218506201000134 /* NSString+VRStringUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1520, 728}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {994, 728}}";
+			sepNavWindowFrame = "{{84, 103}, {1033, 857}}";
+		};
+	};
+	F5ED567D0218506201000134 /* NSString+VRStringUtilities.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5762, 1442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 45}, {994, 728}}";
+			sepNavWindowFrame = "{{107, 82}, {1033, 857}}";
+		};
+	};
+}

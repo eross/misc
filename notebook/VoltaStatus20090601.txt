@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:07:40 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:07:40 Pacific Daylight Time
+
+====== VoltaStatus20090601 ======
+Created Wednesday 29 July 2009
+
+++ Volta Status20090601
+
+Agenda:
+
+Build status(Eric)
+  Units available this afternoon (3-4)
+Latest schedule(Eric)
+  What is the pen delivery schedule? (Eric)
+Quick roundtable status(All)
+  Tim:  working with EE team to characterize boards for build release.
+        
+  Toby:  good board communications.  Pen too hot with Vdd on.  Failed ink shorts with low Vpp.  On hunch, tried the Volta unit with the true carriage board(good registration).  Initial look is positive.  Passed ink-shorts test.  Haven't tried heating yet.  Just got done soldering needed leads.  Will try when he gets back after meeting. Near term goal is to spit.
+  
+  Marc:  checked in some datapath code.  No idea if it works.  Ink should come out, probably.  After Toby makes changes, will be ready to try.  Toby's changes and Marc's changes are currently out of sink and cause an assert.  Will wait for Toby checkin and unit arrival before fixing the assert.
+  
+  Liz:  Ampere: media handling in.  Waiting for Alex for tailgating/prepick.  Cleaning up code--removing unused gunk.  Waiting first unit.
+  
+  Dan Mag:  Volta:  With Kit, working on svc algorithms.  Before delivering V unit to Toby, Ian helped with priming algorithm.  oops in-out-in for speed mech.  Miservo did not support this.
+  
+  Christine:  Just back from vacation.  Awaiting Volta.  Will be talking to Melissa to get update.  
+  
+  
+Ampere vs. Ampere minus (Milliamp?).  How do we want to structure the firmware?  Separate, self-configuring, etc.
+
+1) Will there be different electronics mb between the two?
+2) Need specific POR list of differences to make the decision.
+
+  Our preference is to have separate/distinct builds.  (2 makefiles/makefile options)
+
+

@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA = {
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA;
+		activeExecutable = 3F541AAB0515F82200252AF5;
+		activeTarget = 8D1107260486CEB800E47090;
+		codeSenseManager = 3F541AB10515F82400252AF5;
+		executables = (
+			3F541AAB0515F82200252AF5,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+			};
+			PBXPerProjectTemplateStateSaveDate = 85327104;
+		};
+		sourceControlManager = 3F541AB00515F82400252AF5;
+		userBuildSettings = {
+		};
+	};
+	3F541AAB0515F82200252AF5 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = ImageFun;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	3F541AB00515F82400252AF5 = {
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	3F541AB10515F82400252AF5 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	3F541AB20515F8B500252AF5 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
+			sepNavSelRange = "{251, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 428}}";
+		};
+	};
+	3F541AB30515F8B500252AF5 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
+			sepNavSelRange = "{127, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 428}}";
+		};
+	};
+	8D1107260486CEB800E47090 = {
+		activeExec = 0;
+		executables = (
+			3F541AAB0515F82200252AF5,
+		);
+	};
+}

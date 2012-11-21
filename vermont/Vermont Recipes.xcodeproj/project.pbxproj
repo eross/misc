@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXApplicationTarget section */
+		2A37F4C6FDCFA73011CA2CEA /* Vermont Recipes */ = {
+			isa = PBXApplicationTarget;
+			buildConfigurationList = 1688653E09415D3B004C228F /* Build configuration list for PBXApplicationTarget "Vermont Recipes" */;
+			buildPhases = (
+				2A37F4C7FDCFA73011CA2CEA /* Headers */,
+				2A37F4C9FDCFA73011CA2CEA /* Resources */,
+				2A37F4CEFDCFA73011CA2CEA /* Sources */,
+				2A37F4D1FDCFA73011CA2CEA /* Frameworks */,
+				F5B5BEF002FD57F401000134 /* ShellScript */,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Vermont Recipes";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			name = "Vermont Recipes";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Vermont Recipes";
+			productReference = 1758732AFF379DA111CA2CBB /* Vermont Recipes.app */;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>VRd1</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>VRMainDocumentIcon</string>
+			<key>CFBundleTypeName</key>
+			<string>Vermont Recipes document</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>VRd1</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>VRDocument</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Vermont Recipes</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Vermont Recipes 1.0, Copyright © 2000–2002 Bill Cheeseman</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Vermont Recipes Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Vermont Recipes Help</string>
+	<key>CFBundleIconFile</key>
+	<string>VRApplicationIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.stepwise.VermontRecipes</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Vermont Recipes</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>VRa1</string>
+	<key>CFBundleVersion</key>
+	<string>21</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+/* End PBXApplicationTarget section */
+
+/* Begin PBXBuildFile section */
+		080E96D9FE201CDB7F000001 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		080E96DAFE201CDB7F000001 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */; };
+		089C1661FE840EACC02AAC07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		1058C7A9FEA54F5311CA2CBB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		2A37F4C8FDCFA73011CA2CEA /* VRDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A37F4AEFDCFA73011CA2CEA /* VRDocument.h */; };
+		2A37F4CFFDCFA73011CA2CEA /* VRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* VRDocument.m */; settings = {ATTRIBUTES = (); }; };
+		2A37F4D0FDCFA73011CA2CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		F50E8FED023D128001000134 /* VRUndoableTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F50E8FEB023D128001000134 /* VRUndoableTextField.h */; };
+		F50E8FEE023D128001000134 /* VRUndoableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F50E8FEC023D128001000134 /* VRUndoableTextField.m */; };
+		F518A886020826AB01000134 /* VRMainWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F518A884020826AB01000134 /* VRMainWindowController.h */; };
+		F518A887020826AB01000134 /* VRMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F518A885020826AB01000134 /* VRMainWindowController.m */; };
+		F518A88A0208355901000134 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F518A8880208355901000134 /* Localizable.strings */; };
+		F524A8EE0226A23201000134 /* VRTextFieldModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F524A8EC0226A23201000134 /* VRTextFieldModel.h */; };
+		F524A8EF0226A23201000134 /* VRTextFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F524A8ED0226A23201000134 /* VRTextFieldModel.m */; };
+		F524A8F10226A8BD01000134 /* VRTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = F524A8F00226A8BD01000134 /* VRTextFieldController.m */; };
+		F52F8E690262F83D01000134 /* VRAntiquesTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F52F8E670262F83D01000134 /* VRAntiquesTableView.h */; };
+		F52F8E6A0262F83D01000134 /* VRAntiquesTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F52F8E680262F83D01000134 /* VRAntiquesTableView.m */; };
+		F53DD268024B9F9301000134 /* VRUndoableTextControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F53DD267024B9F9301000134 /* VRUndoableTextControl.h */; };
+		F5568565024A81E501000134 /* VRUndoableForm.h in Headers */ = {isa = PBXBuildFile; fileRef = F503028D0246907001000134 /* VRUndoableForm.h */; };
+		F5568566024A81E501000134 /* VRUndoableForm.m in Sources */ = {isa = PBXBuildFile; fileRef = F503028E0246907001000134 /* VRUndoableForm.m */; };
+		F56B9B740233828001000134 /* NSFormatter+VRFormatterBugfixes.h in Headers */ = {isa = PBXBuildFile; fileRef = F56B9B720233828001000134 /* NSFormatter+VRFormatterBugfixes.h */; };
+		F56B9B750233828001000134 /* NSFormatter+VRFormatterBugfixes.m in Sources */ = {isa = PBXBuildFile; fileRef = F56B9B730233828001000134 /* NSFormatter+VRFormatterBugfixes.m */; };
+		F585C7CD0221081301000134 /* VRSliderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F585C7CB0221081301000134 /* VRSliderModel.h */; };
+		F585C7CE0221081301000134 /* VRSliderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F585C7CC0221081301000134 /* VRSliderModel.m */; };
+		F585C7D1022112C501000134 /* VRSliderController.m in Sources */ = {isa = PBXBuildFile; fileRef = F585C7D0022112C501000134 /* VRSliderController.m */; };
+		F5944A2E02F5C95A01000134 /* VRPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5944A2C02F5C95A01000134 /* VRPreferences.nib */; };
+		F5944A3102F5CBFB01000134 /* VRPreferencesWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5944A2F02F5CBFB01000134 /* VRPreferencesWindowController.h */; };
+		F5944A3202F5CBFB01000134 /* VRPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5944A3002F5CBFB01000134 /* VRPreferencesWindowController.m */; };
+		F594C3160302BB6E01000134 /* Vermont Recipes Help in Resources */ = {isa = PBXBuildFile; fileRef = F594C2FC0302BB6E01000134 /* Vermont Recipes Help */; };
+		F59529B302F18FD301000134 /* VRTextWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F59529B102F18FD301000134 /* VRTextWindow.nib */; };
+		F59529B602F1934301000134 /* VRTextWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F59529B402F1934301000134 /* VRTextWindowController.h */; };
+		F59529B702F1934301000134 /* VRTextWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59529B502F1934301000134 /* VRTextWindowController.m */; };
+		F59A188F02FFEF3101000134 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F59A188D02FFEF3101000134 /* ReadMe.rtf */; };
+		F5B035FA02CA54FA0112F547 /* DockMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5B035F802CA54F90112F547 /* DockMenu.nib */; };
+		F5B32A9402CF447601B0AE31 /* VRDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B32A9302CF447601B0AE31 /* VRDrawerController.m */; };
+		F5B32A9702CF4AF101B0AE31 /* VRDrawerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B32A9502CF4AF101B0AE31 /* VRDrawerModel.h */; };
+		F5B32A9802CF4AF101B0AE31 /* VRDrawerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B32A9602CF4AF101B0AE31 /* VRDrawerModel.m */; };
+		F5BFE26B0209D34301000134 /* VRButtonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BFE2690209D34301000134 /* VRButtonModel.h */; };
+		F5BFE26C0209D34301000134 /* VRButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BFE26A0209D34301000134 /* VRButtonModel.m */; };
+		F5CB133402CB586D01DBDFD8 /* VRAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CB133202CB586D01DBDFD8 /* VRAppDelegate.h */; };
+		F5CB133502CB586D01DBDFD8 /* VRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CB133302CB586D01DBDFD8 /* VRAppDelegate.m */; };
+		F5CD0A4A027826DF01000134 /* VRUndoableTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CD0A48027826DF01000134 /* VRUndoableTableView.h */; };
+		F5CD0A4B027826DF01000134 /* VRUndoableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD0A49027826DF01000134 /* VRUndoableTableView.m */; };
+		F5D012E703126C0701000134 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F5D012E503126C0701000134 /* Credits.html */; };
+		F5D0FA0A0260C57001000134 /* VRAntiqueRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D0FA080260C57001000134 /* VRAntiqueRecord.h */; };
+		F5D0FA0B0260C57001000134 /* VRAntiqueRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D0FA090260C57001000134 /* VRAntiqueRecord.m */; };
+		F5D24B6D0210033901000134 /* VRApplicationIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5D24B6B0210033901000134 /* VRApplicationIcon.icns */; };
+		F5D24B6E0210033901000134 /* VRMainDocumentIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F5D24B6C0210033901000134 /* VRMainDocumentIcon.icns */; };
+		F5D53A67022BC22D01000134 /* VRIntegerNumberFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D53A65022BC22D01000134 /* VRIntegerNumberFilter.h */; };
+		F5D53A68022BC22D01000134 /* VRIntegerNumberFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D53A66022BC22D01000134 /* VRIntegerNumberFilter.m */; };
+		F5D53A6B022D0F4301000134 /* VRDecimalNumberFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D53A69022D0F4201000134 /* VRDecimalNumberFilter.h */; };
+		F5D53A6C022D0F4301000134 /* VRDecimalNumberFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D53A6A022D0F4201000134 /* VRDecimalNumberFilter.m */; };
+		F5DAAD170345DEEB01000134 /* NSTableView+VRTableViewBugfixes.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DAAD150345DEEB01000134 /* NSTableView+VRTableViewBugfixes.h */; };
+		F5DAAD180345DEEB01000134 /* NSTableView+VRTableViewBugfixes.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DAAD160345DEEB01000134 /* NSTableView+VRTableViewBugfixes.m */; };
+		F5DDB140022FE3B101000134 /* VRTelephoneFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DDB13E022FE3B101000134 /* VRTelephoneFormatter.h */; };
+		F5DDB141022FE3B101000134 /* VRTelephoneFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DDB13F022FE3B101000134 /* VRTelephoneFormatter.m */; };
+		F5ED567E0218506201000134 /* NSString+VRStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = F5ED567C0218506201000134 /* NSString+VRStringUtilities.h */; };
+		F5ED567F0218506201000134 /* NSString+VRStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED567D0218506201000134 /* NSString+VRStringUtilities.m */; };
+		F5F03966021A86DF01000134 /* VRButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F03965021A86DF01000134 /* VRButtonController.m */; };
+		F5F0396B021DD8D601000134 /* ArrowRight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5F03969021DD8D601000134 /* ArrowRight.tiff */; };
+		F5F4AB3B0344770E01000134 /* NSTextField+VRDragTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F5D9235402420AE301000134 /* NSTextField+VRDragTarget.h */; };
+		F5F4AB3C0344770F01000134 /* NSTextField+VRDragTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9235502420AE301000134 /* NSTextField+VRDragTarget.m */; };
+		F5F4AB4B03449B6D01000134 /* NSForm+VRDragTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F53DD26A024DE66101000134 /* NSForm+VRDragTarget.h */; };
+		F5F4AB4C03449B6F01000134 /* NSForm+VRDragTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = F53DD26B024DE66101000134 /* NSForm+VRDragTarget.m */; };
+		F5F4AB510344A85D01000134 /* NSTableView+VRDragTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A977E2026CB28501000134 /* NSTableView+VRDragTarget.m */; };
+		F5F4AB520344A85D01000134 /* NSTableView+VRDragTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A977E1026CB28501000134 /* NSTableView+VRDragTarget.h */; };
+		F5F4AB530344A85E01000134 /* NSComboBox+VRDragTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A977DD026CA86201000134 /* NSComboBox+VRDragTarget.m */; };
+		F5F4AB540344A85F01000134 /* NSComboBox+VRDragTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A977DC026CA86201000134 /* NSComboBox+VRDragTarget.h */; };
+		F5F7DACB034F0FD201000134 /* VRDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5F7DAC9034F0FD201000134 /* VRDocument.nib */; };
+		F5F7DAF7034F8A5601000134 /* ArrowLeft.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5F03968021DD8D601000134 /* ArrowLeft.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504D0FFE6A4CB11CA0CBA /* Development */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "\U0001-DDEBUG";
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA /* Deployment */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = (
+					"\U0001-DNS_BLOCK_ASSERTIONS",
+					"-DVR_BLOCK_LOGS",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1758732AFF379DA111CA2CBB /* Vermont Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Vermont Recipes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A37F4ACFDCFA73011CA2CEA /* VRDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* VRDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4B7FDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F503028D0246907001000134 /* VRUndoableForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRUndoableForm.h; sourceTree = "<group>"; };
+		F503028E0246907001000134 /* VRUndoableForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRUndoableForm.m; sourceTree = "<group>"; };
+		F50E8FEB023D128001000134 /* VRUndoableTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRUndoableTextField.h; sourceTree = "<group>"; };
+		F50E8FEC023D128001000134 /* VRUndoableTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRUndoableTextField.m; sourceTree = "<group>"; };
+		F518A884020826AB01000134 /* VRMainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRMainWindowController.h; sourceTree = "<group>"; };
+		F518A885020826AB01000134 /* VRMainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRMainWindowController.m; sourceTree = "<group>"; };
+		F518A8890208355901000134 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F524A8EC0226A23201000134 /* VRTextFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRTextFieldModel.h; sourceTree = "<group>"; };
+		F524A8ED0226A23201000134 /* VRTextFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRTextFieldModel.m; sourceTree = "<group>"; };
+		F524A8F00226A8BD01000134 /* VRTextFieldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRTextFieldController.m; sourceTree = "<group>"; };
+		F52F8E670262F83D01000134 /* VRAntiquesTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRAntiquesTableView.h; sourceTree = "<group>"; };
+		F52F8E680262F83D01000134 /* VRAntiquesTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRAntiquesTableView.m; sourceTree = "<group>"; };
+		F53DD263024B974201000134 /* VRUndoableTextControl.include */ = {isa = PBXFileReference; lastKnownFileType = text; path = VRUndoableTextControl.include; sourceTree = "<group>"; };
+		F53DD267024B9F9301000134 /* VRUndoableTextControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRUndoableTextControl.h; sourceTree = "<group>"; };
+		F53DD26A024DE66101000134 /* NSForm+VRDragTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSForm+VRDragTarget.h"; sourceTree = "<group>"; };
+		F53DD26B024DE66101000134 /* NSForm+VRDragTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSForm+VRDragTarget.m"; sourceTree = "<group>"; };
+		F56B9B720233828001000134 /* NSFormatter+VRFormatterBugfixes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFormatter+VRFormatterBugfixes.h"; sourceTree = "<group>"; };
+		F56B9B730233828001000134 /* NSFormatter+VRFormatterBugfixes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFormatter+VRFormatterBugfixes.m"; sourceTree = "<group>"; };
+		F585C7CB0221081301000134 /* VRSliderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRSliderModel.h; sourceTree = "<group>"; };
+		F585C7CC0221081301000134 /* VRSliderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRSliderModel.m; sourceTree = "<group>"; };
+		F585C7D0022112C501000134 /* VRSliderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRSliderController.m; sourceTree = "<group>"; };
+		F5944A2D02F5C95A01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VRPreferences.nib; sourceTree = "<group>"; };
+		F5944A2F02F5CBFB01000134 /* VRPreferencesWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRPreferencesWindowController.h; sourceTree = "<group>"; };
+		F5944A3002F5CBFB01000134 /* VRPreferencesWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRPreferencesWindowController.m; sourceTree = "<group>"; };
+		F594C2FD0302BB6E01000134 /* English */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = English; path = "English.lproj/Vermont Recipes Help"; sourceTree = "<group>"; };
+		F59529B202F18FD301000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VRTextWindow.nib; sourceTree = "<group>"; };
+		F59529B402F1934301000134 /* VRTextWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRTextWindowController.h; sourceTree = "<group>"; };
+		F59529B502F1934301000134 /* VRTextWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRTextWindowController.m; sourceTree = "<group>"; };
+		F59A188E02FFEF3101000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/ReadMe.rtf; sourceTree = "<group>"; };
+		F5A977DC026CA86201000134 /* NSComboBox+VRDragTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSComboBox+VRDragTarget.h"; sourceTree = "<group>"; };
+		F5A977DD026CA86201000134 /* NSComboBox+VRDragTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSComboBox+VRDragTarget.m"; sourceTree = "<group>"; };
+		F5A977E1026CB28501000134 /* NSTableView+VRDragTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTableView+VRDragTarget.h"; sourceTree = "<group>"; };
+		F5A977E2026CB28501000134 /* NSTableView+VRDragTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+VRDragTarget.m"; sourceTree = "<group>"; };
+		F5B035F902CA54F90112F547 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/DockMenu.nib; sourceTree = "<group>"; };
+		F5B32A9302CF447601B0AE31 /* VRDrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRDrawerController.m; sourceTree = "<group>"; };
+		F5B32A9502CF4AF101B0AE31 /* VRDrawerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRDrawerModel.h; sourceTree = "<group>"; };
+		F5B32A9602CF4AF101B0AE31 /* VRDrawerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRDrawerModel.m; sourceTree = "<group>"; };
+		F5B5BEE902FD562F01000134 /* checkboxContextHelp.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = checkboxContextHelp.rtf; path = English.lproj/checkboxContextHelp.rtf; sourceTree = "<group>"; };
+		F5BFE2690209D34301000134 /* VRButtonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRButtonModel.h; sourceTree = "<group>"; };
+		F5BFE26A0209D34301000134 /* VRButtonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRButtonModel.m; sourceTree = "<group>"; };
+		F5CB133202CB586D01DBDFD8 /* VRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRAppDelegate.h; sourceTree = "<group>"; };
+		F5CB133302CB586D01DBDFD8 /* VRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRAppDelegate.m; sourceTree = "<group>"; };
+		F5CD0A48027826DF01000134 /* VRUndoableTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRUndoableTableView.h; sourceTree = "<group>"; };
+		F5CD0A49027826DF01000134 /* VRUndoableTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRUndoableTableView.m; sourceTree = "<group>"; };
+		F5D012E603126C0701000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
+		F5D0FA080260C57001000134 /* VRAntiqueRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRAntiqueRecord.h; sourceTree = "<group>"; };
+		F5D0FA090260C57001000134 /* VRAntiqueRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRAntiqueRecord.m; sourceTree = "<group>"; };
+		F5D24B6B0210033901000134 /* VRApplicationIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = VRApplicationIcon.icns; sourceTree = "<group>"; };
+		F5D24B6C0210033901000134 /* VRMainDocumentIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = VRMainDocumentIcon.icns; sourceTree = "<group>"; };
+		F5D53A65022BC22D01000134 /* VRIntegerNumberFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRIntegerNumberFilter.h; sourceTree = "<group>"; };
+		F5D53A66022BC22D01000134 /* VRIntegerNumberFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRIntegerNumberFilter.m; sourceTree = "<group>"; };
+		F5D53A69022D0F4201000134 /* VRDecimalNumberFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRDecimalNumberFilter.h; sourceTree = "<group>"; };
+		F5D53A6A022D0F4201000134 /* VRDecimalNumberFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRDecimalNumberFilter.m; sourceTree = "<group>"; };
+		F5D9235402420AE301000134 /* NSTextField+VRDragTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTextField+VRDragTarget.h"; sourceTree = "<group>"; };
+		F5D9235502420AE301000134 /* NSTextField+VRDragTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTextField+VRDragTarget.m"; sourceTree = "<group>"; };
+		F5DAAD150345DEEB01000134 /* NSTableView+VRTableViewBugfixes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTableView+VRTableViewBugfixes.h"; sourceTree = "<group>"; };
+		F5DAAD160345DEEB01000134 /* NSTableView+VRTableViewBugfixes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+VRTableViewBugfixes.m"; sourceTree = "<group>"; };
+		F5DDB13E022FE3B101000134 /* VRTelephoneFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRTelephoneFormatter.h; sourceTree = "<group>"; };
+		F5DDB13F022FE3B101000134 /* VRTelephoneFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRTelephoneFormatter.m; sourceTree = "<group>"; };
+		F5ED567C0218506201000134 /* NSString+VRStringUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+VRStringUtilities.h"; sourceTree = "<group>"; };
+		F5ED567D0218506201000134 /* NSString+VRStringUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+VRStringUtilities.m"; sourceTree = "<group>"; };
+		F5F03965021A86DF01000134 /* VRButtonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VRButtonController.m; sourceTree = "<group>"; };
+		F5F03968021DD8D601000134 /* ArrowLeft.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ArrowLeft.tiff; sourceTree = "<group>"; };
+		F5F03969021DD8D601000134 /* ArrowRight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ArrowRight.tiff; sourceTree = "<group>"; };
+		F5F7DACA034F0FD201000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/VRDocument.nib; sourceTree = "<group>"; };
+		F5F7DAF2034F887801000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/pegsContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DAF5034F8A4801000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/musicContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DAF9034F8CB901000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/partyContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DAFC034F8DDA01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/stateContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DAFF034F8F2101000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/beeperContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB0403507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/addKindContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB0603507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/antiquesContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB0803507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/decimalContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB0A03507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/formDateContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB0C03507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/formFaxContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB0E03507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/formIDContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1003507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/formNameContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1203507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/integerContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1403507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/kindContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1603507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/personalityContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1803507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/plusMinusContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1A03507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/quantumButtonHiContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1C03507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/quantumButtonLoContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB1E03507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/quantumSliderContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB2003507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/quantumTextContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB2203507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/speedSliderContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB2403507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/speedTextContextHelp.rtf; sourceTree = "<group>"; };
+		F5F7DB2603507C2F01000134 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/telephoneContextHelp.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A37F4D1FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A9FEA54F5311CA2CBB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1758732AFF379DA111CA2CBB /* Vermont Recipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Vermont Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "Vermont Recipes";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED566F02184EC801000134 /* Categories */,
+				F53DD269024BDBBA01000134 /* Controls */,
+				F5D53A64022BC22D01000134 /* Formatters */,
+				F53DD265024B9C8001000134 /* Includes */,
+				F585C7CF0221090D01000134 /* Models */,
+				F53DD266024B9F6601000134 /* Protocols */,
+				F585C7D2022113CF01000134 /* Window Controllers */,
+				F5CB133202CB586D01DBDFD8 /* VRAppDelegate.h */,
+				F5CB133302CB586D01DBDFD8 /* VRAppDelegate.m */,
+				2A37F4AEFDCFA73011CA2CEA /* VRDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* VRDocument.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5B388FE02FF223A01000134 /* Context Help */,
+				F5F03968021DD8D601000134 /* ArrowLeft.tiff */,
+				F5F03969021DD8D601000134 /* ArrowRight.tiff */,
+				F5D012E503126C0701000134 /* Credits.html */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				F5B035F802CA54F90112F547 /* DockMenu.nib */,
+				2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */,
+				F5F7DAC9034F0FD201000134 /* VRDocument.nib */,
+				F59529B102F18FD301000134 /* VRTextWindow.nib */,
+				F5944A2C02F5C95A01000134 /* VRPreferences.nib */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				F518A8880208355901000134 /* Localizable.strings */,
+				F5D24B6B0210033901000134 /* VRApplicationIcon.icns */,
+				F5D24B6C0210033901000134 /* VRMainDocumentIcon.icns */,
+				F59A188D02FFEF3101000134 /* ReadMe.rtf */,
+				F594C2FC0302BB6E01000134 /* Vermont Recipes Help */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F53DD265024B9C8001000134 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				F53DD263024B974201000134 /* VRUndoableTextControl.include */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		F53DD266024B9F6601000134 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F53DD267024B9F9301000134 /* VRUndoableTextControl.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		F53DD269024BDBBA01000134 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				F52F8E670262F83D01000134 /* VRAntiquesTableView.h */,
+				F52F8E680262F83D01000134 /* VRAntiquesTableView.m */,
+				F50E8FEB023D128001000134 /* VRUndoableTextField.h */,
+				F50E8FEC023D128001000134 /* VRUndoableTextField.m */,
+				F503028D0246907001000134 /* VRUndoableForm.h */,
+				F503028E0246907001000134 /* VRUndoableForm.m */,
+				F5CD0A48027826DF01000134 /* VRUndoableTableView.h */,
+				F5CD0A49027826DF01000134 /* VRUndoableTableView.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		F585C7CF0221090D01000134 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5D0FA080260C57001000134 /* VRAntiqueRecord.h */,
+				F5D0FA090260C57001000134 /* VRAntiqueRecord.m */,
+				F5BFE2690209D34301000134 /* VRButtonModel.h */,
+				F5BFE26A0209D34301000134 /* VRButtonModel.m */,
+				F585C7CB0221081301000134 /* VRSliderModel.h */,
+				F585C7CC0221081301000134 /* VRSliderModel.m */,
+				F524A8EC0226A23201000134 /* VRTextFieldModel.h */,
+				F524A8ED0226A23201000134 /* VRTextFieldModel.m */,
+				F5B32A9502CF4AF101B0AE31 /* VRDrawerModel.h */,
+				F5B32A9602CF4AF101B0AE31 /* VRDrawerModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F585C7D2022113CF01000134 /* Window Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F518A884020826AB01000134 /* VRMainWindowController.h */,
+				F518A885020826AB01000134 /* VRMainWindowController.m */,
+				F5F03965021A86DF01000134 /* VRButtonController.m */,
+				F585C7D0022112C501000134 /* VRSliderController.m */,
+				F524A8F00226A8BD01000134 /* VRTextFieldController.m */,
+				F5B32A9302CF447601B0AE31 /* VRDrawerController.m */,
+				F59529B402F1934301000134 /* VRTextWindowController.h */,
+				F59529B502F1934301000134 /* VRTextWindowController.m */,
+				F5944A2F02F5CBFB01000134 /* VRPreferencesWindowController.h */,
+				F5944A3002F5CBFB01000134 /* VRPreferencesWindowController.m */,
+			);
+			name = "Window Controllers";
+			sourceTree = "<group>";
+		};
+		F5A977E0026CB28501000134 /* Drag Targets */ = {
+			isa = PBXGroup;
+			children = (
+				F5A977DC026CA86201000134 /* NSComboBox+VRDragTarget.h */,
+				F5A977DD026CA86201000134 /* NSComboBox+VRDragTarget.m */,
+				F53DD26A024DE66101000134 /* NSForm+VRDragTarget.h */,
+				F53DD26B024DE66101000134 /* NSForm+VRDragTarget.m */,
+				F5A977E1026CB28501000134 /* NSTableView+VRDragTarget.h */,
+				F5A977E2026CB28501000134 /* NSTableView+VRDragTarget.m */,
+				F5D9235402420AE301000134 /* NSTextField+VRDragTarget.h */,
+				F5D9235502420AE301000134 /* NSTextField+VRDragTarget.m */,
+			);
+			name = "Drag Targets";
+			sourceTree = "<group>";
+		};
+		F5B388FE02FF223A01000134 /* Context Help */ = {
+			isa = PBXGroup;
+			children = (
+				F5F7DB0303507C2F01000134 /* addKindContextHelp.rtf */,
+				F5F7DB0503507C2F01000134 /* antiquesContextHelp.rtf */,
+				F5F7DAFE034F8F2101000134 /* beeperContextHelp.rtf */,
+				F5B5BEE802FD562F01000134 /* checkboxContextHelp.rtf */,
+				F5F7DB0703507C2F01000134 /* decimalContextHelp.rtf */,
+				F5F7DB0903507C2F01000134 /* formDateContextHelp.rtf */,
+				F5F7DB0B03507C2F01000134 /* formFaxContextHelp.rtf */,
+				F5F7DB0D03507C2F01000134 /* formIDContextHelp.rtf */,
+				F5F7DB0F03507C2F01000134 /* formNameContextHelp.rtf */,
+				F5F7DB1103507C2F01000134 /* integerContextHelp.rtf */,
+				F5F7DB1303507C2F01000134 /* kindContextHelp.rtf */,
+				F5F7DAF4034F8A4801000134 /* musicContextHelp.rtf */,
+				F5F7DAF8034F8CB901000134 /* partyContextHelp.rtf */,
+				F5F7DAF1034F887801000134 /* pegsContextHelp.rtf */,
+				F5F7DB1503507C2F01000134 /* personalityContextHelp.rtf */,
+				F5F7DB1703507C2F01000134 /* plusMinusContextHelp.rtf */,
+				F5F7DB1903507C2F01000134 /* quantumButtonHiContextHelp.rtf */,
+				F5F7DB1B03507C2F01000134 /* quantumButtonLoContextHelp.rtf */,
+				F5F7DB1D03507C2F01000134 /* quantumSliderContextHelp.rtf */,
+				F5F7DB1F03507C2F01000134 /* quantumTextContextHelp.rtf */,
+				F5F7DB2103507C2F01000134 /* speedSliderContextHelp.rtf */,
+				F5F7DB2303507C2F01000134 /* speedTextContextHelp.rtf */,
+				F5F7DAFB034F8DDA01000134 /* stateContextHelp.rtf */,
+				F5F7DB2503507C2F01000134 /* telephoneContextHelp.rtf */,
+			);
+			name = "Context Help";
+			sourceTree = "<group>";
+		};
+		F5D53A64022BC22D01000134 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				F5D53A69022D0F4201000134 /* VRDecimalNumberFilter.h */,
+				F5D53A6A022D0F4201000134 /* VRDecimalNumberFilter.m */,
+				F5D53A65022BC22D01000134 /* VRIntegerNumberFilter.h */,
+				F5D53A66022BC22D01000134 /* VRIntegerNumberFilter.m */,
+				F5DDB13E022FE3B101000134 /* VRTelephoneFormatter.h */,
+				F5DDB13F022FE3B101000134 /* VRTelephoneFormatter.m */,
+			);
+			name = Formatters;
+			sourceTree = "<group>";
+		};
+		F5DAAD190345E49E01000134 /* Bug Fixes */ = {
+			isa = PBXGroup;
+			children = (
+				F56B9B720233828001000134 /* NSFormatter+VRFormatterBugfixes.h */,
+				F56B9B730233828001000134 /* NSFormatter+VRFormatterBugfixes.m */,
+				F5DAAD150345DEEB01000134 /* NSTableView+VRTableViewBugfixes.h */,
+				F5DAAD160345DEEB01000134 /* NSTableView+VRTableViewBugfixes.m */,
+			);
+			name = "Bug Fixes";
+			sourceTree = "<group>";
+		};
+		F5DAAD1A0345E4B101000134 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED567C0218506201000134 /* NSString+VRStringUtilities.h */,
+				F5ED567D0218506201000134 /* NSString+VRStringUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F5ED566F02184EC801000134 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F5DAAD190345E49E01000134 /* Bug Fixes */,
+				F5A977E0026CB28501000134 /* Drag Targets */,
+				F5DAAD1A0345E4B101000134 /* Utilities */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A37F4C7FDCFA73011CA2CEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4C8FDCFA73011CA2CEA /* VRDocument.h in Headers */,
+				F518A886020826AB01000134 /* VRMainWindowController.h in Headers */,
+				F5BFE26B0209D34301000134 /* VRButtonModel.h in Headers */,
+				F5ED567E0218506201000134 /* NSString+VRStringUtilities.h in Headers */,
+				F585C7CD0221081301000134 /* VRSliderModel.h in Headers */,
+				F524A8EE0226A23201000134 /* VRTextFieldModel.h in Headers */,
+				F5D53A67022BC22D01000134 /* VRIntegerNumberFilter.h in Headers */,
+				F5D53A6B022D0F4301000134 /* VRDecimalNumberFilter.h in Headers */,
+				F5DDB140022FE3B101000134 /* VRTelephoneFormatter.h in Headers */,
+				F56B9B740233828001000134 /* NSFormatter+VRFormatterBugfixes.h in Headers */,
+				F50E8FED023D128001000134 /* VRUndoableTextField.h in Headers */,
+				F5568565024A81E501000134 /* VRUndoableForm.h in Headers */,
+				F53DD268024B9F9301000134 /* VRUndoableTextControl.h in Headers */,
+				F5D0FA0A0260C57001000134 /* VRAntiqueRecord.h in Headers */,
+				F52F8E690262F83D01000134 /* VRAntiquesTableView.h in Headers */,
+				F5CD0A4A027826DF01000134 /* VRUndoableTableView.h in Headers */,
+				F5CB133402CB586D01DBDFD8 /* VRAppDelegate.h in Headers */,
+				F5B32A9702CF4AF101B0AE31 /* VRDrawerModel.h in Headers */,
+				F59529B602F1934301000134 /* VRTextWindowController.h in Headers */,
+				F5944A3102F5CBFB01000134 /* VRPreferencesWindowController.h in Headers */,
+				F5F4AB3B0344770E01000134 /* NSTextField+VRDragTarget.h in Headers */,
+				F5F4AB4B03449B6D01000134 /* NSForm+VRDragTarget.h in Headers */,
+				F5F4AB520344A85D01000134 /* NSTableView+VRDragTarget.h in Headers */,
+				F5F4AB540344A85F01000134 /* NSComboBox+VRDragTarget.h in Headers */,
+				F5DAAD170345DEEB01000134 /* NSTableView+VRTableViewBugfixes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1688654209415D3B004C228F /* Build configuration list for PBXProject "Vermont Recipes" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA /* Development */,
+				4A9504D1FFE6A4CB11CA0CBA /* Deployment */,
+			);
+			hasScannedForEncodings = 0;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Vermont Recipes */;
+			projectDirPath = "";
+			targets = (
+				2A37F4C6FDCFA73011CA2CEA /* Vermont Recipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A37F4C9FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E96D9FE201CDB7F000001 /* Credits.rtf in Resources */,
+				080E96DAFE201CDB7F000001 /* MainMenu.nib in Resources */,
+				089C1661FE840EACC02AAC07 /* InfoPlist.strings in Resources */,
+				F518A88A0208355901000134 /* Localizable.strings in Resources */,
+				F5D24B6D0210033901000134 /* VRApplicationIcon.icns in Resources */,
+				F5D24B6E0210033901000134 /* VRMainDocumentIcon.icns in Resources */,
+				F5F0396B021DD8D601000134 /* ArrowRight.tiff in Resources */,
+				F5B035FA02CA54FA0112F547 /* DockMenu.nib in Resources */,
+				F59529B302F18FD301000134 /* VRTextWindow.nib in Resources */,
+				F5944A2E02F5C95A01000134 /* VRPreferences.nib in Resources */,
+				F59A188F02FFEF3101000134 /* ReadMe.rtf in Resources */,
+				F594C3160302BB6E01000134 /* Vermont Recipes Help in Resources */,
+				F5D012E703126C0701000134 /* Credits.html in Resources */,
+				F5F7DACB034F0FD201000134 /* VRDocument.nib in Resources */,
+				F5F7DAF7034F8A5601000134 /* ArrowLeft.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5B5BEF002FD57F401000134 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/English.lproj\"\nls *ContextHelp.rtf 2>/dev/null *ContextHelp.rtfd 2>/dev/null | xargs compileHelp -o \"$TARGET_BUILD_DIR/$TARGET_NAME.$WRAPPER_EXTENSION/Contents/Resources/English.lproj/Help.plist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A37F4CEFDCFA73011CA2CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4CFFDCFA73011CA2CEA /* VRDocument.m in Sources */,
+				2A37F4D0FDCFA73011CA2CEA /* main.m in Sources */,
+				F518A887020826AB01000134 /* VRMainWindowController.m in Sources */,
+				F5BFE26C0209D34301000134 /* VRButtonModel.m in Sources */,
+				F5ED567F0218506201000134 /* NSString+VRStringUtilities.m in Sources */,
+				F5F03966021A86DF01000134 /* VRButtonController.m in Sources */,
+				F585C7CE0221081301000134 /* VRSliderModel.m in Sources */,
+				F585C7D1022112C501000134 /* VRSliderController.m in Sources */,
+				F524A8EF0226A23201000134 /* VRTextFieldModel.m in Sources */,
+				F524A8F10226A8BD01000134 /* VRTextFieldController.m in Sources */,
+				F5D53A68022BC22D01000134 /* VRIntegerNumberFilter.m in Sources */,
+				F5D53A6C022D0F4301000134 /* VRDecimalNumberFilter.m in Sources */,
+				F5DDB141022FE3B101000134 /* VRTelephoneFormatter.m in Sources */,
+				F56B9B750233828001000134 /* NSFormatter+VRFormatterBugfixes.m in Sources */,
+				F50E8FEE023D128001000134 /* VRUndoableTextField.m in Sources */,
+				F5568566024A81E501000134 /* VRUndoableForm.m in Sources */,
+				F5D0FA0B0260C57001000134 /* VRAntiqueRecord.m in Sources */,
+				F52F8E6A0262F83D01000134 /* VRAntiquesTableView.m in Sources */,
+				F5CD0A4B027826DF01000134 /* VRUndoableTableView.m in Sources */,
+				F5CB133502CB586D01DBDFD8 /* VRAppDelegate.m in Sources */,
+				F5B32A9402CF447601B0AE31 /* VRDrawerController.m in Sources */,
+				F5B32A9802CF4AF101B0AE31 /* VRDrawerModel.m in Sources */,
+				F59529B702F1934301000134 /* VRTextWindowController.m in Sources */,
+				F5944A3202F5CBFB01000134 /* VRPreferencesWindowController.m in Sources */,
+				F5F4AB3C0344770F01000134 /* NSTextField+VRDragTarget.m in Sources */,
+				F5F4AB4C03449B6F01000134 /* NSForm+VRDragTarget.m in Sources */,
+				F5F4AB510344A85D01000134 /* NSTableView+VRDragTarget.m in Sources */,
+				F5F4AB530344A85E01000134 /* NSComboBox+VRDragTarget.m in Sources */,
+				F5DAAD180345DEEB01000134 /* NSTableView+VRTableViewBugfixes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B6FDCFA73011CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4B7FDCFA73011CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F518A8880208355901000134 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F518A8890208355901000134 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F5944A2C02F5C95A01000134 /* VRPreferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5944A2D02F5C95A01000134 /* English */,
+			);
+			name = VRPreferences.nib;
+			sourceTree = "<group>";
+		};
+		F594C2FC0302BB6E01000134 /* Vermont Recipes Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F594C2FD0302BB6E01000134 /* English */,
+			);
+			name = "Vermont Recipes Help";
+			sourceTree = "<group>";
+		};
+		F59529B102F18FD301000134 /* VRTextWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59529B202F18FD301000134 /* English */,
+			);
+			name = VRTextWindow.nib;
+			sourceTree = "<group>";
+		};
+		F59A188D02FFEF3101000134 /* ReadMe.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59A188E02FFEF3101000134 /* English */,
+			);
+			name = ReadMe.rtf;
+			sourceTree = "<group>";
+		};
+		F5B035F802CA54F90112F547 /* DockMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B035F902CA54F90112F547 /* English */,
+			);
+			name = DockMenu.nib;
+			sourceTree = "<group>";
+		};
+		F5B5BEE802FD562F01000134 /* checkboxContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B5BEE902FD562F01000134 /* checkboxContextHelp.rtf */,
+			);
+			name = checkboxContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5D012E503126C0701000134 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D012E603126C0701000134 /* English */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F5F7DAC9034F0FD201000134 /* VRDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DACA034F0FD201000134 /* English */,
+			);
+			name = VRDocument.nib;
+			sourceTree = "<group>";
+		};
+		F5F7DAF1034F887801000134 /* pegsContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DAF2034F887801000134 /* English */,
+			);
+			name = pegsContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DAF4034F8A4801000134 /* musicContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DAF5034F8A4801000134 /* English */,
+			);
+			name = musicContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DAF8034F8CB901000134 /* partyContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DAF9034F8CB901000134 /* English */,
+			);
+			name = partyContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DAFB034F8DDA01000134 /* stateContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DAFC034F8DDA01000134 /* English */,
+			);
+			name = stateContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DAFE034F8F2101000134 /* beeperContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DAFF034F8F2101000134 /* English */,
+			);
+			name = beeperContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0303507C2F01000134 /* addKindContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB0403507C2F01000134 /* English */,
+			);
+			name = addKindContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0503507C2F01000134 /* antiquesContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB0603507C2F01000134 /* English */,
+			);
+			name = antiquesContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0703507C2F01000134 /* decimalContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB0803507C2F01000134 /* English */,
+			);
+			name = decimalContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0903507C2F01000134 /* formDateContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB0A03507C2F01000134 /* English */,
+			);
+			name = formDateContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0B03507C2F01000134 /* formFaxContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB0C03507C2F01000134 /* English */,
+			);
+			name = formFaxContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0D03507C2F01000134 /* formIDContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB0E03507C2F01000134 /* English */,
+			);
+			name = formIDContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB0F03507C2F01000134 /* formNameContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1003507C2F01000134 /* English */,
+			);
+			name = formNameContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1103507C2F01000134 /* integerContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1203507C2F01000134 /* English */,
+			);
+			name = integerContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1303507C2F01000134 /* kindContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1403507C2F01000134 /* English */,
+			);
+			name = kindContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1503507C2F01000134 /* personalityContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1603507C2F01000134 /* English */,
+			);
+			name = personalityContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1703507C2F01000134 /* plusMinusContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1803507C2F01000134 /* English */,
+			);
+			name = plusMinusContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1903507C2F01000134 /* quantumButtonHiContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1A03507C2F01000134 /* English */,
+			);
+			name = quantumButtonHiContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1B03507C2F01000134 /* quantumButtonLoContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1C03507C2F01000134 /* English */,
+			);
+			name = quantumButtonLoContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1D03507C2F01000134 /* quantumSliderContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB1E03507C2F01000134 /* English */,
+			);
+			name = quantumSliderContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB1F03507C2F01000134 /* quantumTextContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB2003507C2F01000134 /* English */,
+			);
+			name = quantumTextContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB2103507C2F01000134 /* speedSliderContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB2203507C2F01000134 /* English */,
+			);
+			name = speedSliderContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB2303507C2F01000134 /* speedTextContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB2403507C2F01000134 /* English */,
+			);
+			name = speedTextContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+		F5F7DB2503507C2F01000134 /* telephoneContextHelp.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F7DB2603507C2F01000134 /* English */,
+			);
+			name = telephoneContextHelp.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1688653F09415D3B004C228F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "\U0001-DDEBUG";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Vermont Recipes";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		1688654009415D3B004C228F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = (
+					"\U0001-DNS_BLOCK_ASSERTIONS",
+					"-DVR_BLOCK_LOGS",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Vermont Recipes";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		1688654109415D3B004C228F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "Vermont Recipes";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		1688654309415D3B004C228F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		1688654409415D3B004C228F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		1688654509415D3B004C228F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1688653E09415D3B004C228F /* Build configuration list for PBXApplicationTarget "Vermont Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1688653F09415D3B004C228F /* Development */,
+				1688654009415D3B004C228F /* Deployment */,
+				1688654109415D3B004C228F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		1688654209415D3B004C228F /* Build configuration list for PBXProject "Vermont Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1688654309415D3B004C228F /* Development */,
+				1688654409415D3B004C228F /* Deployment */,
+				1688654509415D3B004C228F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

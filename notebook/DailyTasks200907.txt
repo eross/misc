@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:11:25 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:11:30 Pacific Daylight Time
+
+====== DailyTasks200907 ======
+Created Wednesday 29 July 2009
+
+++ Daily Tasks200907
+
+07/06   1:1 meeting with Dan.
+        Solved S/N/bricking issue.
+        
+07/07   Split off Ampere build file.  It used to use volta_defaults.mf.  Now the two builds are distinct.
+        Consulted with Mark W. on testing for Ampere/Volta.
+        Retrieved BPD schedule for Dan.
+        Investigating nozzle test assert on Volta
+        Team staff meeting.
+        Review new Ampere requirements on sharepoint.
+        
+07/08   Investigation of .ful assert.
+
+07/09   ILG/UI integration.
+
+07/10   ILG/UI integration.
+
+07/15   More NVM debug.  
+        Created short term schedule for Ampere on sharepoint.
+        Team outing.
+
+07/16   UI refactor for Volta
+        IDS-serial number assert triage.
+        More short-term task scheduling.
+07/20   Bundled getreqs(QC access) to Claude
+        Small Architecture team.
+        Stack overflow in tMech
+        EE discussion about LP0 UI panel.
+        Assist Scott Smith with assert on Ampere.
+        Weekly Status meetings.  Notes posted.  Tasks updated.
+07/21   Demo, Demo, Demo.
+07/22   More Demo.
+        Volta obsolescence plan
+        IDS devel needs plan.
+07/28   Recover PC
+07/29   Assist Robert Niemand with board problems.
+
+
+
+
+
+
+    

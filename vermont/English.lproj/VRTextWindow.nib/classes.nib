@@ -1,0 +1,12 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = VRTextWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bottomNotesView = NSTextView; topNotesView = NSTextView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

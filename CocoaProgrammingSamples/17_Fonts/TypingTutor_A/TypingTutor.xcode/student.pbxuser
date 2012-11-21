@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA = {
+		activeBuildStyle = 4A9504CCFFE6A4B311CA0CBA;
+		activeExecutable = 3FA64F0C05160C12007C7164;
+		activeTarget = 8D1107260486CEB800E47090;
+		breakpoints = (
+		);
+		codeSenseManager = 3FA64F1A05160C17007C7164;
+		executables = (
+			3FA64F0C05160C12007C7164,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+			};
+			PBXPerProjectTemplateStateSaveDate = 85332330;
+		};
+		sourceControlManager = 3FA64F1905160C17007C7164;
+		userBuildSettings = {
+		};
+	};
+	3FA64F0C05160C12007C7164 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		debuggerPlugin = GDBDebugging;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		name = TypingTutor;
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	3FA64F1905160C17007C7164 = {
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	3FA64F1A05160C17007C7164 = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoPopup = 0;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	3FA64F1B05160CB8007C7164 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 1441}}";
+			sepNavSelRange = "{1236, 392}";
+			sepNavVisRect = "{{0, 1003}, {711, 428}}";
+		};
+	};
+	3FA64F1C05160CB8007C7164 = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 428}}";
+		};
+	};
+	8D1107260486CEB800E47090 = {
+		activeExec = 0;
+		executables = (
+			3FA64F0C05160C12007C7164,
+		);
+	};
+}

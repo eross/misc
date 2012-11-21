@@ -1,0 +1,49 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:08:25 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:08:25 Pacific Daylight Time
+
+====== VoltaAmpStatus20090713 ======
+Created Wednesday 29 July 2009
+
+++ Volta Amp Status20090713
+
+Toby:
+I checked in code to allow us to change Matalla's pulse widths by underware.
+Also, blowing ID bits now works on Matalla.
+
+What I'll be working on this coming week is the ID bit parity check and the response if it fails.
+
+
+Brouwer being polled to see if ready to have his pen startup algorithms integrated into firmware 
+Analog encoder.
+(Dan Mag.)
+
+Defect:  pen_ilg assert (Christine S.)
+
+Ampere/Volta builds now split.
+
+Release test:  simple plan for now.  Taipan tests multi-taps.  Everyone review list and identify ones that don't apply to Ampere--give list to Eric R.
+
+BB2 still scheduled for week of Aug 3rd.
+
+Door closed/supply insertion priming.  Definitely by next week's release.  Will assume that supply has changed when acumen is not present.
+
+Those that refill will need to enable alternate-ILG mode (100% or 0%). (based on shaid).  
+U
+Eric is in the process of integrating ILG with front panel.
+
+Tim:  working on Henry test bed (lower tray).  Uses Ampere build(without turning on unit).
+
+Liz: working from home on Fridays, now.  Lower tray flows. Paper path functionality.
+
+Marc: Talk about having PDL in more products and at lower price points(BPD).  Benz PDL Fall 2010/Spring 2011.  Ampere with PDL (Spring 2012).
+Benz is in discussion, Ampere will probably be POR.  Disclaimer:  these are not DO, yet.  Remote managebility--not yet defined but some will be required. Primary driver is the universal print driver (UPD).  There were lost sales due to not supporting the UPD.  Getting 3 volta boards with 128Meg of RAM for development(current uses 32Meg).  Will be on its own branch for now.  IMF have converged on Phoenix.  Still up in the air at BPD for Benz(Phoenix vs. Rickshaw).  Ampere refresh could use Shemp so there shouldn't be a performance issue.
+
+Find out when we can replace the PHA's on early units with Acumen units. (Eric R.)
+
+
+
+
+
+ 

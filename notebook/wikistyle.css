@@ -1,0 +1,47 @@
+BODY {
+	font-family: Verdana; font-size: 90%;
+}
+
+.wiki-name-ref {
+	color: #888888; font-size: 75%;
+}
+
+.parent-nodes {
+	color: #888888; font-size: 75%;
+}
+
+.property {
+	color: #888888; font-size: 75%;
+}
+
+.script {
+	color: #888888; font-size: 75%;
+}
+
+.todo {
+	font-weight: bold;
+}
+
+.url-link {
+}
+
+.wiki-link {
+}
+
+.page-toc {
+}
+
+.page-toc-level1 {
+}
+
+.page-toc-level2 {
+    margin-left: 4mm;
+}
+
+.page-toc-level3 {
+    margin-left: 8mm;
+}
+
+.page-toc-level4 {
+    margin-left: 12mm;
+}

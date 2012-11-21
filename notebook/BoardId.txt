@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.26
+Creation-Date: Wed, 29 Jul 2009 15:15:45 Pacific Daylight Time
+Modification-Date: Wed, 29 Jul 2009 15:15:49 Pacific Daylight Time
+
+====== BoardId ======
+Created Wednesday 29 July 2009
+
+++ Board Id
+
+- go to the hw/src/board_ifc/src/ifc directory and add an appropriate new number to the particular product family.  If this is a BPD product, then add it to board_fam_hpbpd.h
+
+- Edit the ampere.mf makefile and redefine BOARD_RANGE so that the first four hex digits correspond to BPD/Ampere codes
+
+- in the hw/src/board_ampere/src/ifc/board_id_cfg.h file you'll need to remove the BENZ entries and add an entry to remap the HPVPP/VOLTA board_id to HPBPD/AMPERE so that we can reflash Ampere code onto Volta boards.
+
+- Scan the firmware for the C identifier "VOLTA" and add any references for FORBOARD(HPBPD,AMPERE) to get the firmware to compile
+
+nca.c:
+
+nvm_tbl_reg_t _nvm_btl_reg =  (change versions)
+
+Unconditional reset of nvm part.  ds2_sys.c: _start() -- look for reset_bits.

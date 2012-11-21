@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'currencyconverter' target in the 'currencyconverter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

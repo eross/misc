@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {orderFrontStandardAboutPanel = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = VRAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dynamicDockMenu = NSMenu; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
