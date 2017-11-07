@@ -1,0 +1,1083 @@
+{  
+   "expand":"schema,names",
+   "startAt":0,
+   "maxResults":1000,
+   "total":29,
+   "issues":[  
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"433432",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/433432",
+         "key":"QXWSOL-29",
+         "fields":{  
+            "summary":"Transfer ownership of mempool.vcs.rd.hpicorp.net",
+            "description":"Tam had originally set this up, but he is recommending this tool be dismantled.  I am adding this story to ensure no tools neglected, even those recommended for decommission.\r\n\r\nHere is the email thread:\r\n\r\n=====================================\r\n\r\nDan:\r\n\r\nI am okay with decommissioning the server.  I do not for see us using this.\r\n\r\nRegards,\r\n\r\nTam\r\n\r\n \r\n\r\n*From:* Mehl, Cameron (FWQE) \r\n*Sent:* Monday, November 06, 2017 10:00 AM\r\n*To:* Ross, Eric P (QxE FW & Solution Quality) <[eric.ross@hp.com|mailto:eric.ross@hp.com]>; Crossman, Dan (VCS R&D IT) <[dan.crossman@hp.com|mailto:dan.crossman@hp.com]>; Pham, Tam T <[tam.t.pham@hp.com|mailto:tam.t.pham@hp.com]>\r\n*Cc:* Fritz, Terry M <[terry.fritz@hp.com|mailto:terry.fritz@hp.com]>\r\n*Subject:* RE: mempool update\r\n\r\n \r\n\r\nAdding in Tam as he originally wrote tools to leverage mapping it; there has been no transition setup for this yet so it is in a bit of a limbo while we figure out where it lands.\r\n\r\n[@Pham, Tam T|mailto:tam.t.pham@hp.com]: Was this a server that you had owned at one point? Since R&D will own it, I want to check in and determine if an upgrade is ok for it. If you don’t own it, then please let me know so Terry and I can figure out where it should land and who should own it.\r\n\r\nCameron\r\n\r\n \r\n\r\n*From:* Ross, Eric P (QxE FW & Solution Quality) \r\n*Sent:* Monday, November 6, 2017 9:44 AM\r\n*To:* Crossman, Dan (VCS R&D IT) <[dan.crossman@hp.com|mailto:dan.crossman@hp.com]>\r\n*Cc:* Fritz, Terry M <[terry.fritz@hp.com|mailto:terry.fritz@hp.com]>; Mehl, Cameron (FWQE) <[cameron.mehl@hp.com|mailto:cameron.mehl@hp.com]>\r\n*Subject:* Re: mempool update\r\n\r\n \r\n\r\nI don't own this anymore as it has been transferred to R&D.  Please contact Cameron and/or Terry.\r\n\r\n \r\n\r\n*Eric Ross*\r\nAnalytics and Automation Architect\r\n\r\nQxE FW & Solution Quality\r\n\r\n \r\n\r\nEric Ross <[eric.ross@hp.com|mailto:eric.ross@hp.com]>\r\n\r\nPC Phone 1.360.212.9001\r\nHewlett-Packard Company\r\nVancouver, WA 98683\r\nUnited States\r\n\r\n \r\n\r\n*From:* Dan Crossman <[dan.crossman@hp.com|mailto:dan.crossman@hp.com]>\r\n*Date:* Monday, November 6, 2017 at 9:17 AM\r\n*To:* \"Ross, Eric P (QxE FW & Solution Quality)\" <[eric.ross@hp.com|mailto:eric.ross@hp.com]>\r\n*Subject:* mempool update\r\n\r\n \r\n\r\nHi Eric - Roger’s asking to get mempool.vcs.rd.hpicorp.net upgraded to Ubuntu 14 asap.   Ubuntu 12 is getting flagged as insecure.\r\n\r\nHow would you like to proceed?   I’m happy to take it.\r\n\r\n \r\n\r\n-dan\r\n\r\n ",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"432415",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/432415",
+         "key":"QXWSOL-28",
+         "fields":{  
+            "summary":"Tools used to mine and report on incoming telemetry data.",
+            "description":null,
+            "assignee":null,
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"424742",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/424742",
+         "key":"QXWSOL-27",
+         "fields":{  
+            "summary":"Private SSL/Server DigitalBadge for gen2hapier-van.vcs.rd.hpicorp.net expires on 15 Nov 2017.",
+            "description":"Need to renew the Private SSL/Server DigitalBadge for gen2hapier-van.vcs.rd.hpicorp.net for gen2hapier because it's expiring on 15 Nov 2017.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=terry.fritz%40hp.com",
+               "name":"terry.fritz@hp.com",
+               "key":"terry.fritz@hp.com",
+               "emailAddress":"terry.fritz@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10341",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10341",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10341",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10341"
+               },
+               "displayName":"Terry Fritz",
+               "active":true,
+               "timeZone":"America/Los_Angeles"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"421321",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/421321",
+         "key":"QXWSOL-26",
+         "fields":{  
+            "summary":"This is an example CR (a.k.a Bug).",
+            "description":"This is entered to demonstrate API retrieval of these kinds of issues.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=qxesvc",
+               "name":"qxesvc",
+               "key":"qxesvc",
+               "emailAddress":"qxesvc_api@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10350",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10350",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10350",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10350"
+               },
+               "displayName":"qxesvc",
+               "active":true,
+               "timeZone":"America/Los_Angeles"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"420834",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/420834",
+         "key":"QXWSOL-25",
+         "fields":{  
+            "summary":"Transfer test tools and utilities found in iws_tests, iws_tools",
+            "description":"Test Tool directories:\r\niws_tests/Print/external/Test_Tools\r\niws_tools/qe_tools/Print/internal/Test_Tools\r\nMore tools directories may be present\r\n\r\nTools should be moved in to git hub enterprise, and an owner for the new repos needs to be determined.",
+            "assignee":null,
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412559",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412559",
+         "key":"QXWSOL-24",
+         "fields":{  
+            "summary":"Determine ownership for Docker server",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412558",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412558",
+         "key":"QXWSOL-23",
+         "fields":{  
+            "summary":"Determine ownership for rpms.vcd.hp.com",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412556",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412556",
+         "key":"QXWSOL-22",
+         "fields":{  
+            "summary":"Determine ownership for pypi.vcd.hp.com",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412534",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412534",
+         "key":"QXWSOL-21",
+         "fields":{  
+            "summary":"Determine ownership for devTelemetry service",
+            "description":"George Harder is developingn a web service for capturing CDM telemetry data.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412533",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412533",
+         "key":"QXWSOL-20",
+         "fields":{  
+            "summary":"Determine ownership for maintaining Vancouver/Singapore Cicada servers",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412532",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412532",
+         "key":"QXWSOL-19",
+         "fields":{  
+            "summary":"Determine ownership for Cicada-Chat",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412531",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412531",
+         "key":"QXWSOL-18",
+         "fields":{  
+            "summary":"Determine ownership for Tagassi service",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412530",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412530",
+         "key":"QXWSOL-17",
+         "fields":{  
+            "summary":"Determine ownership for devChat/statChat",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412529",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412529",
+         "key":"QXWSOL-16",
+         "fields":{  
+            "summary":"Determine ownership for eprtest01 (See Eric for more details)",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412528",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412528",
+         "key":"QXWSOL-15",
+         "fields":{  
+            "summary":"Determine ownership for Hapier/Hapiers/Hapier* services",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412521",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412521",
+         "key":"QXWSOL-14",
+         "fields":{  
+            "summary":"Transfer ownership and support of the FW update staging servers.",
+            "description":"fwstaging-int.vcd.hp.com and fwstaging.vcd.hp.com are used across HP for testing workflows that include FW updates via the network.    This is a simple Apache server containerized in Docker and can easily be moved and/or replicated.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412503",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412503",
+         "key":"QXWSOL-13",
+         "fields":{  
+            "summary":"Transfer ownership of postcard service",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412330",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412330",
+         "key":"QXWSOL-12",
+         "fields":{  
+            "summary":"Determine support/ownership model for SAS",
+            "description":"The requirements for SAS in R&D will be dramatically different and may cause SAS to drift away from what we will need in QxE.  It is expected that the primary ownership and support for the tool will be in R&D but at the same time, someone in QxE needs to be the \"primary customer\" for this section.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412327",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412327",
+         "key":"QXWSOL-11",
+         "fields":{  
+            "summary":"Determine DummyNet owner and laison.",
+            "description":"This assumes that QxE still needs dummynet for certain types of testing.  Therefore, this would be a shared resource with R&D.  We need to identify who is the owner of this for liaison purposes with IT.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412324",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412324",
+         "key":"QXWSOL-10",
+         "fields":{  
+            "summary":"Ensure FW release sharing continues to be supported.",
+            "description":"Today there is someone in Beyondsoft (Tony?) that manually copies the latest firmware releases to \\\\rndhub.vcs.rd.hpicorp.net\\fwshare and a regular basis.  Until we have full featured FW artifact distribution system, this will need to continue to be supported.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412322",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412322",
+         "key":"QXWSOL-9",
+         "fields":{  
+            "summary":"Transfer ownership/support of fwqenfs to R&D",
+            "description":"This is an NFS file share that is used for:\r\n * As a back end for the Samba/Windows file shares used test operators on Windows.\r\n * As a way to instantly get access to the tests on the SALQE VM without having to do the time consuming git clone.\r\n * As the staging point for publishing SAL libraries and generating SAL pydocs.\r\n\r\nThere are a collection of scripts that are constantly doing git pulls on various repos.  \r\n\r\n ",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412321",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412321",
+         "key":"QXWSOL-8",
+         "fields":{  
+            "summary":"Determine ownership and support for each of the CouchDB databases.",
+            "description":"Under the QxE the data architecture is still TBD.  CouchDB may or may not have a future in that environment.  In the meantime, continued support of the existing DB systems is required. At the moment only [~eric.ross@hp.com] and Andy Wilde are trained for this role.  Most of the data itself will be owned by R&D",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412320",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412320",
+         "key":"QXWSOL-7",
+         "fields":{  
+            "summary":"Transfer SAL libraries and tool chain to R&D",
+            "description":"There are several libraries contained in SAL with each in a separate Github Enterprise repo.  Also associated with this is a tool chain that runs that validates and publishes the libraries to salx.vcd.hp.com and pypi.vcd.hp.com.  Cameron was most recently involved with this and is familiar with the tool chain.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412319",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412319",
+         "key":"QXWSOL-6",
+         "fields":{  
+            "summary":"Transfer support of iws_tests, iws_tools, iws_testdata, and iws_testdata2 to R&D",
+            "description":"These are the primary repos containing tests and test print files.  It is expected that these will probably be deprecated after tests are refactored for automation.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=eric.ross%40hp.com",
+               "name":"eric.ross@hp.com",
+               "key":"eric.ross@hp.com",
+               "emailAddress":"eric.ross@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?ownerId=eric.ross%40hp.com&avatarId=11005",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&ownerId=eric.ross%40hp.com&avatarId=11005",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&ownerId=eric.ross%40hp.com&avatarId=11005",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&ownerId=eric.ross%40hp.com&avatarId=11005"
+               },
+               "displayName":"Eric P Ross",
+               "active":true,
+               "timeZone":"America/Los_Angeles"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412318",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412318",
+         "key":"QXWSOL-5",
+         "fields":{  
+            "summary":"Transfer support of sal.vcd.hp.com",
+            "description":"This is a site that included the python docs for the SAL libraries.  There is an associated tool chain that generates these docs.  Cameron was most recently involved in supporting this chain.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412317",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412317",
+         "key":"QXWSOL-4",
+         "fields":{  
+            "summary":"Transfer UIDash tool",
+            "description":"[https://saldb06.vcs.rd.hpicorp.net/uidash] which was created by Jay Yang should be transferred to the appropriate owner.  Some instruction on the system configuration and CouchDB will be needed to achieve this transfer.",
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412316",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412316",
+         "key":"QXWSOL-3",
+         "fields":{  
+            "summary":"Identify and transfer tools that will be owned and supported by R&D",
+            "description":null,
+            "assignee":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/user?username=pete.parks%40hp.com",
+               "name":"pete.parks@hp.com",
+               "key":"pete.parks@hp.com",
+               "emailAddress":"pete.parks@hp.com",
+               "avatarUrls":{  
+                  "48x48":"https://jira.cso-hp.com/secure/useravatar?avatarId=10351",
+                  "24x24":"https://jira.cso-hp.com/secure/useravatar?size=small&avatarId=10351",
+                  "16x16":"https://jira.cso-hp.com/secure/useravatar?size=xsmall&avatarId=10351",
+                  "32x32":"https://jira.cso-hp.com/secure/useravatar?size=medium&avatarId=10351"
+               },
+               "displayName":"Peter Parks",
+               "active":true,
+               "timeZone":"Universal"
+            },
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"412167",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/412167",
+         "key":"QXWSOL-2",
+         "fields":{  
+            "summary":"Create & align Program transition plan",
+            "description":"# Create Program level transition plan\r\n # Seek feedback from Alva's staff and R&D\r\n # Align the plan and communicate it to Alva's staff and R&D, then to ICs.\r\n # Track transition activities",
+            "assignee":null,
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      },
+      {  
+         "expand":"operations,versionedRepresentations,editmeta,changelog,renderedFields",
+         "id":"396546",
+         "self":"https://jira.cso-hp.com/rest/api/2/issue/396546",
+         "key":"QXWSOL-1",
+         "fields":{  
+            "summary":"Create and process SoW's and PO's for FY18",
+            "description":"Requires QxE / R&D SoW splits for BYS\r\n * Generate top down and bottom's up estimates for FY18 programs\r\n * Split according to agreements and generate PO's\r\n * Get SoW's signed and input PO's for approval\r\n\r\nExtend Pactera PO's for Q1 during transition period\r\n\r\nAllion - Transfer certification SoW/PO to Roman, Open SoW/PO for developers\r\n\r\nWiPro - Analyze long-term plan and likely extend for Q1.",
+            "assignee":null,
+            "status":{  
+               "self":"https://jira.cso-hp.com/rest/api/2/status/10002",
+               "description":"",
+               "iconUrl":"https://jira.cso-hp.com/images/icons/status_generic.gif",
+               "name":"To Do",
+               "id":"10002",
+               "statusCategory":{  
+                  "self":"https://jira.cso-hp.com/rest/api/2/statuscategory/2",
+                  "id":2,
+                  "key":"new",
+                  "colorName":"blue-gray",
+                  "name":"To Do"
+               }
+            }
+         }
+      }
+   ]
+}
