@@ -8,11 +8,28 @@ class App extends Component {
     inputchars: "Input Something",
     inputLength: "Input Something".length
   };
-  textChange = newString => {
+  textChange = (newString) => {
     this.setState({ inputchars: newString });
     this.setState({inputLength: newString.length})
   };
+
+  deleteCharHandler = (charIndex) => {
+    console.log("deleteCharHandler", charIndex);
+    let c = this.state.inputchars.split('');
+    c.splice(charIndex,1)
+    const updatedText = c.join('');
+    this.setState({inputchars:updatedText});
+    this.setState({inputLength: updatedText.length});
+  }
+
+
   render() {
+    const charList = this.state.inputchars.split('').map((ch, index) => {
+      return <CharComponent 
+        character={ch} 
+        key={index}
+        clicked={() => this.deleteCharHandler(index)} />;
+    });
     return (
       <div className="App">
         <header className="App-header">
@@ -31,9 +48,7 @@ class App extends Component {
         <div className="Thick">
           <ValidationComponent inputLength={this.state.inputLength}/>
         </div>
-        <div className="Thick">
-          <CharComponent inputText={this.state.inputchars}/>
-        </div>
+        {charList}
       </div>
     );
   }

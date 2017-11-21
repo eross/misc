@@ -1,25 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const charcomponent = (props) => {
-    let resultArray = [];
-    if(props.inputText.length > 0){
-        resultArray = props.inputText.split("");
-    }
-    else
-    {
-        resultArray=["invalid"];
+    const style = {
+        display: 'inline-block',
+        padding: '16px',
+        margin: '16px',
+        border: '1px solid black',
+        textAlign: 'center'
+    };
 
-    }
-    let resultChars = null;
-    resultChars = (
-        <div>
-            {resultArray.map((mychar) =>  <div className="Boxed">{mychar}</div>).reduce((prev, curr) => [prev,',',curr])}
- 
-        </div>
-    )
     return (
-        {resultChars}
-    )
-}
+        <div style={style} onClick={props.clicked}>
+            {props.character}
+        </div>
+    );
+};
 
 export default charcomponent;
