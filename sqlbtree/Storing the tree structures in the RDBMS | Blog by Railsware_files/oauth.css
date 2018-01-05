@@ -1,0 +1,42 @@
+#bc-oauth-logins .label {
+	float: left;
+}	
+#bc-oauth-logins ul {
+	display: inline;
+	list-style-type: none;
+}
+#bc-oauth-logins ul li { 
+	float: left;
+}
+#bc-oauth-logins .icon {
+	width: 16px;
+	height: 16px;
+	display: block;	
+}
+#bc-oauth-logins .google {
+	background: url('../icons/google.png') no-repeat;
+}
+#bc-oauth-logins .linkedin {
+	background: url('../icons/linkedin.png') no-repeat;
+}
+#bc-oauth-logins .openid {
+	background: url('../icons/openid.png') no-repeat;
+}
+#bc-oauth-logins .facebook {
+	background: url('../icons/facebook.png') no-repeat;
+}
+#bc-oauth-logins .microsoft {
+	background: url('../icons/microsoft.png') no-repeat;
+}
+#bc-oauth-logins .ohloh {
+	background: url('../icons/ohloh.png') no-repeat;
+}
+#bc-oauth-logins .twitter {
+	background: url('../icons/twitter.png') no-repeat;
+}
+#bc-oauth-logins .yahoo {
+	background: url('../icons/yahoo.png') no-repeat;
+}
+#bc-oauth-logins .myspace {
+	background: url('../icons/myspace.png') no-repeat;
+}
