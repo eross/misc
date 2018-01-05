@@ -1,4 +1,4 @@
-CREATE TABLE employees (
+CREATE temp TABLE employees (
  employee_id serial PRIMARY KEY,
  full_name VARCHAR NOT NULL,
  manager_id INT
@@ -31,3 +31,4 @@ WITH RECURSIVE subordinates AS (
  *
 FROM
  subordinates;
+
