@@ -1,0 +1,1 @@
+cp $1 ~/sql/.;sqlcmd -S lnxvcer11.vcs.rd.hpicorp.net,8080 -U tdba -P$SQLPW -d tdba -i /sql/$1
